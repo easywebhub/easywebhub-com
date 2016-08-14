@@ -1,0 +1,36 @@
+<section class="features features-7 imagebg height-80 parallax" data-overlay="5">
+    <div class="background-image-holder">
+        <img alt="image" src="/img/hero10.jpg" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2>{{this.sectionInfoE.title}}
+                                <em>{{this.sectionInfoE.em}}</em>
+                            </h2>
+                <p class="lead">
+                    {{this.sectionInfoE.name}}
+                </p>
+                <hr>
+            </div>
+        </div>
+        <!--end row-->
+        <div class="row">
+            
+            {{#each this.sectionInfoE.feature}}
+            <div class="col-sm-4">
+
+                       <div class="feature">
+                    <h6>{{this.title}}</h6>
+                    <p>
+                        {{this.name}}
+                    </p>
+                </div>
+            </div>
+            {{/each}}
+            
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>

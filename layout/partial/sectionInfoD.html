@@ -1,0 +1,32 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+                <div class="tabs-container tabs-4">
+                    <ul class="tabs">
+                       {{#each this.sectionInfoD}}
+                        <li class="active">
+                            <div class="tab__title btn">
+                                <span class="btn__text">{{this.title}}</span>
+                            </div>
+                            <div class="tab__content testimonial-5">
+                                <div class="testimonial text-center">
+                                    <img alt="avatar" src="{{this.image}}" />
+                                    <hr>
+                                    <h5>&mdash; {{this.name}}</h5>
+                                    <blockquote>
+                                        &rdquo;{{this.description}}&ldquo;
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </li>
+                       {{/each}}
+                    </ul>
+                </div>
+                <!--end of tabs container-->
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

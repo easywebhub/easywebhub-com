@@ -1,0 +1,87 @@
+{
+    "title": "Danh sách items trong menu",
+    "logo": {
+        "dark": "/img/logo-dark.png",
+        "light": "/img/logo-light.png"
+    },
+    "utility-bar": {
+        "title": "Web Design & Development Melbourne",
+        "phone": "(03) 9282 7732",
+        "list": [
+            {
+                "url": "#",
+                "class": "socicon-twitter"
+            },
+            {
+                "url": "#",
+                "class": "socicon-dribbble"
+            },
+            {
+                "url": "#",
+                "class": "socicon-facebook"
+            },
+            {
+                "url": "#",
+                "class": "socicon-twitter"
+            },
+            {
+                "url": "#",
+                "class": "socicon-instergram"
+            },
+            {
+                "url": "#",
+                "class": "socicon-pinterest"
+            }
+        ]
+    },
+    "nav-cart": {
+        "class": "interface-bag icon icon--sm",
+        "title": "Cart"
+    },
+    "nav-search": {
+        "class": "interface-search icon icon--sm",
+        "title": "Search"
+    },
+    "info-banner": [
+        {
+            "image": "/img/hero7.jpg",
+            "title": " Digital, Delivered.",
+            "name": " Beautiful front-end components",
+            "name-bottom": "built for modern startups."
+        },
+        {
+            "image": "/img/hero9.jpg",
+            "title": "Development Process",
+            "name": "Our rigorous process ensures your project is managed strategically and efficiently from",
+            "name-bottom": "initial conception through to final delivery and after-sales support."
+        }
+    ],
+    "url-banner": [
+        {
+            "name": "Purchase Now",
+            "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare"
+        },
+        {
+            "name": "Watch Overview",
+            "url": "https://www.youtube.com/embed/4QUVRm4UZA4?autoplay=1"
+        }
+    ],
+    "items": [
+        {
+            "title": "Trang chủ",
+            "url": ""
+        },
+        {
+            "title": "Giới thiệu",
+            "url": "gioithieu"
+        },
+        {
+            "title": "Tin tức",
+            "url": "blog"
+        },
+        {
+            "title": "shop cards",
+            "url": "shopcards"
+        }
+    ]
+}

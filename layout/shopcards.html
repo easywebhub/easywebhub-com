@@ -1,0 +1,264 @@
+{{#extend "default"}} 
+
+{{#content "header"}}
+{{> header-profile}}
+{{/content}}
+
+{{#content "main"}}
+ 
+  <div class="notification pos-right pos-top cart-overview" data-notification-link="cart-overview" data-animation="from-right">
+            <div class="cart-overview__title">
+                <h5>Your Cart</h5>
+            </div>
+            <ul class="cart-overview__items">
+                <li>
+                    <div class="item__image">
+                        <a href="#">
+                            <img alt="product" src="/img/product-small-1.png" />
+                        </a>
+                    </div>
+                    <div class="item__detail">
+                        <span>Dave Wool Beanie</span>
+                        <span class="h6">1 x $39.00</span>
+                    </div>
+                    <div class="item__remove" title="Remove From Cart"></div>
+                </li>
+                <li>
+                    <div class="item__image">
+                        <a href="#">
+                            <img alt="product" src="/img/product-small-2.png" />
+                        </a>
+                    </div>
+                    <div class="item__detail">
+                        <span>Rose Tinted Glasses</span>
+                        <span class="h6">1 x $89.00</span>
+                    </div>
+                    <div class="item__remove" title="Remove From Cart"></div>
+                </li>
+            </ul>
+            <div class="cart-overview__subtotal">
+                <h5>Subtotal:</h5>
+                <span>$128.00</span>
+            </div>
+            <div class="cart-overview__action">
+                <a href="#" class="btn btn--square btn--primary">
+                    <span class="btn__text">
+                        Checkout Now
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="modal-container search-modal" data-modal-id="search-form">
+            <div class="modal-content bg-white imagebg" data-width="100%" data-height="100%">
+                <div class="pos-vertical-center clearfix">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+                        <form class="clearfix">
+                            <div class="input-with-icon">
+                                <i class="icon-Magnifi-Glass2 icon icon--sm"></i>
+                                <input type="search" name="query" placeholder="Type your search and hit enter" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--end of modal-content-->
+        </div>
+        <!--end of modal-container-->
+        <div class="main-container transition--fade">
+            <section class="height-50 page-title page-title--animate">
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1>Shop Cards</h1>
+                            <p class="lead">Showcase shop items in this classic sidebar arrangement</p>
+                        </div>
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="masonry masonry-shop">
+                                <div class="masonry__container masonry--animate">
+                                      {{#each collections.shopcards }}
+                                    <div class="col-sm-6 masonry__item" data-masonry-filter="accessories">
+                                        <a href="#">
+                                            <div class="card card-7">
+                                                <div class="card__image">
+                                                    <img alt="Pic" src="{{this.image}}" />
+                                                </div>
+                                                <div class="card__body boxed bg--white">
+                                                    <div class="card__title">
+                                                        <h6>{{this.category}}</h6>
+                                                        <h5>{{title}}</h5>
+                                                    </div>
+                                                    <div class="card__price">
+                                                        <span class="type--strikethrough">{{this.price-old}}</span>
+                                                        <span>{{this.price-new}}</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!--end masonry container-->
+                                    {{/each}}
+                                </div>
+                                <!--end masonry container-->
+                            </div>
+                            <!--end masonry-->
+                            <div class="pagination-container">
+                                <hr>
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#">
+                                            <span>&larr;</span>
+                                        </a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>&rarr;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end 9 col-->
+                        <div class="col-md-3 hidden-sm hidden-xs">
+                            <div class="sidebar">
+                                <div class="sidebar__widget">
+                                    <h6>Search Site</h6>
+                                    <hr>
+                                    <form method="post">
+                                        <div class="input-with-icon">
+                                            <i class="icon-Magnifi-Glass2"></i>
+                                            <input type="search" placeholder="Type Here" />
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--end widget-->
+                                <div class="sidebar__widget">
+                                    <h6>Categories</h6>
+                                    <hr>
+                                    <ul class="link-list">
+                                        <li>
+                                            <a href="#">
+                                                Accessories
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Bags
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Tops
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Bottoms
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Watches
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--end widget-->
+                                <div class="sidebar__widget">
+                                    <h6>Tags</h6>
+                                    <hr>
+                                    <ul class="tag-cloud">
+                                        <li>
+                                            <a href="#" class="btn btn--sm btn--square">
+                                                <span class="btn__text">
+                                                    Wool
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn--sm btn--square">
+                                                <span class="btn__text">
+                                                    Cotton
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn--sm btn--square">
+                                                <span class="btn__text">
+                                                    Felt
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn--sm btn--square">
+                                                <span class="btn__text">
+                                                    Mild
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn--sm btn--square">
+                                                <span class="btn__text">
+                                                    Patterned
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn--sm btn--square">
+                                                <span class="btn__text">
+                                                    Slim
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn--sm btn--square">
+                                                <span class="btn__text">
+                                                    Formal
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn--sm btn--square">
+                                                <span class="btn__text">
+                                                    Casual
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--end widget-->
+                                <div class="sidebar__widget">
+                                    <h6>About Us</h6>
+                                    <hr>
+                                    <p>
+                                        We're a digital focussed collective working with individuals and businesses to establish rich, engaging online presences.
+                                    </p>
+                                </div>
+                                <!--end widget-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            {{/content}}
+
+{{/extend}}

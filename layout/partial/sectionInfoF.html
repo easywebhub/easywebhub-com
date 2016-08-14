@@ -1,0 +1,29 @@
+<section class="section--overlap">
+    <div class="container">
+        <div class="row">
+          {{#each this.sectionInfoF}}
+            <div class="col-md-4 col-sm-6">
+                <div class="pricing pricing-4">
+                    <div class="pricing__price">
+                        <span class="pricing__dollar h5">{{this.dollar}}</span>
+                        <span class="h1">{{this.price}}</span>
+                    </div>
+                    <h6>{{this.employ}}</h6>
+                    <hr>
+                    <p>
+                        {{this.name}}
+                    </p>
+                    <a class="btn" href="{{this.url}}">
+                        <span class="btn__text">
+                                        {{this.btn}}
+                                    </span>
+                    </a>
+                </div>
+                <!--end pricing-->
+            </div>
+            {{/each}}
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

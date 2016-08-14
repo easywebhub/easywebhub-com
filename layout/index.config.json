@@ -1,0 +1,115 @@
+[
+    {
+        "name": "slug",
+        "displayName": "slug",
+        "type": "Text",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "layout",
+        "displayName": "layout",
+        "type": "Text",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "title",
+        "displayName": "title",
+        "type": "Text",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "description",
+        "displayName": "description",
+        "type": "Text",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "permalink",
+        "displayName": "permalink",
+        "type": "Boolean",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionInfo",
+        "displayName": "sectionInfo",
+        "type": "Array",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionInfoA",
+        "displayName": "sectionInfoA",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionInfoB",
+        "displayName": "sectionInfoB",
+        "type": "Array",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionInfoD",
+        "displayName": "sectionInfoD",
+        "type": "Array",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionInfoE",
+        "displayName": "sectionInfoE",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionInfoF",
+        "displayName": "sectionInfoF",
+        "type": "Array",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionInfoG",
+        "displayName": "sectionInfoG",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionInfoH",
+        "displayName": "sectionInfoH",
+        "type": "Array",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "backgroundBottom",
+        "displayName": "backgroundBottom",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "sectionAboutDev",
+        "displayName": "sectionAboutDev",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "url",
+        "displayName": "url",
+        "type": "Text",
+        "validations": [],
+        "viewOnly": false,
+        "required": false
+    }
+]

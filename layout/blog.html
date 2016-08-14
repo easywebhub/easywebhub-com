@@ -1,0 +1,83 @@
+{{#extend "default"}}
+{{#content "header"}}
+{{> header-profile}}
+{{/content}}
+  {{#content "main"}}
+
+  <div class="main-container transition--fade">
+            <section class="height-50 page-title page-title--animate">
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1>{{title}}</h1>
+                            <p class="lead">{{description}}</p>
+                        </div>
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="masonry masonry-blog">
+                            <div class="masonry__container masonry--animate">
+                               {{#each collections.blog}}
+                                <div class="col-md-4 col-sm-6 masonry__item">
+                                    <a href="blog-cards-small.html#">
+                                        <div class="card card-4">
+                                            <div class="card__image">
+                                                <img alt="Pic" src="{{this.image}}" />
+                                            </div>
+                                            <div class="card__body boxed boxed--sm bg--white">
+                                                <h6>{{this.category}}</h6>
+                                                <div class="card__title">
+                                                    <h5>{{this.title}}</h5>
+                                                </div>
+                                                <hr>
+                                                <div class="card__lower">
+                                                    <span>by</span>
+                                                    <span class="h6">{{this.byAuthor}}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                {{/each}}
+                                <!--end item-->
+                                                         </div>
+                            <!--end masonry container-->
+                        </div>
+                        <!--end masonry-->
+                        <div class="pagination-container">
+                            <hr>
+                            <ul class="pagination">
+                                <li>
+                                    <a href="blog-cards-small.html#">
+                                        <span>&larr;</span>
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="blog-cards-small.html#">1</a>
+                                </li>
+                                <li>
+                                    <a href="blog-cards-small.html#">2</a>
+                                </li>
+                                <li>
+                                    <a href="blog-cards-small.html#">3</a>
+                                </li>
+                                <li>
+                                    <a href="blog-cards-small.html#">
+                                        <span>&rarr;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+           
+  {{/content}}
+{{/extend}}
