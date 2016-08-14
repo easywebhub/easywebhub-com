@@ -119,14 +119,7 @@
                 "/img/partner5.png",
                 "/img/partner6.png",
                 "/img/partner7.png"
-        ],
-        "img": "/img/partner1.png",
-        "img1": "/img/partner2.png",
-        "img2": "/img/partner3.png",
-        "img3": "/img/partner4.png",
-        "img4": "/img/partner5.png",
-        "img5": "/img/partner6.png",
-        "img6": "/img/partner7.png"
+        ]
     },
     "backgroundBottom": {
         "image": "img/hero7.jpg",
