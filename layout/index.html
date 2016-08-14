@@ -87,26 +87,124 @@
                    </p>
                </div>
            </div>
-           <!--end of row-->
        </div>
-       <!--end of container-->
    </section>
 
-        {{#block "section-info-d"}}
-           {{> sectionInfoD}}
-       {{/block}}
-       {{#block "section-info-e"}}
-           {{> sectionInfoE}}
-       {{/block}}
-        {{#block "section-info-f"}}
-           {{> sectionInfoF}}
-       {{/block}}
-        {{#block "section-info-G"}}
-           {{> sectionInfoG}}
-       {{/block}}
-       {{#block "section-info-h"}}
-           {{> sectionInfoH}}
-       {{/block}}
+   <section>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+                   <div class="tabs-container tabs-4">
+                       <ul class="tabs">
+                          {{#each this.sectionInfoD}}
+                           <li class="active">
+                               <div class="tab__title btn">
+                                   <span class="btn__text">{{this.title}}</span>
+                               </div>
+                               <div class="tab__content testimonial-5">
+                                   <div class="testimonial text-center">
+                                       <img alt="avatar" src="{{this.image}}" />
+                                       <hr>
+                                       <h5>&mdash; {{this.name}}</h5>
+                                       <blockquote>
+                                           &rdquo;{{this.description}}&ldquo;
+                                       </blockquote>
+                                   </div>
+                               </div>
+                           </li>
+                          {{/each}}
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <section class="features features-7 imagebg height-80 parallax" data-overlay="5">
+       <div class="background-image-holder">
+           <img alt="image" src="/img/hero10.jpg" />
+       </div>
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-12 text-center">
+                   <h2>{{this.sectionInfoE.title}}<em>{{this.sectionInfoE.em}}</em></h2>
+                   <p class="lead">{{this.sectionInfoE.name}}</p>
+                   <hr>
+               </div>
+           </div>
+           <div class="row">
+               {{#each this.sectionInfoE.feature}}
+               <div class="col-sm-4">
+                    <div class="feature">
+                       <h6>{{this.title}}</h6>
+                       <p>{{this.name}}</p>
+                   </div>
+               </div>
+               {{/each}}
+           </div>
+       </div>
+   </section>
+   <section class="section--overlap">
+       <div class="container">
+           <div class="row">
+             {{#each this.sectionInfoF}}
+               <div class="col-md-4 col-sm-6">
+                   <div class="pricing pricing-4">
+                       <div class="pricing__price">
+                           <span class="pricing__dollar h5">{{this.dollar}}</span>
+                           <span class="h1">{{this.price}}</span>
+                       </div>
+                       <h6>{{this.employ}}</h6>
+                       <hr>
+                       <p>{{this.name}}</p>
+                       <a class="btn" href="{{this.url}}">
+                           <span class="btn__text">{{this.btn}}</span>
+                       </a>
+                   </div>
+               </div>
+               {{/each}}
+           </div>
+       </div>
+   </section>
+ </section>
+
+ <section class="partners-1">
+     <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                 <div class="slider" data-items="6" data-timing="3000">
+                     <ul class="slides">
+
+                         <li>
+                             <img alt="img" src="{{this.sectionInfoH.img}}" />
+                         </li>
+                         <li>
+                             <img alt="img" src="{{this.sectionInfoH.img1}}" />
+                         </li>
+                         <li>
+                             <img alt="img" src="{{this.sectionInfoH.img2}}" />
+                         </li>
+                         <li>
+                             <img alt="img" src="{{this.sectionInfoH.img3}}" />
+                         </li>
+                         <li>
+                             <img alt="img" src="{{this.sectionInfoH.img4}}"
+                              />
+                         </li>
+                         <li>
+                             <img alt="img" src="{{this.sectionInfoH.img5}}" />
+                         </li>
+                         <li>
+                             <img alt="img" src="{{this.sectionInfoH.img6}}" />
+                         </li>
+
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
 
      {{/content}}
  {{/extend}}

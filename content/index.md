@@ -111,6 +111,15 @@
         "btn": "discuss web design"
     },
     "sectionInfoH": {
+        "listImages" : [
+                "/img/partner1.png",
+                "/img/partner2.png",
+                "/img/partner3.png",
+                "/img/partner4.png",
+                "/img/partner5.png",
+                "/img/partner6.png",
+                "/img/partner7.png"
+        ],
         "img": "/img/partner1.png",
         "img1": "/img/partner2.png",
         "img2": "/img/partner3.png",
