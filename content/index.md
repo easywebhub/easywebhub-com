@@ -123,8 +123,8 @@
     },
     "backgroundBottom": {
         "image": "img/hero7.jpg",
-        "title": "EasyWebHub",
-        "name": "an innovative framework <br/> built for modern websites.",
+        "title": "EasyWeb",
+        "name": "an innovation framework <br/> built for modern websites.",
         "btn": {
             "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
             "name": "Purchase Now"
