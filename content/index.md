@@ -71,10 +71,6 @@
             {
                 "title": "Beautifully Responsive",
                 "name": "Every one of Pillar’s stylish blocks are fully responsive, meaning that your site shines - regardless of the device your users."
-            },
-            {
-                "title": "Beautifully Responsive",
-                "name": "Every one of Pillar’s stylish blocks are fully responsive, meaning that your site shines - regardless of the device your users."
             }
         ]
     },
