@@ -17,7 +17,7 @@
             },
             {
                 "title": "2. Live Preview",
-                "description": "Save and see any change <br class=\"hidden-sm hidden-xs\" />  live and in front of you",
+                "description": "Save your works and see any change <br class=\"hidden-sm hidden-xs\" />  live and in front of you",
                 "data-value": "75",
                 "icon": "icon-Speach-BubbleDialog"
             },
