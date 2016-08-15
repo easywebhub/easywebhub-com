@@ -17,7 +17,7 @@
             },
             {
                 "title": "2. Live Preview",
-                "description": "We facilitate casual first-round <br class=\"hidden-sm hidden-xs\" />  Q&amp;A sessions",
+                "description": "Save and see the modification <br class=\"hidden-sm hidden-xs\" />  live and in front of you",
                 "data-value": "66",
                 "icon": "icon-Speach-BubbleDialog"
             },
