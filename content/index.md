@@ -111,20 +111,20 @@
         "btn": "discuss web design"
     },
     "sectionInfoH": {
-        "listImages" : [
-                "/img/partner1.png",
-                "/img/partner2.png",
-                "/img/partner3.png",
-                "/img/partner4.png",
-                "/img/partner5.png",
-                "/img/partner6.png",
-                "/img/partner7.png"
+        "listImages": [
+            "/img/partner1.png",
+            "/img/partner2.png",
+            "/img/partner3.png",
+            "/img/partner4.png",
+            "/img/partner5.png",
+            "/img/partner6.png",
+            "/img/partner7.png"
         ]
     },
     "backgroundBottom": {
         "image": "img/hero7.jpg",
-        "title": "Beautiful",
-        "name": "front-end components <br/> built for modern startups.",
+        "title": "EasyWebHub",
+        "name": "an innovative framework <br/> built for modern websites.",
         "btn": {
             "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
             "name": "Purchase Now"
