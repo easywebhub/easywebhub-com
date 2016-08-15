@@ -23,7 +23,7 @@
             },
             {
                 "title": "3. Deploy and enjoy!",
-                "description": "Receive offers and take your pick <br class=\"hidden-sm hidden-xs\" /> makes it fast and fun",
+                "description": "One-click to make your websites <br class=\"hidden-sm hidden-xs\" /> available for everyone",
                 "data-value": "100",
                 "icon": "icon-Trophy"
             }
