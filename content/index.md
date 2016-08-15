@@ -7,7 +7,21 @@
     "permalink": "",
     "sectionInfo": {
         "title": "Working to build a web, app easier.",
-        "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind."
+        "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
+        "steps" : [
+        {
+          "title" : "1. Change anything",
+          "description" : "Our smart profile software <br class=\"hidden-sm hidden-xs\" /> makes it fast and fun"
+        },
+        {
+          "title" : "2. Preview Live",
+          "description" : "We facilitate casual first-round <br class=\"hidden-sm hidden-xs\" />  Q&amp;A sessions"
+          },
+        {
+        "title" : "3. Deploy and started!",
+          "description" : "Receive offers and take your pick <br class=\"hidden-sm hidden-xs\" /> makes it fast and fun"
+          }
+        ]
     },
     "sectionInfoA": {
         "image": "/img/hero8.jpg",
