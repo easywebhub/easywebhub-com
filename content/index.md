@@ -22,7 +22,7 @@
                 "icon": "icon-Speach-BubbleDialog"
             },
             {
-                "title": "3. Deploy and enjoy!",
+                "title": "3. Deploy with 1-click!",
                 "description": "One-click to make your websites <br class=\"hidden-sm hidden-xs\" /> available for everyone",
                 "data-value": "100",
                 "icon": "icon-Trophy"
