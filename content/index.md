@@ -12,13 +12,13 @@
             {
                 "title": "1. Change anything",
                 "description": "Content and layout could be modified <br class=\"hidden-sm hidden-xs\" /> with little works using EasyBuilder",
-                "data-value": "33",
+                "data-value": "45",
                 "icon": "icon-Notepad"
             },
             {
                 "title": "2. Live Preview",
                 "description": "Save and see any change <br class=\"hidden-sm hidden-xs\" />  live and in front of you",
-                "data-value": "66",
+                "data-value": "75",
                 "icon": "icon-Speach-BubbleDialog"
             },
             {
