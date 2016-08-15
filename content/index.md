@@ -7,7 +7,7 @@
     "permalink": "",
     "sectionInfo": {
         "title": "Working to build a web, app easier.",
-        "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind. Achieve results faster than ever with the included Variant Page Builder."
+        "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind. Achieve results faster than ever with the included EasyWeb Builder."
     },
     "sectionInfoA": {
         "image": "/img/hero8.jpg",
