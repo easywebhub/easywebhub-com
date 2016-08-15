@@ -56,8 +56,8 @@
     ],
     "sectionInfoE": {
         "image": "img/hero10.jpg",
-        "title": "Bold, Simple,",
-        "em": "Bold",
+        "title": "Edit, Preview,",
+        "em": "Deploy",
         "name": "Smart styling, unique demo layouts and Variant Page Builder included.",
         "feature": [
             {
