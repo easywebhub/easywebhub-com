@@ -33,7 +33,94 @@
         </div>
     </section>
 
-   
+    <section>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                   <h3>{{this.sectionInfo.title}}</h3>
+                   <p class="lead">
+                       {{this.sectionInfo.name}}
+                   </p>
+               </div>
+           </div>
+           <!--end of row-->
+       </div>
+       <!--end of container-->
+   </section>
+    <section class="section--overlap">
+         <div class="container">
+             <div class="row">
+                 <div class="col-sm-4 text-center">
+                     <div class="piechart piechart-3" data-size="200" data-value="33">
+                         <div class="piechart__overlay">
+                             <div class="piechart__description">
+                                 <i class="icon-Notepad"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <h5>1. Add Your Details</h5>
+                     <p>
+                         Our smart profile software
+                         <br class="hidden-sm hidden-xs" /> makes it fast and fun
+                     </p>
+                 </div>
+                 <div class="col-sm-4 text-center">
+                     <div class="piechart piechart-3" data-size="200" data-value="66">
+                         <div class="piechart__overlay">
+                             <div class="piechart__description">
+                                 <i class="icon-Speach-BubbleDialog"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <h5>2. Connect With Employers</h5>
+                     <p>
+                         We facilitate casual first-round
+                         <br class="hidden-sm hidden-xs" /> Q&amp;A sessions
+                     </p>
+                 </div>
+                 <div class="col-sm-4 text-center">
+                     <div class="piechart piechart-3" data-size="200" data-value="100">
+                         <div class="piechart__overlay">
+                             <div class="piechart__description">
+                                 <i class="icon-Trophy"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <h5>3. Get Hired!</h5>
+                     <p>
+                         Receive offers and take your pick
+                         <br class="hidden-sm hidden-xs" /> of the best jobs
+                     </p>
+                 </div>
+             </div>
+             <!--end of row-->
+         </div>
+         <!--end of container-->
+     </section>
+     <section class="features features-7 imagebg height-80 parallax" data-overlay="5">
+         <div class="background-image-holder">
+             <img alt="image" src="/img/hero10.jpg" />
+         </div>
+         <div class="container">
+             <div class="row">
+                 <div class="col-sm-12 text-center">
+                     <h2>{{sectionInfoE.title}}<em>{{sectionInfoE.em}}</em></h2>
+                     <p class="lead">{{sectionInfoE.name}}</p>
+                     <hr>
+                 </div>
+             </div>
+             <div class="row">
+                 {{#each this.sectionInfoE.feature}}
+                 <div class="col-sm-4">
+                      <div class="feature">
+                         <h6>{{title}}</h6>
+                         <p>{{name}}</p>
+                     </div>
+                 </div>
+                 {{/each}}
+             </div>
+         </div>
+     </section>
    <section class="space-bottom--sm">
        <div class="container">
            <div class="row">
@@ -46,7 +133,7 @@
            </div>
        </div>
    </section>
-   
+
    <section>
        <div class="container">
            <div class="row">
@@ -76,8 +163,9 @@
            </div>
        </div>
    </section>
-    
-    
+
+
+
     <section class="bg--secondary imageblock features features-1">
        <div class="imageblock__content col-md-5 col-sm-3 pos-left">
            <div class="background-image-holder">
@@ -107,54 +195,8 @@
        </div>
        <!--end of container-->
    </section>
-   
-   <section class="features features-7 imagebg height-80 parallax" data-overlay="5">
-       <div class="background-image-holder">
-           <img alt="image" src="/img/hero10.jpg" />
-       </div>
-       <div class="container">
-           <div class="row">
-               <div class="col-sm-12 text-center">
-                   <h2>{{sectionInfoE.title}}<em>{{sectionInfoE.em}}</em></h2>
-                   <p class="lead">{{sectionInfoE.name}}</p>
-                   <hr>
-               </div>
-           </div>
-           <div class="row">
-               {{#each this.sectionInfoE.feature}}
-               <div class="col-sm-4">
-                    <div class="feature">
-                       <h6>{{title}}</h6>
-                       <p>{{name}}</p>
-                   </div>
-               </div>
-               {{/each}}
-           </div>
-       </div>
-   </section>
-   <section class="section--overlap">
-       <div class="container">
-           <div class="row">
-             {{#each this.sectionInfoF}}
-               <div class="col-md-4 col-sm-6">
-                   <div class="pricing pricing-4">
-                       <div class="pricing__price">
-                           <span class="pricing__dollar h5">{{dollar}}</span>
-                           <span class="h1">{{price}}</span>
-                       </div>
-                       <h6>{{employ}}</h6>
-                       <hr>
-                       <p>{{name}}</p>
-                       <a class="btn" href="{{url}}">
-                           <span class="btn__text">{{btn}}</span>
-                       </a>
-                   </div>
-               </div>
-               {{/each}}
-           </div>
-       </div>
-   </section>
- </section>
+
+
 
  <section class="partners-1">
      <div class="container">
