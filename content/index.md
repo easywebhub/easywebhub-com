@@ -16,7 +16,7 @@
                 "icon": "icon-Notepad"
             },
             {
-                "title": "2. Preview Live",
+                "title": "2. Live Preview",
                 "description": "We facilitate casual first-round <br class=\"hidden-sm hidden-xs\" />  Q&amp;A sessions",
                 "data-value": "66",
                 "icon": "icon-Speach-BubbleDialog"

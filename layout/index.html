@@ -52,10 +52,10 @@
              <div class="row">
                  {{#each sectionInfo.steps}}
                  <div class="col-sm-4 text-center">
-                     <div class="piechart piechart-3" data-size="200" data-value="33">
+                     <div class="piechart piechart-3" data-size="200" data-value="{{this.data-value}}">
                          <div class="piechart__overlay">
                              <div class="piechart__description">
-                                 <i class="icon-Notepad"></i>
+                                 <i class="{{this.icon}}"></i>
                              </div>
                          </div>
                      </div>
