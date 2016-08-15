@@ -11,7 +11,7 @@
         "steps": [
             {
                 "title": "1. Change anything",
-                "description": "Our smart profile software <br class=\"hidden-sm hidden-xs\" /> makes it fast and fun",
+                "description": "Website  content and layout could be edited <br class=\"hidden-sm hidden-xs\" /> with little works using EasyBuilder",
                 "data-value": "33",
                 "icon": "icon-Notepad"
             },
