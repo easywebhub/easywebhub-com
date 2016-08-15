@@ -6,7 +6,7 @@
     "description": "Index Page",
     "permalink": "",
     "sectionInfo": {
-        "title": "Working to build a web, app easier.",
+        "title": "Working to build a beautiful web easier.",
         "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
         "steps": [
             {
