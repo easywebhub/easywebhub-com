@@ -68,20 +68,16 @@
     ],
     "items": [
         {
-            "title": "Trang chủ",
+            "title": "Home",
             "url": ""
         },
         {
-            "title": "Giới thiệu",
+            "title": "About Us",
             "url": "gioithieu"
         },
         {
-            "title": "Tin tức",
+            "title": "Blog",
             "url": "blog"
-        },
-        {
-            "title": "shop cards",
-            "url": "shopcards"
         }
     ]
 }
