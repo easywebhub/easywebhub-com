@@ -50,6 +50,7 @@
     <section class="section--overlap">
          <div class="container">
              <div class="row">
+                 {{#each sectionInfo.steps}}
                  <div class="col-sm-4 text-center">
                      <div class="piechart piechart-3" data-size="200" data-value="33">
                          <div class="piechart__overlay">
@@ -58,13 +59,11 @@
                              </div>
                          </div>
                      </div>
-                     <h5>1. Add Your Details</h5>
-                     <p>
-                         Our smart profile software
-                         <br class="hidden-sm hidden-xs" /> makes it fast and fun
-                     </p>
+                     <h5>{{this.title}}</h5>
+                     <p>{{{this.description}}}</p>
                  </div>
-                 <div class="col-sm-4 text-center">
+                 {{/each}}
+                 <!-- <div class="col-sm-4 text-center">
                      <div class="piechart piechart-3" data-size="200" data-value="66">
                          <div class="piechart__overlay">
                              <div class="piechart__description">
@@ -91,7 +90,7 @@
                          Receive offers and take your pick
                          <br class="hidden-sm hidden-xs" /> of the best jobs
                      </p>
-                 </div>
+                 </div> -->
              </div>
              <!--end of row-->
          </div>
