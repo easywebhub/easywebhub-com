@@ -48,7 +48,7 @@
             "description": "Rock-solid flexibility and support. I’d expect no less from this team - Pillar has become my new standard ‘go-to’ template for great looking websites."
         },
         {
-            "title": "Developers",
+            "title": "Customers",
             "image": "img/avatar-large-3.png",
             "name": "Lucas Greenberg, Designer",
             "description": "I've been using Medium Rare templates for a couple of years now - they're always highly polished and backed up by amazing support."
