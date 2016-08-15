@@ -22,7 +22,7 @@
                 "icon": "icon-Speach-BubbleDialog"
             },
             {
-                "title": "3. Deploy and started!",
+                "title": "3. Deploy and enjoy!",
                 "description": "Receive offers and take your pick <br class=\"hidden-sm hidden-xs\" /> makes it fast and fun",
                 "data-value": "100",
                 "icon": "icon-Trophy"
