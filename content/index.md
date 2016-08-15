@@ -6,8 +6,8 @@
     "description": "Index Page",
     "permalink": "",
     "sectionInfo": {
-        "title": "Working to build a better web.",
-        "name": "Pillar combines smart, modern styling with all the features you’ll need to launch websites of almost any kind. Achieve results faster than ever with the included Variant Page Builder."
+        "title": "Working to build a profesional web, app easier.",
+        "name": "EasyWeb combines smart, modern styling with all the features you’ll need to launch websites of almost any kind. Achieve results faster than ever with the included Variant Page Builder."
     },
     "sectionInfoA": {
         "image": "/img/hero8.jpg",
