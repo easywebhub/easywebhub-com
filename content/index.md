@@ -19,7 +19,7 @@
         }
     },
     "sectionInfo": {
-        "title": "Working to build a beautiful web easier.",
+        "title": "Xây dựng website nhanh chóng, dễ dàng với EasyWeb",
         "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
         "steps": [
             {
@@ -154,6 +154,9 @@
         "image": "/img/hero21.jpg",
         "title": "Development Process",
         "name": "Our rigorous process ensures your project is managed strategically and efficiently from initial conception through to final delivery and after-sales support."
-    }
+    },
+    "category": "",
+    "tag": "",
+    "date": ""
 }
 ---
