@@ -24,7 +24,7 @@
         "steps": [
             {
                 "title": "1. Thay đổi nội dung",
-                "description": "Content and layout could be modified <br class=\"hidden-sm hidden-xs\" /> with little works using EasyBuilder",
+                "description": "Nội dung và cả giao diện có thể được thay đổi <br class=\"hidden-sm hidden-xs\" /> bởi cách sử dụng EasyBuilder",
                 "data-value": "45",
                 "icon": "icon-Notepad"
             },
