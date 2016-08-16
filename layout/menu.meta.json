@@ -22,15 +22,22 @@
         "required": false
     },
     {
-        "name": "nav-cart",
-        "displayName": "nav-cart",
-        "type": "Object",
+        "name": "items_en",
+        "displayName": "items_english",
+        "type": "Array",
         "validations": [],
         "required": false
     },
     {
         "name": "nav-search",
         "displayName": "nav-search",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "nav-cart",
+        "displayName": "nav-cart",
         "type": "Object",
         "validations": [],
         "required": false
