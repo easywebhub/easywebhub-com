@@ -63,8 +63,8 @@
     "sectionInfoE": {
         "image": "img/hero10.jpg",
         "title": "Flexible, Powerful,",
-        "em": " EasyWeb",
-        "name": "Flexible framework supports Bootstrap, Foundation or any kind of HTML, CSS layouts",
+        "em": " EasyWeb Builder",
+        "name": "supports Bootstrap 3.x, Foundation 6.x or any kind of HTML, CSS layouts",
         "feature": [
             {
                 "title": "GUI first website ",
