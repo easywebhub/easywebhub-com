@@ -7,7 +7,7 @@
     "backgroundBottom": {
         "image": "img/hero7.jpg",
         "title": "EasyWeb fosters a fast, flexible <s>themes</s> websites",
-        "name": "A revolution framework lets you build up own websites",
+        "name": "A revolution framework lets you build up your own or with others",
         "btn": {
             "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
             "name": "Purchase Now"
