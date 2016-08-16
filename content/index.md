@@ -71,7 +71,7 @@
                 "name": "Just focus on UI/UX design and HTML, CSS code, EasyBuilder will take the rest of works to finish your websites. No limit for front-end developers or designers to build up websites"
             },
             {
-                "title": "An efficient approach",
+                "title": "A new, efficient approach",
                 "name": "Not only for development but also for whole lifetime of your websites. No more resources for operating or maintanance because of it's lightweight, reliability and security."
             },
             {
