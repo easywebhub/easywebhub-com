@@ -3,7 +3,6 @@
     "slug": "",
     "layout": "index.html",
     "title": "EasyWebHub Home",
-    "lang" : "vn",
     "description": "Index Page",
     "backgroundBottom": {
         "image": "img/hero7.jpg",
@@ -21,7 +20,7 @@
     },
     "sectionInfo": {
         "title": "Xây dựng website  thật là dễ dàng!",
-        "name": "EasyWeb kết hợp phương pháp xây dựng website tĩnh nhưng đầy đủ các tính năng mà bạn cần để triển khai hầu hết các kiểu website",
+        "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
         "steps": [
             {
                 "title": "1. Change anything",
@@ -158,6 +157,7 @@
     },
     "category": "",
     "tag": "",
-    "date": ""
+    "date": "",
+    "lang": "vn"
 }
 ---
