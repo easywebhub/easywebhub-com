@@ -154,7 +154,6 @@
         "image": "/img/hero21.jpg",
         "title": "Development Process",
         "name": "Our rigorous process ensures your project is managed strategically and efficiently from initial conception through to final delivery and after-sales support."
-    },
-    "url": ""
+    }
 }
 ---
