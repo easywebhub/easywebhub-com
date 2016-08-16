@@ -64,7 +64,7 @@
         "image": "img/hero10.jpg",
         "title": "Flexible, Powerfull,",
         "em": " EasyBuilder",
-        "name": "Smart styling, unique demo layouts and Variant Page Builder included.",
+        "name": "Flexible framework supports any kind layouts, Bootstrap, Foundation, ... and Easy Builder included.",
         "feature": [
             {
                 "title": "Beautifully Responsive",
