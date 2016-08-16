@@ -3,6 +3,7 @@
     "slug": "",
     "layout": "index.html",
     "title": "EasyWebHub Home",
+    "lang" : "vn",
     "description": "Index Page",
     "backgroundBottom": {
         "image": "img/hero7.jpg",
