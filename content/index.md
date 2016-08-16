@@ -68,7 +68,7 @@
         "feature": [
             {
                 "title": "Powerful <s>theme</s> website Builder",
-                "name": "Just focus on layout design and HTML, CSS code, EasyBuilder will take the rest of process to foster your websites. No limit for front-end developers or designers to build up websites"
+                "name": "Just focus on GUI design and HTML, CSS code, EasyBuilder will take the rest of process to foster your websites. No limit for front-end developers or designers to build up websites"
             },
             {
                 "title": "No limit on existing websites",
