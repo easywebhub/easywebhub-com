@@ -71,7 +71,7 @@
                 "name": "Just focus on GUI design and HTML, CSS code, EasyBuilder will take the rest of process to finish your websites. No limit for front-end developers or designers to build up websites"
             },
             {
-                "title": "No limit on existing websites",
+                "title": "An efficient development and maintanance",
                 "name": "Any websites could migrate to EasyWeb, regardless WordPress, Joomla, Drupal,... And moreover, EasyWeb website could deploy on any servers, any where"
             },
             {
