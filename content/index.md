@@ -63,7 +63,7 @@
     "sectionInfoE": {
         "image": "img/hero10.jpg",
         "title": "Flexible, Powerful,",
-        "em": " EasyWeb Builder",
+        "em": " EasyBuilder",
         "name": "supports Bootstrap 3.x, Foundation 6.x or any kind of HTML, CSS layouts",
         "feature": [
             {
