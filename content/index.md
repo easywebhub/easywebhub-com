@@ -100,7 +100,7 @@
     "sectionInfoA": {
         "image": "/img/hero8.jpg",
         "title": "Easy, Instant Builder",
-        "name": "EasyWeb features the power of softwares, <br/> provide all you need to build website",
+        "name": "EasyWeb features the power of softwares, <br/> provide all you need to build websites",
         "icon": [
             {
                 "class": "icon icon-Fingerprint",
