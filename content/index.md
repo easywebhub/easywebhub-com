@@ -71,8 +71,8 @@
                 "name": "Just focus on GUI design and HTML, CSS code, EasyBuilder will take the rest of process to finish your websites. No limit for front-end developers or designers to build up websites"
             },
             {
-                "title": "An efficient development and maintanance",
-                "name": "Any websites could migrate to EasyWeb, regardless WordPress, Joomla, Drupal,... And moreover, EasyWeb website could deploy on any servers, any where"
+                "title": "An efficient approach",
+                "name": "Not only for development but also for whole lifetime of your websites. No resource for operating and no effort for maintanance because it's reliable, secured and lightweight websites."
             },
             {
                 "title": "Allthing does on Client",
