@@ -67,16 +67,16 @@
         "name": "Flexible framework supports Bootstrap, Foundation or any kind of HTML, CSS layouts",
         "feature": [
             {
-                "title": "Only HTML, CSS Website ",
-                "name": "Every one of Pillar’s stylish blocks are fully responsive, meaning that your site shines - regardless of the device your users."
+                "title": "GUI first website ",
+                "name": "EasyWeb focus on UI/UX of  website which affects on viewers,  regardless of the device your users. Powerful framwork no limit the capabilty of designer or developers"
             },
             {
-                "title": "Beautifully Responsive",
-                "name": "Every one of Pillar’s stylish blocks are fully responsive, meaning that your site shines - regardless of the device your users."
+                "title": "No restrict on existing website framework",
+                "name": "Any website could migrate to EasyWeb, regardless WordPress, Joomla, Drupal,... And moreover, EasyWeb website could deploy on any servers, any where"
             },
             {
-                "title": "Beautifully Responsive",
-                "name": "Every one of Pillar’s stylish blocks are fully responsive, meaning that your site shines - regardless of the device your users."
+                "title": "Allthing could done on Client",
+                "name": "No database, no back-end framework. Only you care about front-end code, such as HTML, CSS and JS"
             }
         ]
     },
