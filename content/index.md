@@ -68,10 +68,10 @@
         "feature": [
             {
                 "title": "Powerful <s>theme</s> website Builder",
-                "name": "Just focus on layout design and HTML, CSS code, EasyBuilder will take the rest of process to foster your websites. Powerful framwork no limit the capabilty of designer or developers"
+                "name": "Just focus on layout design and HTML, CSS code, EasyBuilder will take the rest of process to foster your websites. No limit for front-end developers or designers to build up websites"
             },
             {
-                "title": "No restrict on existing websites",
+                "title": "No limit on existing websites",
                 "name": "Any websites could migrate to EasyWeb, regardless WordPress, Joomla, Drupal,... And moreover, EasyWeb website could deploy on any servers, any where"
             },
             {
