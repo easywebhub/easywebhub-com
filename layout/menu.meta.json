@@ -15,9 +15,9 @@
         "required": false
     },
     {
-        "name": "utility-bar",
-        "displayName": "utility-bar",
-        "type": "Object",
+        "name": "items",
+        "displayName": "items",
+        "type": "Array",
         "validations": [],
         "required": false
     },
@@ -50,9 +50,9 @@
         "required": false
     },
     {
-        "name": "items",
-        "displayName": "items",
-        "type": "Array",
+        "name": "utility-bar",
+        "displayName": "utility-bar",
+        "type": "Object",
         "validations": [],
         "required": false
     }
