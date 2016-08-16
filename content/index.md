@@ -76,7 +76,7 @@
             },
             {
                 "title": "Elegance websites, optimized for mobile",
-                "name": "A lot of websites are dirty, unwell design, built on old, slow back-end framworks. EasWeb objectives Aim to convert all dirty, un-well design websites "
+                "name": "A lot of websites have bad, urly design, built on old, unsupported back-end framworks. EasyWeb aim to convert, refine all of them for new beautiful layouts and optimize for any devices. "
             }
         ]
     },
