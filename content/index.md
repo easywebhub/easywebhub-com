@@ -19,7 +19,7 @@
         }
     },
     "sectionInfo": {
-        "title": "Xây dựng website  thật là dễ dàng!",
+        "title": "Working to build a beautiful web easier.",
         "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
         "steps": [
             {
