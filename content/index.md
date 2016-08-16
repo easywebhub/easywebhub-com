@@ -72,7 +72,7 @@
             },
             {
                 "title": "An efficient approach",
-                "name": "Not only for development but also for whole lifetime of your websites. No resource for operating and no effort for maintanance because it's reliable, secured and lightweight websites."
+                "name": "Not only for development but also for whole lifetime of your websites. Fewer resources for operating or maintanance because it's reliable, secured and lightweight websites."
             },
             {
                 "title": "Allthing does on Client",
