@@ -63,13 +63,6 @@
         "required": false
     },
     {
-        "name": "sectionInfoF",
-        "displayName": "sectionInfoF",
-        "type": "Array",
-        "validations": [],
-        "required": false
-    },
-    {
         "name": "sectionInfoG",
         "displayName": "sectionInfoG",
         "type": "Object",
