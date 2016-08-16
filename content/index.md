@@ -44,7 +44,7 @@
     },
     "sectionInfoB": {
         "title": "Why do people love EasyWeb?",
-        "name": "Built for designers and front-end developers alike, HTML & CSS skills are enough for everyone to build any kind of websites "
+        "name": "Built for designers and front-end developers alike. <br/>HTML & CSS skills are enough for everyone to build any kind of websites "
     },
     "sectionInfoD": [
         {
