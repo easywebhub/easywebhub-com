@@ -6,22 +6,8 @@
     },
     "items": [
         {
-            "title": "Trang Chủ",
-            "url": ""
-        },
-        {
-            "title": "Giới Thiệu",
-            "url": "gioithieu"
-        },
-        {
-            "title": "Hướng Dẫn",
-            "url": "blog"
-        }
-    ],
-    "items_en": [
-        {
             "title": "Home",
-            "url": "home"
+            "url": ""
         },
         {
             "title": "About Us",
@@ -29,6 +15,20 @@
         },
         {
             "title": "Docs",
+            "url": "blog"
+        }
+    ],
+    "items_en": [
+        {
+            "title": "Trang Chủ",
+            "url": "trang-chu"
+        },
+        {
+            "title": "Giới Thiệu",
+            "url": "gioithieu"
+        },
+        {
+            "title": "Hướng Dẫn",
             "url": "blog"
         }
     ],
