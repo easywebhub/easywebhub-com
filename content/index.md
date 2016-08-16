@@ -51,7 +51,7 @@
             "title": "Designers",
             "image": "img/avatar-large-1.png",
             "name": "Lucas Greenberg, Designer",
-            "description": "Rock-solid flexibility and support. I’d expect no less from this team - EasyWeb has become my new standard ‘go-to’ framework for great looking websites."
+            "description": "Rock-solid flexibility and support. I’d expect no less from this team - EasyWeb has become my new  ‘go-to’ framework for great looking websites."
         },
         {
             "title": "Developers",
