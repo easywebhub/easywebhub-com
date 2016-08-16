@@ -75,8 +75,8 @@
                 "name": "Not only for development but also for whole lifetime of your websites. No more resources for operating or maintanance because of it's lightweight, reliability and security."
             },
             {
-                "title": "Allthing does on Client",
-                "name": "No database, no back-end framework. Only things you care about front-end code, such as HTML, CSS and JS"
+                "title": "Vision of beautiful websites, optimized for mobile",
+                "name": "A lot of websites are dirty, unwell design, built on old, slow back-end framworks. EasWeb objectives Aim to convert all dirty, un-well design websites "
             }
         ]
     },
