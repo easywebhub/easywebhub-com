@@ -25,5 +25,19 @@
             "title": "Docs",
             "url": "blog"
         }
+    ],
+     "items_en": [
+        {
+            "title": "Home",
+            "url": ""
+        },
+        {
+            "title": "About Us",
+            "url": "gioithieu"
+        },
+        {
+            "title": "Docs",
+            "url": "blog"
+        }
     ]
 }
