@@ -6,7 +6,7 @@
     "description": "Index Page",
     "backgroundBottom": {
         "image": "img/hero7.jpg",
-        "title": "EasyWeb",
+        "title": "EasyWeb, build a fast, flexible <s>themes</s> websites",
         "name": "fast and flexible framework <br/> built for modern websites.",
         "btn": {
             "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
