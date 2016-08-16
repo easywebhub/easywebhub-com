@@ -1,8 +1,9 @@
 ---json
 {
-    "slug": "home",
+    "slug": "",
     "layout": "index.html",
     "title": "EasyWebHub Home",
+    "lang" : "en",
     "description": "Index Page",
     "backgroundBottom": {
         "image": "img/hero7.jpg",
@@ -19,8 +20,8 @@
         }
     },
     "sectionInfo": {
-        "title": "Working to build a beautiful web easier.",
-        "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
+        "title": "Xây dựng website  thật là dễ dàng!",
+        "name": "EasyWeb kết hợp phương pháp xây dựng website tĩnh nhưng đầy đủ các tính năng mà bạn cần để triển khai hầu hết các kiểu website",
         "steps": [
             {
                 "title": "1. Change anything",
@@ -154,6 +155,9 @@
         "image": "/img/hero21.jpg",
         "title": "Development Process",
         "name": "Our rigorous process ensures your project is managed strategically and efficiently from initial conception through to final delivery and after-sales support."
-    }
+    },
+    "category": "",
+    "tag": "",
+    "date": ""
 }
 ---
