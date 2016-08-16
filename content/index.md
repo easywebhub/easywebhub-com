@@ -7,7 +7,7 @@
     "backgroundBottom": {
         "image": "img/hero7.jpg",
         "title": "EasyWeb, build fast, flexible <s>themes</s> websites",
-        "name": "fast and flexible framework <br/> built for modern websites.",
+        "name": "revolution framework to unlimited designers' capacity",
         "btn": {
             "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
             "name": "Purchase Now"
