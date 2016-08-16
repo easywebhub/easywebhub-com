@@ -76,7 +76,7 @@
             },
             {
                 "title": "Allthing does on Client",
-                "name": "No database, no back-end framework. Only you care about front-end code, such as HTML, CSS and JS"
+                "name": "No database, no back-end framework. Only things you care about front-end code, such as HTML, CSS and JS"
             }
         ]
     },
