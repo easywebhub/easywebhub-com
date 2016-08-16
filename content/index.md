@@ -67,8 +67,8 @@
         "name": "supports Bootstrap 3.x, Foundation 6.x or any kind of HTML, CSS layouts",
         "feature": [
             {
-                "title": "GUI first website ",
-                "name": "EasyWeb focus on UI/UX of  website which affects on viewers,  regardless of the device your users. Powerful framwork no limit the capabilty of designer or developers"
+                "title": "All-in-one website Builder",
+                "name": "Just focus on layout design and HTML, CSS code, EasyBuilder will take the rest of process to foster your websites. Powerful framwork no limit the capabilty of designer or developers"
             },
             {
                 "title": "No restrict on existing websites",
@@ -80,32 +80,6 @@
             }
         ]
     },
-    "sectionInfoF": [
-        {
-            "dollar": "",
-            "price": "Free",
-            "employ": "Starter",
-            "name": "A no-commitment plan for hobbyists and tinkerers looking to experiment with design.",
-            "url": "home-business-startup.html#",
-            "btn": "Download Now"
-        },
-        {
-            "dollar": "",
-            "price": "Free",
-            "employ": "Starter",
-            "name": "A no-commitment plan for hobbyists and tinkerers looking to experiment with design.",
-            "url": "home-business-startup.html#",
-            "btn": "Download Now"
-        },
-        {
-            "dollar": "$",
-            "price": "8",
-            "employ": "Agence",
-            "name": " Unlimited commercial use licence ideal for agencies and corporate customers.",
-            "url": "home-business-startup.html#",
-            "btn": "Purchase Now"
-        }
-    ],
     "sectionInfoG": {
         "title": "We'd love to hear",
         "name": "We'd love to hear from you to discuss web design, product development or to hear your new startup idea.",
@@ -158,6 +132,32 @@
     "category": "",
     "tag": "",
     "date": "",
-    "lang": "vn"
+    "lang": "vn",
+    "sectionInfoF": [
+        {
+            "dollar": "",
+            "price": "Free",
+            "employ": "Starter",
+            "name": "A no-commitment plan for hobbyists and tinkerers looking to experiment with design.",
+            "url": "home-business-startup.html#",
+            "btn": "Download Now"
+        },
+        {
+            "dollar": "",
+            "price": "Free",
+            "employ": "Starter",
+            "name": "A no-commitment plan for hobbyists and tinkerers looking to experiment with design.",
+            "url": "home-business-startup.html#",
+            "btn": "Download Now"
+        },
+        {
+            "dollar": "$",
+            "price": "8",
+            "employ": "Agence",
+            "name": " Unlimited commercial use licence ideal for agencies and corporate customers.",
+            "url": "home-business-startup.html#",
+            "btn": "Purchase Now"
+        }
+    ]
 }
 ---
