@@ -4,15 +4,21 @@
         "dark": "/img/logo-dark.png",
         "light": "/img/logo-light.png"
     },
-    "nav-cart": {
-        "class": "interface-bag icon icon--sm",
-        "title": "Cart"
-    },
-    "nav-search": {
-        "class": "interface-search icon icon--sm",
-        "title": "Search"
-    },
     "items": [
+        {
+            "title": "Trang Chủ",
+            "url": ""
+        },
+        {
+            "title": "Giới Thiệu",
+            "url": "gioithieu"
+        },
+        {
+            "title": "Hướng Dẫn",
+            "url": "blog"
+        }
+    ],
+    "items_en": [
         {
             "title": "Home",
             "url": ""
@@ -26,18 +32,12 @@
             "url": "blog"
         }
     ],
-     "items_en": [
-        {
-            "title": "Home",
-            "url": ""
-        },
-        {
-            "title": "About Us",
-            "url": "gioithieu"
-        },
-        {
-            "title": "Docs",
-            "url": "blog"
-        }
-    ]
+    "nav-search": {
+        "class": "interface-search icon icon--sm",
+        "title": "Search"
+    },
+    "nav-cart": {
+        "class": "interface-bag icon icon--sm",
+        "title": "Cart"
+    }
 }
