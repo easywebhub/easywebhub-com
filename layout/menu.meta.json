@@ -34,26 +34,5 @@
         "type": "Object",
         "validations": [],
         "required": false
-    },
-    {
-        "name": "info-banner",
-        "displayName": "info-banner",
-        "type": "Array",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "url-banner",
-        "displayName": "url-banner",
-        "type": "Array",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "utility-bar",
-        "displayName": "utility-bar",
-        "type": "Object",
-        "validations": [],
-        "required": false
     }
 ]
