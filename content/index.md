@@ -75,7 +75,7 @@
                 "name": "Any websites could migrate to EasyWeb, regardless WordPress, Joomla, Drupal,... And moreover, EasyWeb website could deploy on any servers, any where"
             },
             {
-                "title": "Allthing could done on Client",
+                "title": "Allthing do on Client",
                 "name": "No database, no back-end framework. Only you care about front-end code, such as HTML, CSS and JS"
             }
         ]
