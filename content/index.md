@@ -72,7 +72,7 @@
             },
             {
                 "title": "No restrict on existing websites",
-                "name": "Any website could migrate to EasyWeb, regardless WordPress, Joomla, Drupal,... And moreover, EasyWeb website could deploy on any servers, any where"
+                "name": "Any websites could migrate to EasyWeb, regardless WordPress, Joomla, Drupal,... And moreover, EasyWeb website could deploy on any servers, any where"
             },
             {
                 "title": "Allthing could done on Client",
