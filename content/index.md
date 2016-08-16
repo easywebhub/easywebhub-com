@@ -35,7 +35,7 @@
                 "icon": "icon-Speach-BubbleDialog"
             },
             {
-                "title": "3. Deploy with 1-click!",
+                "title": "3. One-click Deployment",
                 "description": "Nothing easier to make your websites <br class=\"hidden-sm hidden-xs\" /> available for everyone",
                 "data-value": "100",
                 "icon": "icon-Trophy"
