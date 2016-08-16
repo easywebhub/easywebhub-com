@@ -99,7 +99,7 @@
     },
     "sectionInfoA": {
         "image": "/img/hero8.jpg",
-        "title": "Diverse, Beautiful Components",
+        "title": "Easy, Instant Builder",
         "name": "Pillar features a bevy of content blocks <br/> and layouts to create your website.",
         "icon": [
             {
