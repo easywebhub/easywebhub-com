@@ -100,7 +100,7 @@
     "sectionInfoA": {
         "image": "/img/hero8.jpg",
         "title": "Easy, Instant Builder",
-        "name": "Pillar features a bevy of content blocks <br/> and layouts to create your website.",
+        "name": "EasyWeb features the power of softwares, <br/> provide all you need to build website",
         "icon": [
             {
                 "class": "icon icon-Fingerprint",
