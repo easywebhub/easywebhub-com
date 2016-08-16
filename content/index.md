@@ -71,7 +71,7 @@
                 "name": "EasyWeb focus on UI/UX of  website which affects on viewers,  regardless of the device your users. Powerful framwork no limit the capabilty of designer or developers"
             },
             {
-                "title": "No restrict on existing website framework",
+                "title": "No restrict on existing websites",
                 "name": "Any website could migrate to EasyWeb, regardless WordPress, Joomla, Drupal,... And moreover, EasyWeb website could deploy on any servers, any where"
             },
             {
