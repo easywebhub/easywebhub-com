@@ -21,11 +21,11 @@
     "items_en": [
         {
             "title": "Home",
-            "url": ""
+            "url": "home"
         },
         {
             "title": "About Us",
-            "url": "gioithieu"
+            "url": "aboutus"
         },
         {
             "title": "Docs",
