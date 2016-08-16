@@ -4,6 +4,20 @@
     "layout": "index.html",
     "title": "EasyWebHub Home",
     "description": "Index Page",
+    "backgroundBottom": {
+        "image": "img/hero7.jpg",
+        "title": "EasyWeb Quốc Bảo",
+        "name": "fast and flexible framework <br/> built for modern websites.",
+        "btn": {
+            "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
+            "name": "Purchase Now"
+        },
+        "modelvideo": {
+            "icon": "video-play-icon video-play-icon--sm modal-trigger",
+            "title": "Watch Over View",
+            "name": "https://www.youtube.com/embed/4QUVRm4UZA4?autoplay=1"
+        }
+    },
     "sectionInfo": {
         "title": "Working to build a beautiful web easier.",
         "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
@@ -25,33 +39,6 @@
                 "description": "Nothing easier to make your websites <br class=\"hidden-sm hidden-xs\" /> available for everyone",
                 "data-value": "100",
                 "icon": "icon-Trophy"
-            }
-        ]
-    },
-    "sectionInfoA": {
-        "image": "/img/hero8.jpg",
-        "title": "Diverse, Beautiful Components",
-        "name": "Pillar features a bevy of content blocks <br/> and layouts to create your website.",
-        "icon": [
-            {
-                "class": "icon icon-Fingerprint",
-                "title": "Over 3,000 Icons",
-                "name": "Pillar includes the Icons Mind kit with each purchase."
-            },
-            {
-                "class": "icon icon-Support",
-                "title": "Over 2,500 Icons",
-                "name": "Pillar includes the Icons Mind kit with each purchase."
-            },
-            {
-                "class": "icon icon-Astronaut",
-                "title": "Over 2,000 Icons",
-                "name": "Pillar includes the Icons Mind kit with each purchase."
-            },
-            {
-                "class": "icon icon-Bag-Coins",
-                "title": "Over 2,000 Icons",
-                "name": "Pillar includes the Icons Mind kit with each purchase."
             }
         ]
     },
@@ -136,19 +123,32 @@
             "/img/partner7.png"
         ]
     },
-    "backgroundBottom": {
-        "image": "img/hero7.jpg",
-        "title": "EasyWeb",
-        "name": "fast and flexible framework <br/> built for modern websites.",
-        "btn": {
-            "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
-            "name": "Purchase Now"
-        },
-        "modelvideo": {
-            "icon": "video-play-icon video-play-icon--sm modal-trigger",
-            "title": "Watch Over View",
-            "name": "https://www.youtube.com/embed/4QUVRm4UZA4?autoplay=1"
-        }
+    "sectionInfoA": {
+        "image": "/img/hero8.jpg",
+        "title": "Diverse, Beautiful Components",
+        "name": "Pillar features a bevy of content blocks <br/> and layouts to create your website.",
+        "icon": [
+            {
+                "class": "icon icon-Fingerprint",
+                "title": "Over 3,000 Icons",
+                "name": "Pillar includes the Icons Mind kit with each purchase."
+            },
+            {
+                "class": "icon icon-Support",
+                "title": "Over 2,500 Icons",
+                "name": "Pillar includes the Icons Mind kit with each purchase."
+            },
+            {
+                "class": "icon icon-Astronaut",
+                "title": "Over 2,000 Icons",
+                "name": "Pillar includes the Icons Mind kit with each purchase."
+            },
+            {
+                "class": "icon icon-Bag-Coins",
+                "title": "Over 2,000 Icons",
+                "name": "Pillar includes the Icons Mind kit with each purchase."
+            }
+        ]
     },
     "sectionAboutDev": {
         "image": "/img/hero21.jpg",
