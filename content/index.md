@@ -6,8 +6,8 @@
     "description": "Index Page",
     "backgroundBottom": {
         "image": "img/hero7.jpg",
-        "title": "EasyWeb build up fast, flexible <s>themes</s> websites",
-        "name": "revolution framework to unlimited designers' capacity",
+        "title": "EasyWeb fosters a fast, flexible <s>themes</s> websites",
+        "name": "A revolution framework to unlimited designers' capacity",
         "btn": {
             "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
             "name": "Purchase Now"
