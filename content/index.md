@@ -67,7 +67,7 @@
         "name": "Flexible framework supports Bootstrap, Foundation or any kind of HTML, CSS layouts",
         "feature": [
             {
-                "title": "Website with only HTML, CSS ",
+                "title": "Only HTML, CSS Website ",
                 "name": "Every one of Pillar’s stylish blocks are fully responsive, meaning that your site shines - regardless of the device your users."
             },
             {
