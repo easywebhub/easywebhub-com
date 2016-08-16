@@ -63,7 +63,7 @@
     "sectionInfoE": {
         "image": "img/hero10.jpg",
         "title": "Flexible, Powerfull,",
-        "em": "EasyBuilder",
+        "em": " EasyBuilder",
         "name": "Smart styling, unique demo layouts and Variant Page Builder included.",
         "feature": [
             {
