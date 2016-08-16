@@ -64,7 +64,7 @@
         "image": "img/hero10.jpg",
         "title": "Flexible, Powerfull,",
         "em": " EasyBuilder",
-        "name": "Flexible framework supports any kind layouts, Bootstrap, Foundation, ... and Easy Builder included.",
+        "name": "Flexible framework supports Bootstrap, Foundation, ... with Easy Builder included.",
         "feature": [
             {
                 "title": "Beautifully Responsive",
