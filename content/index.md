@@ -67,7 +67,7 @@
         "name": "supports Bootstrap 3.x, Foundation 6.x or any kind of HTML, CSS layouts",
         "feature": [
             {
-                "title": "All-in-one <s>theme</s> website Builder",
+                "title": "Powerful <s>theme</s> website Builder",
                 "name": "Just focus on layout design and HTML, CSS code, EasyBuilder will take the rest of process to foster your websites. Powerful framwork no limit the capabilty of designer or developers"
             },
             {
