@@ -44,7 +44,7 @@
     },
     "sectionInfoB": {
         "title": "Why do people love EasyWeb?",
-        "name": "Built for designers and front-end developers alike, EasyWeb combines an easy to use Builder with fast and flexiable approach for any kind of websites "
+        "name": "Built for designers and front-end developers alike, HTML & CSS skills are enough for everyone to build any kind of websites "
     },
     "sectionInfoD": [
         {
