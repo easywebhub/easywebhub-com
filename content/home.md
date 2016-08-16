@@ -3,7 +3,6 @@
     "slug": "",
     "layout": "index.html",
     "title": "EasyWebHub Home",
-    "lang" : "en",
     "description": "Index Page",
     "backgroundBottom": {
         "image": "img/hero7.jpg",
@@ -24,7 +23,7 @@
         "name": "EasyWeb kết hợp phương pháp xây dựng website tĩnh nhưng đầy đủ các tính năng mà bạn cần để triển khai hầu hết các kiểu website",
         "steps": [
             {
-                "title": "1. Change anything",
+                "title": "1. Thay đổi nội dung & giao diện",
                 "description": "Content and layout could be modified <br class=\"hidden-sm hidden-xs\" /> with little works using EasyBuilder",
                 "data-value": "45",
                 "icon": "icon-Notepad"
@@ -158,6 +157,7 @@
     },
     "category": "",
     "tag": "",
-    "date": ""
+    "date": "",
+    "lang": "en"
 }
 ---
