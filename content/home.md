@@ -30,7 +30,7 @@
             },
             {
                 "title": "2. Kiểm tra tức thời",
-                "description": "Save  works and see the change <br class=\"hidden-sm hidden-xs\" />  live and in front of your eyes",
+                "description": "Các thay đổi sẽ áp dụng ngay lập tức<br class=\"hidden-sm hidden-xs\" /> ngay trước mắt bạn",
                 "data-value": "75",
                 "icon": "icon-Speach-BubbleDialog"
             },
