@@ -56,7 +56,7 @@
         {
             "title": "Developers",
             "image": "img/avatar-large-3.png",
-            "name": "Lucas Greenberg, Designer",
+            "name": "Lucas Greenberg, Developers",
             "description": "I've been using Medium Rare templates for a couple of years now - they're always highly polished and backed up by amazing support."
         }
     ],
