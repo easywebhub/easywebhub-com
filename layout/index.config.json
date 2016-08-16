@@ -28,13 +28,6 @@
         "required": false
     },
     {
-        "name": "permalink",
-        "displayName": "permalink",
-        "type": "Boolean",
-        "validations": [],
-        "required": false
-    },
-    {
         "name": "backgroundBottom",
         "displayName": "backgroundBottom",
         "type": "Object",
