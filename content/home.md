@@ -23,7 +23,7 @@
         "name": "EasyWeb kết hợp phương pháp xây dựng website tĩnh nhưng đầy đủ các tính năng mà bạn cần để triển khai hầu hết các kiểu website",
         "steps": [
             {
-                "title": "1. Thay đổi nội dung & giao diện",
+                "title": "1. Thay đổi nội dung",
                 "description": "Content and layout could be modified <br class=\"hidden-sm hidden-xs\" /> with little works using EasyBuilder",
                 "data-value": "45",
                 "icon": "icon-Notepad"
