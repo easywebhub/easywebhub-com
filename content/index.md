@@ -82,7 +82,7 @@
     },
     "sectionInfoG": {
         "title": "We'd love to hear from all of you.",
-        "name": "We'd love to hear from designers, developers to enrich EasyWeb services, and to satisfy our customers who always want to own honorable  websites",
+        "name": "We'd love to hear from designers, developers to enrich EasyWeb services, to satisfy our customers who always want to own honorable  websites",
         "url": "about",
         "btn": "discuss web design"
     },
