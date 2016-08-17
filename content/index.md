@@ -81,8 +81,8 @@
         ]
     },
     "sectionInfoG": {
-        "title": "We'd love to hear",
-        "name": "We'd love to hear from you to enhance layout design, website market and welcome any comments.",
+        "title": "We'd love to hear from all of you.",
+        "name": "We'd love to hear from designers, developers to enrich EasyWeb services, provide high quality services for our customers who always want to own honorable  websites",
         "url": "about",
         "btn": "discuss web design"
     },
