@@ -7,6 +7,6 @@
     "title": "EasyPrototype, an innovative approach for building websites",
     "description": "",
     "date": "2016-08-17 16:20:07",
-    "featureImage": ""
+    "featureImage": "/img/product-large-4.jpg"
 }
 ---
