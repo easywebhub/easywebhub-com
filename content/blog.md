@@ -4,7 +4,7 @@
 "url":"",
 "slug": "blog",
 "description": "Showcase blog posts in a sylish grid arrangement.",
-"layout": "blog.html",
+"layout": "blog.category.html",
 "permalink": true
 }
 ---
