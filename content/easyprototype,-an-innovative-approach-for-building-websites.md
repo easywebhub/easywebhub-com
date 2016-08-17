@@ -1,7 +1,7 @@
 ---json
 {
     "slug": "easyprototype-an-innovative-approach-for-building-websites",
-    "category": "danh-sach-huong-dan",
+    "category": "tin-tuc",
     "tag": [],
     "layout": "Huong-Dan.html",
     "title": "EasyPrototype, an innovative approach for building websites",
