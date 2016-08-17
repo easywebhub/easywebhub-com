@@ -1,11 +1,12 @@
 ---json
 {
-    "title": "EasyPrototype, an innovative approach for building websites",
     "slug": "easyprototype-an-innovative-approach-for-building-websites",
-    "description": "",
-    "category": "",
+    "category": "danh-sach-huong-dan",
     "tag": [],
     "layout": "Huong-Dan.html",
-    "date": "2016-08-17 16:20:07"
+    "title": "EasyPrototype, an innovative approach for building websites",
+    "description": "",
+    "date": "2016-08-17 16:20:07",
+    "featureImage": ""
 }
 ---
