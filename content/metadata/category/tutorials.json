@@ -6,7 +6,7 @@
        "description" : "Showcase blog posts in a classic sidebar arrangement."
     },
     "displayName": "Tin Tức",
-    "perPage": 2,
+    "perPage": 10,
     "noPageOne": true,
     "layout": "blog.category.html",
     "first": ":categoryPath/index.html",
