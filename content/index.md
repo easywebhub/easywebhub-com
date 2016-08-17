@@ -84,7 +84,7 @@
         "title": "We'd love to hear from all of you.",
         "name": "We'd love to hear from designers, developers to enrich EasyWeb, to satisfy customers who always want to own honorable  websites",
         "url": "about",
-        "btn": "let us know your feedback"
+        "btn": "let give some words"
     },
     "sectionInfoH": {
         "listImages": [
