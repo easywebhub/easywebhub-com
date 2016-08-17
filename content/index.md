@@ -19,7 +19,7 @@
         }
     },
     "sectionInfo": {
-        "title": "Working to build  elegance websites easier.",
+        "title": "Free framework to build  elegance websites easier.",
         "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
         "steps": [
             {
