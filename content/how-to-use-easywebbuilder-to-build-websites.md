@@ -13,7 +13,7 @@
 **EasyWebBuilder is a software of easywebhub.com to build, manage and deploy websites with only HTML, CSS basic knowledge.**
 
 ##### Setup and run application:
- + Download file from [here](https://github.com/easywebhub/easyapp/releases/download/2.2/EasyWebBuilder.zip)
+ + Download file from [here]({{global.download_link}})
  + Unzip and click ```EasyBuilder.exe``` to run
  
 #### List of features
