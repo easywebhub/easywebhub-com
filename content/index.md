@@ -82,7 +82,7 @@
     },
     "sectionInfoG": {
         "title": "We'd love to hear",
-        "name": "We'd love to hear from you to enhance layout design, website market or to hear your new startup idea.",
+        "name": "We'd love to hear from you to enhance layout design, website market and welcome any comments.",
         "url": "about",
         "btn": "discuss web design"
     },
