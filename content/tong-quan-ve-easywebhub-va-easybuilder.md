@@ -4,6 +4,7 @@
     "category": "tin-tuc",
     "tag": [],
     "layout": "Huong-Dan.html",
+    "featureImage" : "",
     "title": "Tổng quan về EasyWebHub và EasyBuilder",
     "description": "",
     "date": "2016-08-17 16:03:26"
@@ -59,4 +60,4 @@
 
 (*) EasyWebHub cho phép xây dựng website hoàn toàn dựa trên ngôn ngữ lập trình front-end như HTML, CSS, và JS. Ngay cả Designers có kiến thức về HTML, CSS cũng đủ sức xây dựng website. Các phần xử lý server sẽ do EasyWebHub đảm nhiệm, nên sẽ không cần hiểu biết về lập trình PHP, C# hay các open source như WordPress, Joomla, Drupal,...
 
-(**) Phần mềm cài đặt trên máy tính (Windows, sắp tới sẽ hỗ trợ Linux, Mac OS) 
+(**) Phần mềm cài đặt trên máy tính (Windows, sắp tới sẽ hỗ trợ Linux, Mac OS)
