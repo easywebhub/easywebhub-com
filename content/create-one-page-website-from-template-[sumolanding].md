@@ -7,7 +7,7 @@
     "title": "Create One Page website from template [SumoLanding]",
     "description": "",
     "date": "2016-08-17 17:38:55",
-    "featureImage": "https://www.dropbox.com/s/ri1zeijtb5lx58z/SumoLanding.zip?dl=1"
+    "featureImage": "https://github.com/easywebhub/sumolanding/blob/gh-pages/img/build-website.png?raw=true"
 }
 ---
 #### Summary Information
