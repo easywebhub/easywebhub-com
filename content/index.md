@@ -20,7 +20,7 @@
     },
     "sectionInfo": {
         "title": "Free framework to build websites easier.",
-        "name": "EasyWeb combines  modern static website engine with all the features you’ll need to launch websites of almost any kind.",
+        "name": "EasyWeb combines Metalsmith, modern static website engine, with all the features you’ll need to launch websites of almost any kind.",
         "steps": [
             {
                 "title": "1. Change anything",
