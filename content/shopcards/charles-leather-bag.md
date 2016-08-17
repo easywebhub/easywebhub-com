@@ -3,7 +3,7 @@
     "slug": "charles-leather-bag",
     "layout": "gioithieu.html",
     "title": "Charles Leather Bag",
-    "category": "tin-tuc",
+    "category": "",
     "collection": "shopcards",
     "description": "Charles Leather Bag",
     "image": "/img/product-large-1.jpg",
