@@ -7,7 +7,7 @@
     "title": "How to use EasyWebBuilder to build websites",
     "description": "",
     "date": "2016-08-17 17:42:32",
-    "featureImage": ""
+    "featureImage": "https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/preview-on-local.png?raw=true"
 }
 ---
 **EasyWebBuilder is a software of easywebhub.com to build, manage and deploy websites with only HTML, CSS basic knowledge.**
@@ -81,6 +81,3 @@
    + change ```github-url``` property to website ```github.io``` Url, e.g ````xxx.github.io/repo-name/```
    + ```Rebuild``` on local (Refresh button) and ```Deploy``` again on github
  ![base config](https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/github-base-config.png?raw=true)
-
-  
- 
