@@ -4,10 +4,10 @@
     "category": "tin-tuc",
     "tag": [],
     "layout": "Huong-Dan.html",
-    "featureImage" : "",
     "title": "Tổng quan về EasyWebHub và EasyBuilder",
     "description": "",
-    "date": "2016-08-17 16:03:26"
+    "date": "2016-08-17 16:03:26",
+    "featureImage": "https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/create-website.png?raw=true"
 }
 ---
 #### I.EasyWebHub 
