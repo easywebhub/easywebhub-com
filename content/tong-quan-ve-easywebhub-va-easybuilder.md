@@ -9,12 +9,12 @@
     "date": "2016-08-17 16:03:26"
 }
 ---
-### I.EasyWebHub 
+#### I.EasyWebHub 
   + là nền tảng giúp xây dựng website chỉ với kiến thức về ```HMTL, CSS``` (*) 
   + Đơn giản trong việc lập trình, rút ngắn thời gian thực hiện nhưng vẫn có được website chất lượng cao, tối ưu cho nhiều thiết bị là mục đích hướng tới của EasyWebHub
   + Cho phép Chuyển đổi từ các nền tảng khác dễ dàng, nhanh chóng, như wordpress, joomla, drupal,...
 
-### II. EasyBuilder là phần mềm (**) giúp xây dựng, quản lý websites theo nền tảng EasyWebHub được dễ dàng, nhanh chóng.
+#### II. EasyBuilder là phần mềm (**) giúp xây dựng, quản lý websites theo nền tảng EasyWebHub được dễ dàng, nhanh chóng.
    + EasyBuilder cũng là thư viện website có sẵn, chỉ cần lựa chọn, thay đổi nội dung và triển khai vào thực tế.
    ![](https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/create-website.png?raw=true)
 
