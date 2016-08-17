@@ -1,7 +1,7 @@
 ---json
 {
     "slug": "tong-quan-ve-easywebhub-va-easybuilder",
-    "category": "tin-tuc",
+    "category": "tutorials",
     "tag": [],
     "layout": "Huong-Dan.html",
     "title": "Tổng quan về EasyWebHub và EasyBuilder",
