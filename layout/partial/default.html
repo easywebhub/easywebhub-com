@@ -1,8 +1,47 @@
 
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Pillar Multipurpose HTML Template</title>
+        <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 
-    {{#block "header"}}
-    {{> header}}
-    {{/block}}
+        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body class="scroll-assist" data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)" data-reveal-timing="1000">
+        <a id="top"></a>
+
+        {{#block "nav-bar"}}
+          {{> nav-bar}}
+        {{/block}}
+
+        <div class="modal-container search-modal" data-modal-id="search-form">
+            <div class="modal-content bg-white imagebg" data-width="100%" data-height="100%">
+                <div class="pos-vertical-center clearfix">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+                        <form class="clearfix">
+                            <div class="input-with-icon">
+                                <i class="icon-Magnifi-Glass2 icon icon--sm"></i>
+                                <input type="search" name="query" placeholder="Type your search and hit enter" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--end of modal-content-->
+        </div>
+        <!--end of modal-container-->
+
 
     {{#block "main"}}
     {{{contents}}}
@@ -11,4 +50,3 @@
     {{#block "footer"}}
     {{> footer}}
     {{/block}}
-    

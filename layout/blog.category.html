@@ -17,53 +17,51 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <div class="masonry masonry-blog">
-                    <div class="masonry__container masonry--animate masonry--active" style="position: relative; height: 2862px;">
-                        {{#each pagination.files}}
-                        <div class="col-sm-6 masonry__item">
-                            <a href="/{{ this.path }}">
-                                <div class="card card-4">
-                                    <div class="card__image">
-                                        <img alt="Pic" src="{{this.featureImage}}">
+            <div class="masonry masonry-blog">
+                <div class="masonry__container masonry--animate masonry--active" style="position: relative; height: 2862px;">
+                    {{#each pagination.files}}
+                    <div class="col-md-4 col-sm-6 masonry__item">
+                        <a href="/{{ this.path }}">
+                            <div class="card card-4">
+                                <div class="card__image">
+                                    <img alt="Pic" src="{{this.featureImage}}">
+                                </div>
+                                <div class="card__body boxed boxed--sm bg--white">
+                                    <h6>{{this.category}}</h6>
+                                    <div class="card__title">
+                                        <h5>{{ this.title }}</h5>
                                     </div>
-                                    <div class="card__body boxed boxed--sm bg--white">
-                                        <h6>{{this.category}}</h6>
-                                        <div class="card__title">
-                                            <h5>{{ this.title }}</h5>
-                                        </div>
-                                        <hr>
-                                        <div class="card__lower">
-                                            <span>by</span>
-                                            <span class="h6">Luke Gibson</span>
-                                        </div>
+                                    <hr>
+                                    <div class="card__lower">
+                                        <span>by</span>
+                                        <span class="h6">Luke Gibson</span>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-                        {{/each}}
+                            </div>
+                        </a>
                     </div>
-                    <!--end masonry container-->
+                    {{/each}}
                 </div>
-                <!--end masonry-->
-                <div class="pagination-container">
-                    <hr>
-                    <ul class="pagination">
-
-                        <li>
-                          {{#if pagination.previous}}
-                          	<a href="/{{pagination.previous.path}}"><span>←</span></a>
-                          {{/if}}
-                        </li>
-                        <li>
-                          {{#if pagination.next}}
-                          <a href="/{{pagination.next.path}}"><span>→</span></a>
-                          {{/if}}
-                        </li>
-                    </ul>
-                </div>
+                <!--end masonry container-->
             </div>
-            <div class="col-md-3 hidden-sm hidden-xs">
+            <!--end masonry-->
+            <div class="pagination-container">
+                <hr>
+                <ul class="pagination">
+
+                    <li>
+                      {{#if pagination.previous}}
+                      	<a href="/{{pagination.previous.path}}"><span>←</span></a>
+                      {{/if}}
+                    </li>
+                    <li>
+                      {{#if pagination.next}}
+                      <a href="/{{pagination.next.path}}"><span>→</span></a>
+                      {{/if}}
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="col-md-3 hidden-sm hidden-xs">
                 <div class="sidebar">
                     <div class="sidebar__widget">
                         <h6>Search Site</h6>
@@ -75,7 +73,6 @@
                             </div>
                         </form>
                     </div>
-                    <!--end widget-->
                     <div class="sidebar__widget">
                         <h6>Categories</h6>
                         <hr>
@@ -107,7 +104,6 @@
                             </li>
                         </ul>
                     </div>
-                    <!--end widget-->
                     <div class="sidebar__widget">
                         <h6>Tags</h6>
                         <hr>
@@ -170,7 +166,6 @@
                             </li>
                         </ul>
                     </div>
-                    <!--end widget-->
                     <div class="sidebar__widget">
                         <h6>About Us</h6>
                         <hr>
@@ -178,8 +173,7 @@
                             We're a digital focussed collective working with individuals and businesses to establish rich, engaging online presences.
                         </p>
                     </div>
-                    <!--end widget-->
-                </div>
+                </div> -->
             </div>
         </div>
         <!--end of row-->
