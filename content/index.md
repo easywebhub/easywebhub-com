@@ -23,13 +23,13 @@
         "name": "EasyWeb combines Metalsmith, modern static website engine, with all the features you’ll need to launch websites of almost any kind.",
         "steps": [
             {
-                "title": "1. Change anything",
+                "title": "1. Change on your machine",
                 "description": "Content and layout could be modified <br class=\"hidden-sm hidden-xs\" /> with little works using EasyBuilder",
                 "data-value": "45",
                 "icon": "icon-Notepad"
             },
             {
-                "title": "2. Live Preview",
+                "title": "2. Intant Preview",
                 "description": "Save  works and see the change <br class=\"hidden-sm hidden-xs\" />  live and in front of your eyes",
                 "data-value": "75",
                 "icon": "icon-Speach-BubbleDialog"
