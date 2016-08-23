@@ -12,7 +12,10 @@
 ---
 #### In general, EasyBuilder combines Content and Layouts and generate ```HTML``` files of websites.
 And  Content is the data of websites that could be added, modified using Content Form of EasyBuider. Content data is defined in 2 ways
-    + Content form: the simple, clear form that is used for website administrators who do not know about development
-    + RAW form: actual data which is saved on files, Developers could use RAW form to defined data structures of websites
+    
+###### 1. Content form: used for Administrators
+   + the simple, clear form that is used for website administrators who do not know about development
+   + 
+###### 2: RAW form: actual data which is saved on files, Developers could use RAW form to defined data structures of websites
 
   
