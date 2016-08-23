@@ -28,7 +28,8 @@
 * data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
   
 ### Content has displayed in 
-    ![](img/ewh-config.png)
+    ![](/img/ewh-config.png)
+
 ###### 1. Content form: for Administrators
    + the simple form which help adding, modified or deleted content easily
    + restrict data which allows to modify
