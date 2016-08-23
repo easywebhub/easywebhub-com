@@ -10,3 +10,5 @@
     "featureImage": ""
 }
 ---
+#### In general, EasyBuilder combines Content and Layouts and generate ```HTML``` files of websites.
+  
