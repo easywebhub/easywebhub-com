@@ -21,6 +21,7 @@
 	    + menu in ```menu```
 	    + footer in ```footer```
 			+ Other information could be defined in other files
+			
   + Data for a page of websites is defined in ```Content``` tab
       + ```index``` : default file contains data of index (home) page
       + data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
