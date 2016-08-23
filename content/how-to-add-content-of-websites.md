@@ -27,13 +27,12 @@
       + default file ```index```  contains data of index (home) page
       + data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
       
-### What users could do with Content
+### What administrators could do with Content
   + Add, edit, delete pages of websites
-  + Add Category, Tags of websites
+  + Add Category, Tags of websites if Developers allow
   + Modify content of menu, footer, global 
   
 ### Content is files in Content and Meta tabs
-
     
 ###### 1. Content form: for Administrators
    + the simple form which help adding, modified or deleted content easily
