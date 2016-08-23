@@ -21,4 +21,5 @@
    + the simple, clear form that is used for website administrators who do not know about development
    + 
 ###### 2: RAW form: for Developers
-   + actual data which is saved on files, Developers could use RAW form to defined data structures of websites
+   + actual data which is saved on files,
+   + use RAW form to defined data structures which could be modified by Administrators
