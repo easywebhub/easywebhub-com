@@ -7,7 +7,7 @@
     "title": "How to add content of websites?",
     "description": "With EasyBuilder, you easily add, edit or delete content (pages, block, menu, footer,...) of websites. Developers could config the Editor to help Content users understand how to modify clearly.",
     "date": "2016-08-23 16:16:30",
-    "featureImage": "img/ewh-config.png"
+    "featureImage": "img/ewh-content.png"
 }
 ---
 ### Summary Information
@@ -28,7 +28,7 @@
 * data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
   
 ### Content has displayed in 
-    ![](img/ewb-config.png)
+    ![](img/ewh-config.png)
 ###### 1. Content form: for Administrators
    + the simple form which help adding, modified or deleted content easily
    + restrict data which allows to modify
