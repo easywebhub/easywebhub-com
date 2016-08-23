@@ -68,82 +68,6 @@
     <!-- Main container -->
     <main>
 
-      <!-- Section - Header -->
-      <section id="sec-header">
-        <div class="container">
-          <header class="section-header">
-            <span>Site navigation</span>
-            <h2>Header</h2>
-            <p>It contains site navigation, logo, and banner</p>
-          </header>
-
-          <h3>Basic style</h3>
-          <p>Following code snippet demonstrates .site-header of the current page. As you can see, it's easy to grasp the code.</p>
-<pre class="line-numbers"><code class="language-markup">
-&lt;!-- Site header --&gt;
-&lt;header class=&quot;site-header&quot;&gt;
-
-  &lt;!-- Logo &amp; Navigation --&gt;
-  &lt;nav class=&quot;site-navigation&quot;&gt;
-    &lt;div class=&quot;container&quot;&gt;
-      &lt;div class=&quot;logo&quot;&gt;
-        &lt;a class=&quot;logo-default&quot; href=&quot;index.html&quot;&gt;&lt;img src=&quot;assets/img/logo.png&quot; alt=&quot;logo&quot;&gt;&lt;/a&gt;
-        &lt;a class=&quot;logo-transparent&quot; href=&quot;index.html&quot;&gt;&lt;img src=&quot;assets/img/logo-alt.png&quot; alt=&quot;logo&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-
-      &lt;a class=&quot;navbar-toggle&quot; href=&quot;#&quot; data-toggle=&quot;offcanvas&quot;&gt;&lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-
-      &lt;ul class=&quot;nav-menu&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Overview&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a class=&quot;active&quot; href=&quot;#&quot;&gt;Components&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;
-          &lt;a href=&quot;#&quot;&gt;Pages&lt;/a&gt;
-          &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Submenu 1&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Submenu 2&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Submenu 3&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Submenu 4&lt;/a&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/li&gt;
-        &lt;li&gt;&lt;a class=&quot;menu-highlighted&quot; href=&quot;#&quot;&gt;Buy Now&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-  &lt;/nav&gt;
-  &lt;!-- END Logo &amp; Navigation --&gt;
-
-  &lt;!-- Header image --&gt;
-  &lt;div class=&quot;header-image bg-purple no-overly no-padding&quot;&gt;
-    &lt;div class=&quot;container&quot;&gt;
-      &lt;br&gt;&lt;br&gt;
-      &lt;h1&gt;&lt;strong&gt;Components,&lt;/strong&gt; Rapid development&lt;/h1&gt;
-      &lt;h4&gt;Over a dozen reusable components built to provide navigation, code view, content view, file tree, callouts, and much more.&lt;/h4&gt;
-      &lt;br&gt;&lt;br&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;!-- END Header image --&gt;
-</code></pre>
-
-
-          <h3>Navigation</h3>
-          <p>Here, we describe some of modifier classes on navigation menu.</p>
-
-          <h5>Full width & boxed size</h5>
-          <p>The <code>.site-navigation > div</code> tag is responsible for sizing. It would be boxed-size if it has <code>.container</code> class, and will become full size by having <code>.container-fluid</code>.</p>
-
-          <h5>Sticky & transparent</h5>
-          <p>The <code>body</code> tag is responsible for changing this two property. To have a sticky navigation bar in top of the page, add <code>.sticky-nav</code> to the body tag. If you have a banner in your header and would like to put your navigation above it before scrolling, add <code>.transparent-nav</code> to the body tag.</p>
-
-
-          <h3>Banner</h3>
-          <p>You can see different types of banner across this documentation. You'd be able to have an image backgrounded banner or just a solid color background. Setting background is like how you can add them in <a href="css.html/#sec-sections-bg">sections</a>.</p>
-          <p>By default, <code>.header-image</code> has a pale black overly to make contrast between texts on the image. You can simply ignore it by adding <code>.no-overlay</code> class to the <code>.header-image</code> tag. It would be better to remove overly on solid color background banners. Also, make sure to use <code>.text-left</code>, <code>.text-center</code>, <code>.text-right</code>, <code>&lt;br&gt;</code>, etc. for alignment and spacing.</p>
-
-        </div>
-      </section>
-      <!-- END Section - Header -->
-
       <!-- Section - Page navigation -->
       <section id="sec-page-nav">
         <div class="container">
@@ -153,23 +77,81 @@
             <p>Provide an in-page navigation for user to access each section easily</p>
           </header>
 
+          <div class="code-window"><div class="window-bar"><div class="circles"><span class="circle circle-red"></span> <span class="circle circle-yellow"></span> <span class="circle circle-green"></span></div><div class="languages"><div class="btn-group" data-toggle="buttons"><label class="btn active"><input type="radio" autocomplete="off" checked="">Example</label><label class="btn"><input type="radio" autocomplete="off">html</label><label class="btn"><input type="radio" autocomplete="off">css</label><label class="btn"><input type="radio" autocomplete="off">javascript</label></div></div></div>
+            <div class="window-content"><div class="code-preview">
+              <p>This is a normal paragraph without any contextual classes.</p>
+              <p class="text-primary">A paragraph with .text-primary class.</p>
+              <p class="text-success">A paragraph with .text-success class.</p>
+              <p class="text-info">A paragraph with .text-info class.</p>
+              <p class="text-warning">A paragraph with .text-warning class.</p>
+              <p class="text-danger">A paragraph with .text-danger class.</p>
+              <p class="text-gray">A paragraph with .text-gray class.</p>
+              <p class="text-dark">A paragraph with .text-dark class.</p>
+            </div>
+<pre class="line-numbers language-markup" data-language="markup" style="display: none;"><a class="clipboard-copy" data-original-title="Copied!"><i class="fa fa-copy"></i> Copy</a>
+  <code class=" language-markup">
+            some thing markup
+              </code></pre>
 
+<pre class="line-numbers language-css" data-language="css" style="display: none;">
+  some thing here
+</pre>
+<pre class="line-numbers language-javascript" data-language="javascript" style="display: none;"><a class="clipboard-copy" data-original-title="Copied!"><i class="fa fa-copy"></i> Copy</a><code class=" language-javascript">
+  line-numbers language-javascript
+</code></pre>
+</div>
+          </div>
           <h3>Basic style</h3>
-          <p>Following code snippet demonstrates .page-navigation of the css.html page. As you can see, it's easy to grasp the code. You just need to put section's ID inside href of an <code>&lt;a&gt;</code> tag.</p>
+          <p>Following code snippet demonstrates .page-navigation of the css.html page. As you can see, it's easy to grasp the code. You just need to put section's ID inside href of an
+            <code>&lt;a&gt;</code> tag.</p>
 <pre class="line-numbers"><code class="language-markup">
-&lt;!-- Navigation --&gt;
-&lt;nav class=&quot;page-navigation full-topbar&quot;&gt;
-  &lt;ul class=&quot;nav&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;#sec-typography&quot;&gt;Typography&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#sec-sections&quot;&gt;Sections&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#sec-tables&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#sec-buttons&quot;&gt;Buttons&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#sec-labels&quot;&gt;Labels&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#sec-images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#sec-helper&quot;&gt;Helper classes&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;!-- END Navigation --&gt;
+  {
+      "title": "Danh sách items trong menu",
+      "logo": {
+          "dark": "/img/logo-dark.png",
+          "light": "/img/logo-light.png"
+      },
+      "items": [
+          {
+              "title": "Home",
+              "url": ""
+          },
+          {
+              "title": "About Us",
+              "url": "aboutus"
+          },
+          {
+              "title": "Tutorials",
+              "url": "tutorials"
+          },
+          {
+              "title": "Docs",
+              "url": "documentation"
+          }
+      ],
+      "items_en": [
+          {
+              "title": "Trang Chủ",
+              "url": "trang-chu"
+          },
+          {
+              "title": "Giới Thiệu",
+              "url": "gioithieu"
+          },
+          {
+              "title": "Hướng Dẫn",
+              "url": "tutorials"
+          }
+      ],
+      "nav-search": {
+          "class": "interface-search icon icon--sm",
+          "title": "Search"
+      },
+      "nav-cart": {
+          "class": "interface-bag icon icon--sm",
+          "title": "Cart"
+      }
+  }
 </code></pre>
 
           <h3>Variations</h3>
@@ -2486,7 +2468,7 @@ $('.sidenav.dropable > li > a').click(function(e){
 
 
     <!-- Scripts -->
-    <script src="assets/vendors/videojs/video.min.js"></script>
+    <script src="js/video.min.js"></script>
     <script src="js/app.min.js"></script>
     <script src="js/custom.js"></script>
 
