@@ -17,10 +17,10 @@
 
 ### Content of a website is
   + Common data of website is defined in ```Meta``` tab
-	    + global information in ```global```
-	    + menu in ```menu```
-	    + footer in ```footer```
-			+ Other information could be defined in other files
+		+ global information in ```global```
+		+ menu in ```menu```
+		+ footer in ```footer```
+		+ Other information could be defined in other files
 			
   + Data for a page of websites is defined in ```Content``` tab
       + ```index``` : default file contains data of index (home) page
