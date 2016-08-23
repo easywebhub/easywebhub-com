@@ -26,7 +26,6 @@
  ##### 2. Data of page ```Content``` tab
 * default file ```index```  contains data of index (home) page
 * data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
-
   
 ### Content has displayed in 
     
