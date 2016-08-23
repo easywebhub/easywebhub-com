@@ -26,12 +26,7 @@
  ##### 2. Data of page ```Content``` tab
 * default file ```index```  contains data of index (home) page
 * data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
-      
-### What administrators could do with Content
-  + Add, edit, delete pages of websites
-  + Add Category, Tags of websites
-  + Modify content of menu, footer, global 
-  + Config the display Content form clearly
+
   
 ### Content has displayed in 
     
@@ -51,3 +46,9 @@
    + config type of data such as ```Text, Media, DateTime,...```
    + config the data could be modified by Administrator or not
    + hide data  in Content form
+      
+### What administrators could do with Content
+  + Add, edit, delete pages of websites
+  + Add Category, Tags of websites
+  + Modify content of menu, footer, global 
+  + Config the display Content form clearly
