@@ -18,8 +18,9 @@
 ### Content is the data of websites that could be added, modified using Content Form of EasyBuider. Content data is defined in 2 ways
     
 ###### 1. Content form: for Administrators
-   + the simple, clear form that is used for website administrators who do not know about development
-   + 
+   + the simple form which help adding, modified or deleted content easily
+   + restrict data which allows to modify
+
 ###### 2: RAW form: for Developers
    + actual data which is saved on files,
    + use RAW form to defined data structures which could be modified by Administrators
