@@ -25,7 +25,7 @@
 
   <body class="sticky-nav">
 
-   
+
 
 
     <!-- Site header -->
@@ -41,21 +41,10 @@
           <a class="navbar-toggle" href="#" data-toggle="offcanvas"><i class="fa fa-bars"></i></a>
 
           <ul class="nav-menu">
-            <li><a href="index.html">Overview</a></li>
-            <li><a href="getting-started.html">Getting Started</a></li>
-            <li><a href="css.html">CSS</a></li>
-            <li><a class="active" href="components.html">Components</a></li>
-            <li>
-              <a href="#">Pages</a>
-              <ul>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="changelog.html">Changelog</a></li>
-                <li><a href="tutorial-1.html">Tutorial - 1</a></li>
-                <li><a href="tutorial-2.html">Tutorial - 2</a></li>
-                <li><a href="tutorial-3.html">Tutorial - 3</a></li>
-              </ul>
-            </li>
-            <li><a class="menu-highlighted" href="http://themeforest.net/item/theguide-online-documentation-template/14239305">Buy Now</a></li>
+            {{#each menu.items}}
+            <li><a href="./{{this.url}}">{{this.title}}</a></li>
+            {{/each}}
+            <li><a class="menu-highlighted" href="">Download</a></li>
           </ul>
         </div>
       </nav>
@@ -65,8 +54,8 @@
       <div class="header-image bg-purple no-overlay no-padding">
         <div class="container">
           <br><br>
-          <h1><strong>Components,</strong> Rapid development</h1>
-          <h4>Over a dozen reusable components built to provide navigation, code view, content view, file tree, callouts, and much more.</h4>
+          <h1><strong>EasyWeb,</strong> Rapid website development</h1>
+          <h4>Thousands of websites were built and maintananced using EasyBuider</h4>
           <br><br>
         </div>
       </div>
@@ -912,7 +901,7 @@ $('.sidenav.dropable > li > a').click(function(e){
                       <p>The Attachment Details pane displays a small un-cropped thumbnail of the image, as well as important information such as the filename, date uploaded, and image dimensions in pixels.</p>
                     </div>
                   </div>
-                  
+
                 </div>
 
                 <!-- Controls -->
@@ -969,7 +958,7 @@ $('.sidenav.dropable > li > a').click(function(e){
         &lt;p&gt;...&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    
+
   &lt;/div&gt;
 
   &lt;!-- Controls --&gt;
@@ -2490,7 +2479,7 @@ $('.sidenav.dropable > li > a').click(function(e){
             <p class="back-to-top"><a id="scroll-up" href="#">back to top</a></p>
           </div>
         </div>
-        
+
       </div>
     </footer>
     <!-- END Site footer -->
