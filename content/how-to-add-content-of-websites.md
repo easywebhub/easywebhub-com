@@ -49,4 +49,5 @@
 ##### 4. Configuration
    + config Content data which will showed for administrators
    + config type of data such as ```Text, Media, DateTime,...```
-   + 
+   + config the data could be modified by Administrator or not
+   + hide data  in Content form
