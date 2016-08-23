@@ -24,8 +24,8 @@
 + Other information could be defined in other files
 			
  #####  **Data for a page  is defined in ```Content``` tab**
-      + default file ```index```  contains data of index (home) page
-      + data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
+* default file ```index```  contains data of index (home) page
+* data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
       
 ### What administrators could do with Content
   + Add, edit, delete pages of websites
