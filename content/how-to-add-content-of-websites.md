@@ -17,9 +17,10 @@
 
 ### Content of a website is
   + Common data of website is defined in ```Meta``` tab
-+ global information in ```global```
-+ menu in ```menu```
-+ footer in ```footer```
++ global information in ```global``` file
++ menu in the ```menu``` file
++ footer in ```footer``` file
++ Category data in  ```[Category]xxx``` files
 + Other information could be defined in other files
 			
   + Data for a page of websites is defined in ```Content``` tab
