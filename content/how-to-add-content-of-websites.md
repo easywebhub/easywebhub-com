@@ -28,7 +28,7 @@
 * data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
   
 ### Content has displayed in 
-  ![](https://easywebhub.com/img/ewh-config.png)
+  
 ###### 1. Content form: for Administrators
    + the simple form which help adding, modified or deleted content easily
    + restrict data which allows to modify
@@ -40,7 +40,8 @@
 ##### 3. Layout tab: 
    + quick reference to the layout which applied the Content data
  
-##### 4. Configuration
+##### 4. Config tab
+![](https://easywebhub.com/img/ewh-config.png)
    + config Content data which will showed for administrators
    + config type of data such as ```Text, Media, DateTime,...```
    + config the data could be modified by Administrator or not
