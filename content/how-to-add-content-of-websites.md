@@ -15,7 +15,7 @@
   + EasyBuilder combines Content and Layouts and generate ```HTML``` files of websites.
   + There are 2 types of users: Developers who build websites and Administrators who manage websites
 
-### Content of a website is
+### Content contains
   ##### **Common data is defined in ```Meta``` tab**
 + global information in ```global``` file
 + menu in the ```menu``` file
@@ -29,10 +29,11 @@
       
 ### What administrators could do with Content
   + Add, edit, delete pages of websites
-  + Add Category, Tags of websites if Developers allow
+  + Add Category, Tags of websites
   + Modify content of menu, footer, global 
+  + Config the display Content form clearly
   
-### Content is files in Content and Meta tabs
+### Content has displayed in 
     
 ###### 1. Content form: for Administrators
    + the simple form which help adding, modified or deleted content easily
@@ -41,3 +42,11 @@
 ###### 2: RAW form: for Developers
    + actual data which is saved on files,
    + use RAW form to defined data structures which could be modified by Administrators
+
+##### 3. Layout tab: 
+   + quick reference to the layout which applied the Content data
+ 
+##### 4. Configuration
+   + config Content data which will showed for administrators
+   + config type of data such as ```Text, Media, DateTime,...```
+   + 
