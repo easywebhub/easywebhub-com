@@ -15,7 +15,8 @@
   + EasyBuilder combines Content and Layouts and generate ```HTML``` files of websites.
   + There are 2 types of users: Developers who build websites and Administrators who manage websites
   
-### Content is the data of websites that could be added, modified using Content Form of EasyBuider. Content data is defined in 2 ways
+### Content is files in Content and Meta tabs
+
     
 ###### 1. Content form: for Administrators
    + the simple form which help adding, modified or deleted content easily
