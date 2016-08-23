@@ -16,14 +16,14 @@
   + There are 2 types of users: Developers who build websites and Administrators who manage websites
 
 ### Content contains
-  ##### **Common data is defined in ```Meta``` tab**
+  ##### Common data is defined in ```Meta``` tab
 + global information in ```global``` file
 + menu in the ```menu``` file
 + footer in ```footer``` file
 + Category data in  ```[Category]xxx``` files
 + Other information could be defined in other files
 			
- #####  **Data for a page  is defined in ```Content``` tab**
+ #####  Data for a page  is defined in ```Content``` tab
 * default file ```index```  contains data of index (home) page
 * data of each page must have 3 primary properties:  ```slug, layout, date``` which is automatically created when adding new Page
       
