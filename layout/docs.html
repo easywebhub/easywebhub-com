@@ -63,8 +63,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="one-page/images/canvasone-dark.png"><img src="images/canvashelp.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="one-page/images/canvasone-dark@2x.png"><img src="images/canvashelp@2x.png" alt="Canvas Logo"></a>
+						<a href="/" class="standard-logo" data-dark-logo="{{menu.logo.dark}}"><img src="" alt="Easyweb."></a>
+						<!-- <a href="index.html" class="retina-logo" data-dark-logo="one-page/images/canvasone-dark@2x.png"><img src="images/canvashelp@2x.png" alt="Canvas Logo"></a> -->
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -72,9 +72,10 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li><a href="http://themeforest.net/user/SemiColonWeb/portfolio?ref=SemiColonWeb"><div>Themes</div></a></li>
-							<li><a href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123/support/contact?ref=SemiColonWeb"><div>Contact</div></a></li>
-						</ul>
+              {{#each menu.items}}
+              <li><a href="./{{this.url}}">{{this.title}}</a></li>
+              {{/each}}
+            	</ul>
 
 					</nav><!-- #primary-menu end -->
 
