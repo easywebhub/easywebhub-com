@@ -73,7 +73,7 @@
 
 						<ul>
               {{#each menu.items}}
-              <li><a href="./{{this.url}}">{{this.title}}</a></li>
+              <li><a href="/{{this.url}}">{{this.title}}</a></li>
               {{/each}}
             	</ul>
 
@@ -99,10 +99,10 @@
 							<li><a href="#docs-start">Start</a>
 								<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
 									<li><a href="#" data-href="#docs-start-installation">Installation<!-- <span class="label label-danger">New</span> --></a></li>
-									<li><a href="#" data-href="#docs-start-html">HTML Structure</a></li>
-									<li><a href="#" data-href="#docs-start-pagetransition">Page Transition</a></li>
-									<li><a href="#" data-href="#docs-start-logo">Logo Settings</a></li>
-									<li><a href="#" data-href="#docs-start-color">Color Schemes</a></li>
+									<li><a href="#" data-href="#docs-overview">EasyWeb Overview</a></li>
+									<li><a href="#" data-href="#docs-start-pagetransition">Website structure</a></li>
+									<li><a href="#" data-href="#docs-start-logo">Content Editing</a></li>
+									<li><a href="#" data-href="#docs-start-color">Layout </a></li>
 									<li><a href="#" data-href="#docs-start-fonts">Changing Fonts</a></li>
 									<li><a href="#" data-href="#docs-start-custom">Customization</a></li>
 									<li><a href="#" data-href="#docs-start-rtl">RTL Setup</a></li>
@@ -247,79 +247,18 @@
 
 							<div class="line"></div>
 
-							<div id="docs-start-html" class="docs-content-inner page-section">
+							<div id="docs-overview" class="docs-content-inner page-section">
 
-								<h1>HTML Structure</h1>
+								<h1>EasyWeb Overview</h1>
 
-								<p>Canvas follows a simple coding structure. here is the sample:</p>
+                <ul>
+                <li>EasyWeb websites contains 2 parts:  Content and Layouts</li>
+                <li>EasyBuilder combines Content and Layouts and generate <code>HTML</code> files of websites.</li>
+                <li>There are 2 types of users: Developers who build websites and Administrators who manage websites</li>
+                </ul>
 
-<pre class="bottommargin">&lt;!DOCTYPE html&gt;
-&lt;html dir="ltr" lang="en-US"&gt;
-&lt;head&gt;
-
-	<span class="color">&lt;!-- Your Stylesheets, Scripts &amp; Title
-	============================================= --&gt;</span>
-	...
-
-&lt;/head&gt;
-&lt;body&gt;
-
-	<span class="color">&lt;!-- The Main Wrapper
-	============================================= --&gt;</span>
-	&lt;div id="wrapper" class="clearfix"&gt;
-
-		<span class="color">&lt;!-- Header
-		============================================= --&gt;</span>
-		&lt;header id="header"&gt;
-
-			...
-
-		&lt;/header&gt;
-
-		<span class="color">&lt;!-- Site Content
-		============================================= --&gt;</span>
-		&lt;section id="content"&gt;
-
-			&lt;div class="content-wrap"&gt;
-
-				&lt;div class="container clearfix"&gt;
-
-					...
-
-				&lt;/div&gt;
-
-			&lt;/div&gt;
-
-		&lt;/section&gt;
-
-		<span class="color">&lt;!-- Footer
-		============================================= --&gt;</span>
-		&lt;footer id="footer" class="dark"&gt;
-
-			&lt;div class="container"&gt;
-
-				...
-
-			&lt;/div&gt;
-
-			<span class="color">&lt;!-- Copyrights
-			============================================= --&gt;</span>
-			&lt;div id="copyrights"&gt;
-
-				&lt;div class="container clearfix"&gt;
-
-					...
-
-				&lt;/div&gt;
-
-			&lt;/div&gt;
-
-		&lt;/footer&gt;
-
-	&lt;/div&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+<pre class="bottommargin">
+</pre>
 
 								<h3>Layout Settings</h3>
 
