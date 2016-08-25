@@ -104,6 +104,9 @@
 									<li><a href="#" data-href="#docs-start-logo">Build on local</a></li>
 									<li><a href="#" data-href="#docs-start-color">Edit & Preview</a></li>
 									<li><a href="#" data-href="#docs-start-fonts">Deploy and finish</a></li>
+                  {{#each pagination.files}}
+                    <li><a href="#" data-href="#{{this.path}}">{{this.title}}</a></li>
+                  {{/each}}
 								</ul>
 							</li>
 							<li><a href="#docs-upgrading">Overview</a>
@@ -164,23 +167,16 @@
 					<div class="docs-content">
 
 						<div id="docs-start">
+              {{#each pagination.files}}
+                <div id="{{this.path}}" class="docs-content-inner page-section">
+                  {{{this.description}}}
+                </div>
+                <div class="line"></div>
+              {{/each}}
 
 							<div id="docs-start-installation" class="docs-content-inner page-section">
 
 								<h1>Install EasyBuilder</h1>
-                <ul>
-                  {{#each pagination.files}}
-                    <li>{{this.path}} {{this.title}} {{{this.description}}}</li>
-                  {{/each}}
-                </ul>
-                All Category
-                <ul>
-                  {{#each AllCategory}}
-                    {{#with this}}
-                    <li>{{href}} {{this.files.displayName}} {{{this.contents}}}</li>
-                    {{/with}}
-                  {{/each}}
-                </ul>
 								<p>Download <a href="{{global.download_link}}">EasyBuider</a>, unzip and run <code>EasyWeb Builder.exe</code> file</p>
 								<p>Sign up / Sign in when EasyBuilder started. This account contains information of websites your owned or managed  </p>
 
