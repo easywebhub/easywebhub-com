@@ -4,6 +4,7 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
+
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
@@ -167,7 +168,11 @@
 							<div id="docs-start-installation" class="docs-content-inner page-section">
 
 								<h1>Install EasyBuilder</h1>
-
+                <ul>
+                  {{#each pagination.files}}
+                    <li>{{this.path}} {{this.title}} {{{this.contents}}}</li>
+                  {{/each}}
+                </ul>
 								<p>Download <a href="{{global.download_link}}">EasyBuider</a>, unzip and run <code>EasyWeb Builder.exe</code> file</p>
 								<p>Sign up / Sign in when EasyBuilder started. This account contains information of websites your owned or managed  </p>
 
