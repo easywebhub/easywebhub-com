@@ -1,7 +1,7 @@
 ---json
 {
     "slug": "docs-start-pagetransition",
-    "category": "",
+    "category": "document",
     "tag": [],
     "layout": "docs-item.html",
     "title": "Create a website",
