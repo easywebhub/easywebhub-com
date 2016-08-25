@@ -9,3 +9,10 @@
     "date": "2016-08-25 17:39:01"
 }
 ---
+<h1>Create a website</h1>
+
+								<p>Click <code>Create new site</code></p>
+
+								<p>Select a website from EasyWeb market, e.g <code>pillar</code></p>
+
+								<p>Your website is created and ready to use</p>
