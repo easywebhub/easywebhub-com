@@ -173,6 +173,14 @@
                     <li>{{this.path}} {{this.title}} {{{this.contents}}}</li>
                   {{/each}}
                 </ul>
+                All Category
+                <ul>
+                  {{#each AllCategory}}
+                    {{#with this}}
+                    <li>{{href}} {{this.files.displayName}} {{{this.contents}}}</li>
+                    {{/with}}
+                  {{/each}}
+                </ul>
 								<p>Download <a href="{{global.download_link}}">EasyBuider</a>, unzip and run <code>EasyWeb Builder.exe</code> file</p>
 								<p>Sign up / Sign in when EasyBuilder started. This account contains information of websites your owned or managed  </p>
 

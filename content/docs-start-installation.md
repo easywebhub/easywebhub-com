@@ -5,7 +5,7 @@
     "tag": [],
     "layout": "docs-item.html",
     "title": "Installation",
-    "description": "",
+    "description": "Sign up / Sign in when EasyBuilder started. This account contains information of websites your owned or managed",
     "date": "2016-08-25 17:01:04"
 }
 ---
