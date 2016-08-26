@@ -1,7 +1,9 @@
 {
     "sortBy": "date",
     "reverse": false,
-    "metadata": {},
+      "metadata": {
+    	"name" : "Content"
+    },
     "displayName": "document.content",
     "perPage": 10,
     "noPageOne": true,
