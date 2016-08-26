@@ -91,19 +91,13 @@
 		<section id="content">
 
 			<div class="content-wrap nopadding">
-
 				<div id="docs" class="container-fullwidth clearfix">
 
 					<div class="docs-navigation">
 
 						<ul>
 							{{#with (lookupCategory AllCategory 'document')}}
-								<li><a href="#{{this}}">BBB</a>
-								{{#each metatata.children}}
-									<li><a href="#{{this}}">BBB {{this}}</a>
-								{{/each}}
-							{{/with}}
-							{{#with (lookupCategory AllCategory 'document')}}
+								{{! {{#sortBy this.children "perPage"}} 
 								{{#each this.children}}
 									<li><a href="#{{displayName}}">{{metadata.name}}</a>
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
@@ -112,7 +106,8 @@
 												{{/each}}
 										</ul>
 								 </li>
-								{{/each}}
+								 {{/each}}
+								{{! {{/sortBy}}
 							{{/with}}
 						</ul>
 
