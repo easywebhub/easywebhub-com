@@ -99,13 +99,13 @@
 						<ul>
 							{{#with (lookupCategory AllCategory 'document')}}
 								{{#each this.children}}
-									<li><a href="#{{this.href}}">{{this.displayName}}</a>
+									<li><a href="#{{displayName}}">{{metadata.name}}</a>
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
 												{{#each this.files}}
-													<li><a href="#" data-href="#{{this.path}}">AA {{this.title}}</a></li>
+													<li><a href="#" data-href="#{{this.path}}">{{this.title}}</a></li>
 												{{/each}}
 										</ul>
-								 </li>	
+								 </li>
 								{{/each}}
 							{{/with}}
 							<li><a href="#docs-start">Getting Started</a>
@@ -174,6 +174,19 @@
 					</div>
 
 					<div class="docs-content">
+
+						{{#with (lookupCategory AllCategory 'document')}}
+							{{#each this.children}}
+									<div id="{{displayName}}">
+									{{#each this.files}}
+										<div id="{{this.path}}" class="docs-content-inner page-section">
+		                  {{{this.description}}}
+		                </div>
+		                <div class="line"></div>
+									{{/each}}
+								</div>
+							{{/each}}
+						{{/with}}
 
 						<div id="docs-start">
               {{#each pagination.files}}
