@@ -1,7 +1,7 @@
 ---json
 {
     "slug": "docs-build-on-local",
-    "category": "document",
+    "category": "document.getttingstarted",
     "tag": [],
     "layout": "docs-item.html",
     "title": "Build on local",
