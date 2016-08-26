@@ -1,7 +1,13 @@
 {
     "sortBy": "date",
     "reverse": false,
-    "metadata": {},
+    "metadata": {
+    	"children" : [
+        	"document.getttingstarted",
+            "document.overview",
+            "document.layout"
+        ]
+    },
     "displayName": "document",
     "perPage": 10,
     "noPageOne": true,
