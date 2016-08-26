@@ -1,7 +1,9 @@
 {
     "sortBy": "date",
     "reverse": false,
-    "metadata": {},
+      "metadata": {
+    	"name" : "Deployment"
+    },
     "displayName": "document.deployment",
     "perPage": 10,
     "noPageOne": true,
