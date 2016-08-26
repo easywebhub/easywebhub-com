@@ -97,6 +97,17 @@
 					<div class="docs-navigation">
 
 						<ul>
+							{{#with (lookupCategory AllCategory 'document')}}
+								{{#each this.children}}
+									<li><a href="#{{this.href}}">{{this.displayName}}</a>
+										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
+												{{#each this.files}}
+													<li><a href="#" data-href="#{{this.path}}">AA {{this.title}}</a></li>
+												{{/each}}
+										</ul>
+								 </li>	
+								{{/each}}
+							{{/with}}
 							<li><a href="#docs-start">Getting Started</a>
 								<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
 									{{#each pagination.files}}
@@ -104,11 +115,7 @@
                   {{/each}}
 									<li><a href="#" data-href="#docs-start-color">Edit & Preview</a></li>
 									<li><a href="#" data-href="#docs-start-fonts">Deploy and finish</a></li>
-									{{#with (lookupCategory AllCategory 'document.getttingstarted')}}
-										{{#each this.files}}
-											<li><a href="#" data-href="#{{this.path}}">AA {{this.title}}</a></li>
-										{{/each}}
-									{{/with}}
+
 								</ul>
 							</li>
 							<li><a href="#docs-upgrading">Overview</a>

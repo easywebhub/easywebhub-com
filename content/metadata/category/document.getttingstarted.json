@@ -1,7 +1,9 @@
 {
     "sortBy": "date",
     "reverse": false,
-    "metadata": {},
+    "metadata": {
+    	"name" : "Getting Started"
+    },
     "displayName": "document.getttingstarted",
     "perPage": 10,
     "noPageOne": true,
