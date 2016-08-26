@@ -1,7 +1,7 @@
 ---json
 {
     "slug": "docs-create-website",
-    "category": "document",
+    "category": "document.getttingstarted",
     "tag": [],
     "layout": "docs-item.html",
     "title": "Create a website",
