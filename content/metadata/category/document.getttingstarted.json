@@ -5,7 +5,7 @@
     	"name" : "Getting Started"
     },
     "displayName": "document.getttingstarted",
-    "perPage": 10,
+    "perPage": 8,
     "noPageOne": true,
     "layout": "default.category.html",
     "first": ":categoryPath/index.html",
