@@ -5,7 +5,7 @@
     	"name" : "Content"
     },
     "displayName": "document.content",
-    "perPage": 10,
+    "perPage": 11,
     "noPageOne": true,
     "layout": "default.category.html",
     "first": ":categoryPath/index.html",
