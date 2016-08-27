@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<!-- One Page Module Specific Stylesheet -->
+	<link rel="stylesheet" href="onepage.css" type="text/css" />
+	<!-- / -->
+
+	<!-- Documentation Module Specific Stylesheet -->
+	<link rel="stylesheet" href="docs.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons/et/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons/medical/medical-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="one-page/css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Document Title
+	============================================= -->
+	<title>{{global.title}}</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="static-sticky">
+
+			<div id="header-wrap">
+
+				<div class="container-fullwidth clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="/" class="standard-logo" data-dark-logo="{{menu.logo.dark}}"><img src="" alt="Easyweb."></a>
+						<!-- <a href="index.html" class="retina-logo" data-dark-logo="one-page/images/canvasone-dark@2x.png"><img src="images/canvashelp@2x.png" alt="Canvas Logo"></a> -->
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul>
+              {{#each menu.items}}
+              <li><a href="/{{this.url}}">{{this.title}}</a></li>
+              {{/each}}
+            	</ul>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap nopadding">
+				<div id="docs" class="container-fullwidth clearfix">
+
+					<div class="docs-navigation">
+
+						<ul>
+							{{#with (lookupCategory AllCategory 'document')}}
+								
+								{{#each (sortBy this.children "perPage" )}}
+									<li><a href="#{{displayName}}">{{metadata.name}}</a>
+										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
+												{{#each this.files}}
+													<li><a href="#" data-href="#{{this.path}}">{{this.title}}</a></li>
+												{{/each}}
+										</ul>
+								 </li>
+								 {{/each}}
+							
+							{{/with}}
+						</ul>
+
+					</div>
+
+					<div class="docs-content">
+
+						{{#with (lookupCategory AllCategory 'document')}}
+							{{#each this.children}}
+									<div id="{{displayName}}">
+									{{#each this.files}}
+										<div id="{{this.path}}" class="docs-content-inner page-section">
+		                  {{{this.description}}}
+		                </div>
+		                <div class="line"></div>
+									{{/each}}
+								</div>
+							{{/each}}
+						{{/with}}
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<script>
+					jQuery(document).ready( function($){
+
+						$( "#docs" ).tabs({
+							show: { effect: "fade", duration: 400 },
+							activate:function(event,ui){
+								$('html,body').stop(true).animate({
+									'scrollTop': $('.docs-content').offset().top - 40
+								}, 1250, 'easeInOutExpo');
+							}
+						});
+
+						$('#icons-filter').typing({
+							stop: function (event, $elem) {
+								var filterValue = $elem.val(),
+									count = 0;
+
+								if( $elem.val() ) {
+
+									$(".docs-icons li").each(function(){
+										if ($(this).text().search(new RegExp(filterValue, "i")) < 0) {
+											$(this).fadeOut();
+										} else {
+											$(this).show();
+											count++
+										}
+									});
+
+									if( count > 0 ) {
+										$('#icons-filter-result').html('<strong>' + count + '</strong> Icons Found.');
+									} else {
+										$('#icons-filter-result').html('No Icons Found.');
+									}
+
+								} else {
+									$(".docs-icons li").show();
+									$('#icons-filter-result').html('');
+								}
+
+								count = 0;
+							},
+							delay: 500
+						});
+
+					});
+				</script>
+
+			</div>
+
+		</section><!-- #content end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>
