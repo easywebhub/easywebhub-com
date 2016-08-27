@@ -6,7 +6,7 @@
     "description": "Index Page",
     "backgroundBottom": {
         "image": "img/hero7.jpg",
-        "title": "Bảo EasyWeb fosters a fast, flexible <s>themes</s> websites",
+        "title": "EasyWeb fosters a fast, flexible <s>themes</s> websites",
         "name": "An open revolution framework lets you build up websites with only  HTML, CSS, JS skills",
         "btn": {
             "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
