@@ -73,10 +73,11 @@
 					<nav id="primary-menu">
 
 						<ul>
-              {{#each menu.items}}
-              <li><a href="/{{this.url}}">{{this.title}}</a></li>
-              {{/each}}
-            	</ul>
+						{{#each menu.items}}
+						<li><a href="/{{this.url}}">{{this.title}}</a></li>
+						{{/each}}
+						<li><a href="/document-vn/">Tài Liệu Tiếng Việt </a></li>
+            			</ul>
 
 					</nav><!-- #primary-menu end -->
 
@@ -102,7 +103,7 @@
 									<li><a href="#{{displayName}}">{{metadata.name}}</a>
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
 												{{#each this.files}}
-													<li><a href="#" data-href="#{{this.path}}">{{this.title}}</a></li>
+													<li><a href="#" data-href="#{{this.path}}">{{this.title-vn}}</a></li>
 												{{/each}}
 										</ul>
 								 </li>
@@ -120,7 +121,7 @@
 									<div id="{{displayName}}">
 									{{#each this.files}}
 										<div id="{{this.path}}" class="docs-content-inner page-section">
-		                  {{{this.description}}}
+		                  {{{this.description-vn}}}
 		                </div>
 		                <div class="line"></div>
 									{{/each}}
