@@ -5,7 +5,7 @@
     "tag": [],
     "layout": "docs-item.html",
     "title": "Config display text",
-    "description": "",
+    "description": "Config display text",
     "date": "2016-08-26 17:20:28"
 }
 ---
