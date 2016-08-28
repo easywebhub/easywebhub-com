@@ -2,7 +2,7 @@
     "sortBy": "date",
     "reverse": false,
     "metadata":  {
-    	"name" : "Category"
+    	"name" : "Category & Tags"
      },
     "displayName": "document.category",
     "perPage": 12,
