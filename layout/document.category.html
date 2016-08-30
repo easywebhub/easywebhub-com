@@ -97,8 +97,8 @@
 
 						<ul>
 							{{#with (lookupCategory AllCategory 'document')}}
-								
-								{{#each (sortBy this.children "perPage" )}}
+								{{! {{#sortBy this.children "perPage"}}
+								{{#each this.children}}
 									<li><a href="#{{displayName}}">{{metadata.name}}</a>
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
 												{{#each this.files}}
@@ -120,7 +120,9 @@
 									<div id="{{displayName}}">
 									{{#each this.files}}
 										<div id="{{this.path}}" class="docs-content-inner page-section">
+											{{#markdown}}
 		                  {{{this.description}}}
+											{{/markdown}}
 		                </div>
 		                <div class="line"></div>
 									{{/each}}
