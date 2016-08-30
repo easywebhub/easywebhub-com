@@ -64,8 +64,7 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="{{menu.logo.dark}}"><img src="" alt="Easyweb."></a>
-						<!-- <a href="index.html" class="retina-logo" data-dark-logo="one-page/images/canvasone-dark@2x.png"><img src="images/canvashelp@2x.png" alt="Canvas Logo"></a> -->
+						<a href="/" class="standard-logo" ><img src="{{menu.logo.dark}}" alt="Easyweb."></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -76,6 +75,7 @@
               {{#each menu.items}}
               <li><a href="/{{this.url}}">{{this.title}}</a></li>
               {{/each}}
+			  <li><a href="/document-vn/">Tài Liệu Tiếng Việt </a></li>
             	</ul>
 
 					</nav><!-- #primary-menu end -->
@@ -106,6 +106,7 @@
 										</ul>
 								 </li>
 								 {{/each}}
+							
 							{{/with}}
 						</ul>
 

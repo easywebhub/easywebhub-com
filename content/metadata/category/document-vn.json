@@ -1,0 +1,11 @@
+{
+    "sortBy": "date",
+    "reverse": false,
+    "metadata": {},
+    "displayName": "document-vn",
+    "perPage": 10,
+    "noPageOne": true,
+    "layout": "document-vn.category.html",
+    "first": ":categoryPath/index.html",
+    "path": ":categoryPath/page/:num/index.html"
+}

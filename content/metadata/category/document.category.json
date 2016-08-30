@@ -1,0 +1,13 @@
+{
+    "sortBy": "date",
+    "reverse": false,
+    "metadata":  {
+    	"name" : "Category & Tags"
+     },
+    "displayName": "document.category",
+    "perPage": 12,
+    "noPageOne": true,
+    "layout": "default.category.html",
+    "first": ":categoryPath/index.html",
+    "path": ":categoryPath/page/:num/index.html"
+}
