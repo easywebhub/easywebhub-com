@@ -5,7 +5,7 @@
     "tag": [],
     "layout": "docs-item.html",
     "title": "Installation",
-    "description": "<h3> Install EasyBuider and Sign up an account </h3>\n<p>Download  <a href=\"https://www.fshare.vn/file/8S2LIK15EAYN\">EasyBuider</a>, unzip and run <code>EasyWeb Builder.exe</code> file</p>\n\t\t\t\t\t\t\t\t<p>Sign up an EasyWeb account. This account use to manage and synchronize websites in your team. </p>\n\n<h5> Notes</h5>\n<p>EasyBuider run on Windows 64 bit (Windows 32 bit, Linux or Mac will support later)</p>\n<p>For Vietnamese users, download link from <a href=\"https://www.fshare.vn/file/8S2LIK15EAYN\">Fshare</a> for more speed</p>\n\t",
+    "description": "<h3> Install EasyBuider and Sign up an account </h3>\n<p>Download  <a href=\"https://www.fshare.vn/file/8S2LIK15EAYN\">EasyBuider</a>, unzip and run <code>EasyWeb Builder.exe</code> file</p>\n<p>Sign in or Sign up an EasyWeb account. This account use to manage and synchronize websites in your team. </p>\n\n<h5> Notes</h5>\n<p>EasyBuider run on Windows 64 bit (Windows 32 bit, Linux or Mac will support later)</p>\n<p>For Vietnamese users, download link from <a href=\"https://www.fshare.vn/file/8S2LIK15EAYN\">Fshare</a> for more speed</p>\n\t",
     "date": "2016-08-25 17:01:04",
     "title-vn": "",
     "description-vn": ""
