@@ -7,7 +7,7 @@
     "title": "How to create Category",
     "description": "",
     "date": "2016-08-30 17:07:03",
-    "title-vn": "Cách thiết lập Danh Mục",
-    "description-vn": ""
+    "title-vn": "Thiết lập Danh Mục",
+    "description-vn": "<h3>Cách Thiết lập Danh Mục</h3>"
 }
 ---
