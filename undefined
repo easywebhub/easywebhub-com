@@ -135,6 +135,8 @@
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
 													<li><a href="#" data-href="#category-init-category-tree">Init Category Tree</a></li>
 													<li><a href="#" data-href="#docs-category-overview">Overview</a></li>
+													<li><a href="#" data-href="#docs-category-how-to-use">Category how to use</a></li>
+													<li><a href="#" data-href="#docs-category-how-to-create">How to create Category</a></li>
 										</ul>
 								 </li>
 									<li><a href="#document.configuration">Configuration</a>
@@ -164,77 +166,39 @@
 
 									<div id="document.getttingstarted">
 										<div id="docs-start-installation" class="docs-content-inner page-section">
-		                  <h3> Install EasyBuider and Sign up an account </h3>
-<p>Download  <a href="https://www.fshare.vn/file/8S2LIK15EAYN">EasyBuider</a>, unzip and run <code>EasyWeb Builder.exe</code> file</p>
-<p>Sign up an EasyWeb account. This account use to manage and synchronize websites in your team. </p>
-
-<h5> Notes</h5>
-<p>EasyBuider run on Windows 64 bit (Windows 32 bit, Linux or Mac will support later)</p>
-<p>For Vietnamese users, download link from <a href="https://www.fshare.vn/file/8S2LIK15EAYN">Fshare</a> for more speed</p>
-	
+		                  
 		                </div>
 		                <div class="line"></div>
 										<div id="docs-create-website" class="docs-content-inner page-section">
-		                  <h3>Create a website</h3>
-
-<p>Start EasyBuilder and sign in with EasyWeb account. If signed in success, a landing page to manage your websites will be showed.</p>
-
-<p>Click <code>Create new site</code> button</p>
-
-<p>Select a website template from EasyWeb market, e.g <code>pillar</code></p>
-
-<p>After downloaded and created succesfully, your website is ready to use.</p>
+		                  
 		                </div>
 		                <div class="line"></div>
 										<div id="docs-build-on-local" class="docs-content-inner page-section">
-		                  <h1>Build and edit your website on local machine</h1>
-
-<p>Click <code>Build</code> button, EasyBuilder will run your website on local </p>
-
-<p>The Preview of website be showed on EasyBuider, or on your Chrome, FireFox or IE by click <code>On Browser</code> </p>
-
-<p>Click to Device Mode to view the website easily on Smartphone, Tablet modes</p>
-
-<p> Run real website on your machine is an innovation feature of EasyBuilder </p>
-<div class="container col-md-10">
-<img  class="img-thumbnail" src="/img/docs-preview-mode.png">
-</div>
-
+		                  
 		                </div>
 		                <div class="line"></div>
 										<div id="edit-preview" class="docs-content-inner page-section">
-		                  <h3> Edit your website, Preview the change</h3>
-<p>Everything showed on your website can change on local. E.g change text in Content Form and see
-it's affected on the preview website</p>
-<p>The change will be applied immediately, automatically. </p>
-<p> For more details, please follow Content and Layouts chapters </p>
-<div class="container col-md-10">
-<img  class="img-thumbnail" src="/img/docs-edit-text-home.png">
-</div>
-
-
+		                  
 		                </div>
 		                <div class="line"></div>
 										<div id="deploy-and-finish" class="docs-content-inner page-section">
-		                  <h3>Deploy preview website and public to domain</h3>
-
-<h5>Configurate where to deploy your site at beginning</h5>
-<p>Init where to store your website, free github or premium EasyWeb hosting</p>
-<p>Change your domain point to deployed hosting and <code>Set Domain</code> on EasyBuilder</p>
+		                  
 		                </div>
 		                <div class="line"></div>
 								</div>
 									<div id="document.overview">
 										<div id="docs-whats-easyweb" class="docs-content-inner page-section">
-		                  <ul>
-<li>là nền tảng giúp xây dựng website chỉ với kiến thức về <code>HMTL, CSS</code> (*) </li>
-<li>Đơn giản trong việc lập trình, rút ngắn thời gian thực hiện nhưng vẫn có được website chất lượng cao, tối ưu cho nhiều thiết bị là mục đích hướng tới của EasyWebHub</li>
-<li>Cho phép Chuyển đổi từ các nền tảng khác dễ dàng, nhanh chóng, như wordpress, joomla, drupal,...</li>
-</ul>
+		                  <p>&lt;ul&gt;
+&lt;li&gt;là nền tảng giúp xây dựng website chỉ với kiến thức về &lt;code&gt;HMTL, CSS&lt;/code&gt; (*) &lt;/li&gt;
+&lt;li&gt;Đơn giản trong việc lập trình, rút ngắn thời gian thực hiện nhưng vẫn có được website chất lượng cao, tối ưu cho nhiều thiết bị là mục đích hướng tới của EasyWebHub&lt;/li&gt;
+&lt;li&gt;Cho phép Chuyển đổi từ các nền tảng khác dễ dàng, nhanh chóng, như wordpress, joomla, drupal,...&lt;/li&gt;
+&lt;/ul&gt;</p>
+
 		                </div>
 		                <div class="line"></div>
 										<div id="advantages-of-easywebs-websites" class="docs-content-inner page-section">
-		                  Advantages of EasyWeb's websites
+		                  <p>Advantages of EasyWeb's websites</p>
+
 		                </div>
 		                <div class="line"></div>
 										<div id="overview-the-websites-structure" class="docs-content-inner page-section">
@@ -299,6 +263,14 @@ it's affected on the preview website</p>
 		                  
 		                </div>
 		                <div class="line"></div>
+										<div id="docs-category-how-to-use" class="docs-content-inner page-section">
+		                  
+		                </div>
+		                <div class="line"></div>
+										<div id="docs-category-how-to-create" class="docs-content-inner page-section">
+		                  
+		                </div>
+		                <div class="line"></div>
 								</div>
 									<div id="document.configuration">
 										<div id="configuration-config-field-type" class="docs-content-inner page-section">
@@ -306,10 +278,12 @@ it's affected on the preview website</p>
 		                </div>
 		                <div class="line"></div>
 										<div id="configuration-config-display-text" class="docs-content-inner page-section">
-		                  ### Config display text
+		                  <h3>Config display text</h3>
+<ul>
+<li>Test 1</li>
+<li>Test 2</li>
+</ul>
 
-+ Test 1
-+ Test 2
 		                </div>
 		                <div class="line"></div>
 										<div id="configuration-view-only-fields" class="docs-content-inner page-section">
