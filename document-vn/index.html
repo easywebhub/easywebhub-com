@@ -64,7 +64,7 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="/img/logo-dark.png"><img src="" alt="Easyweb."></a>
+						<a href="/" class="standard-logo" data-dark-logo="/img/logo-dark.png"><img src="/img/logo-dark.png" alt="Easyweb."></a>
 						<!-- <a href="index.html" class="retina-logo" data-dark-logo="one-page/images/canvasone-dark@2x.png"><img src="images/canvashelp@2x.png" alt="Canvas Logo"></a> -->
 					</div><!-- #logo end -->
 
@@ -100,10 +100,11 @@
 								
 									<li><a href="#document.getttingstarted">Getting Started</a>
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
+													<li><a href="#" data-href="#docs-start-installation">Cài đặt EasyBuilder</a></li>
 													<li><a href="#" data-href="#docs-create-website">Tạo mới website</a></li>
-													<li><a href="#" data-href="#docs-build-on-local">chạy trên máy cá nhân</a></li>
-													<li><a href="#" data-href="#edit-preview"></a></li>
-													<li><a href="#" data-href="#deploy-and-finish"></a></li>
+													<li><a href="#" data-href="#docs-build-on-local">Chạy website trực tiếp</a></li>
+													<li><a href="#" data-href="#edit-preview">Điều chỉnh và Kiểm tra</a></li>
+													<li><a href="#" data-href="#deploy-and-finish">Triển khai thực tế</a></li>
 										</ul>
 								 </li>
 									<li><a href="#document.overview">Overview</a>
@@ -128,8 +129,16 @@
 													<li><a href="#" data-href="#data-files"></a></li>
 													<li><a href="#" data-href="#content-form"></a></li>
 													<li><a href="#" data-href="#content-meta-files"></a></li>
-													<li><a href="#" data-href="#content-category-tag-files"></a></li>
+													<li><a href="#" data-href="#content-category-tag-files">Filter by Category and Tags</a></li>
 													<li><a href="#" data-href="#content-field-type"></a></li>
+										</ul>
+								 </li>
+									<li><a href="#document.category">Category &amp; Tags</a>
+										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
+													<li><a href="#" data-href="#category-init-category-tree"></a></li>
+													<li><a href="#" data-href="#docs-category-overview">Giới thiệu sơ lược</a></li>
+													<li><a href="#" data-href="#docs-category-how-to-use">Sử dụng Danh Mục </a></li>
+													<li><a href="#" data-href="#docs-category-how-to-create">Thiết lập Danh Mục</a></li>
 										</ul>
 								 </li>
 									<li><a href="#document.configuration">Configuration</a>
@@ -158,28 +167,72 @@
 					<div class="docs-content">
 
 									<div id="document.getttingstarted">
+										<div id="docs-start-installation" class="docs-content-inner page-section">
+		                  <h3>Cài đặt EasyBuilder và Đăng ký EasyWeb account</h3>
+<ol>
+<li><p>Download  <a href="https://www.fshare.vn/file/8S2LIK15EAYN">EasyBuider</a>, giải nén và chạy file <code>EasyWeb Builder.exe</code></p></li>
+<li><p>Đăng ký tài khoản EasyWeb miễn phí. Tài khoản này dùng để quản lý danh sách website bạn đang sở hữu hoặc được phân quyền truy cập,  giúp bạn chia sẻ, quản lý theo nhóm dễ dàng hơn.</p></li>
+</ol>
+<h5>Lưu ý</h5>
+<ul>
+<li><p>EasyBuider hiện tại hoạt động trên HĐH Windows 64 bit (Windows 32 bit, Linux or Mac sẽ được hỗ trợ trong thời gian tới.)</p></li>
+<li><p>Với người dùng Việt Nam, sử dụng link download từ server trong nước <a href="https://www.fshare.vn/file/8S2LIK15EAYN">Fshare</a>  để có được tốc độ cao hơn so với nước ngoài.</p></li>
+</ul>
+
+		                </div>
+		                <div class="line"></div>
 										<div id="docs-create-website" class="docs-content-inner page-section">
-		                  <h1>Tạo mới website</h1>
+		                  <h3>Tạo mới website</h3>
+<ol>
+<li><p>Khởi động và đăng nhập vào phần mềm EasyBuilder. Sau khi đăng nhập thành công, hiển thị trang quản lý tất cả website của bạn</p></li>
+<li><p>Bấm vào nút <code>Create new site</code> trên phần mềm EasyBuider.</p></li>
+<li><p>Chọn 1 website mẫu trong danh sách website mà EasyWeb cung cấp, ví dụ Pillar</p></li>
+<li><p>Sau khi download thành công, sẽ vào trang quản lý cho website vừa tạo</p></li>
+</ol>
+<ul>
+<li>Lúc này website của bạn đã sẵn sàng</li>
+</ul>
 
-<p>Bấm vào nút <code>Create new site </code> trên phần mềm EasyBuider.</p>
-
-<p>Chọn 1 website mẫu trong danh sách hiển thị ra trong popup, ví dụ Pillar</p>
-
-<p>Sau khi download về, sẽ vào trang quản trị của website này</p>
-
-<p>Lúc nào bạn đã có 1 website cho chính mình</p>
 		                </div>
 		                <div class="line"></div>
 										<div id="docs-build-on-local" class="docs-content-inner page-section">
-		                  <h1>Chạy trên máy cá nhân</h1>
+		                  <h3>Chạy website và chỉnh sửa trên máy cá nhân</h3>
+<ul>
+<li><p>Bấm vào <code>Build</code>, EasyBuilder sẽ khởi động và chạy website trên máy cá nhân.</p></li>
+<li><p>Website của bạn sẽ hiển thị lên ngay trên EasyBuilder. Nhưng bạn cũng có thể xem nó trên trình duyệt  Chrome, FireFox hoặc IE bằng cách bấm vào  <code>On Browser</code></p></li>
+<li><p>Trên EasyBuilder, có nhiều chế độ thiết bị để hiển thị Website của bạn, như màn hình Smartphones, tablets, ...</p></li>
+<li><p>Chạy website và xem ngay trên máy cá nhân là tính năng nổi trội của công cụ EasyBuilder</p></li>
+</ul>
+<p><img src="/img/docs-preview-mode.png" alt=""></p>
+
 		                </div>
 		                <div class="line"></div>
 										<div id="edit-preview" class="docs-content-inner page-section">
-		                  
+		                  <h3>Điều chỉnh nội dung và kiểm tra thay đổi ngay lập tức</h3>
+<p>Bạn có thể thay đổi bất kì thông tin hiển thị trên website, từ nội dung tới giao diện hiển thị.&lt;/p&gt;</p>
+<p>Mọi thay đổi khi được lưu trên EasyBuilder (bấm vào nút <code>Save hoặc Ctrl + S</code>) sẽ được áp dụng
+ngay lập tức trên website</p>
+<p>Trong hình bên dưới,  thử xóa từ <code>themes</code> trên Content Form của EasyBuilder và xem dòng chữ này biến mất trên website. Tham khảo các phần bên dưới để biết cách thay đổi website theo ý muốn của bạn.</p>
+<p><img src="/img/docs-edit-text-home.png" alt=""></p>
+
 		                </div>
 		                <div class="line"></div>
 										<div id="deploy-and-finish" class="docs-content-inner page-section">
-		                  
+		                  <h3>Triển khai website vào thực tế</h3>
+<blockquote>
+<p>Website của bạn hiển thị tại máy cá nhân như thế nào, sẽ hiển thị trên thực tế như vậy. Do đó cần kiểm tra kĩ trước khi triển khai. Và sử dụng domain (hoặc sub-domain) cá nhân để truy cập</p>
+</blockquote>
+<ul>
+<li><p>Bấm <code>Init</code> thiết lập thông tin ban đầu cho việc Lưu trữ dữ liệu trên server cũng như triển khai vào thực tế</p></li>
+<li><p>Hiện tại chỉ có lựa chọn dùng github để lưu, bạn cần tạo account github.com cũng như tạo ra 1 repository mới hoàn toàn và điền các thông tin tương ứng vào form</p></li>
+<li><p>Thiết lập domain riêng của bạn, bằng cách bấm vào <code>Set Domain</code> nằm trong dropdown nằm kề <code>Deploy</code></p></li>
+<li><p>Sau khi Init thành công, chỉ cần bấm &lt;code&gt;Deploy&lt;/code&gt; để triển khai website lên Github</p></li>
+<li><p>các lần sau chỉ cần <code>Sync</code> lưu trữ dữ liệu để tiếp tục công việc trên máy khác</p></li>
+</ul>
+<blockquote>
+<p>Url của Github có dạng folder, <code>xxx.github.io/repo-name/</code>, nên website sẽ không hiển thị đúng như Xem trên máy cá nhân. Cần sử dụng domain riêng của bạn để hoàn tất việc triển khai.</p>
+</blockquote>
+
 		                </div>
 		                <div class="line"></div>
 								</div>
@@ -237,11 +290,52 @@
 		                </div>
 		                <div class="line"></div>
 										<div id="content-category-tag-files" class="docs-content-inner page-section">
-		                  
+		                  <h3>Phân loại theo Danh Mục (Category) hay Chủ đề (Tags)</h3>
+<ul>
+<li><p>Các nội dung như bài viết, sản phẩm thường phân loại theo Danh Mục (Category) hay Chủ đề (Tags).
+Như vậy, sẽ có một số bài viết cùng thuộc một danh mục, và danh mục này có thể thuộc một danh mục lớn hơn theo cấu trúc (cây) Danh Mục (Category Tree) của website.</p></li>
+<li><p>Các nội dung cũng được phân chia theo Chủ Đề (tags). Tuy nhiên hơi khác với Danh Mục, không có cấu trúc cây cho Chủ Đề, các Chủ Đề là độc lập không phục thuộc lẫn nhau.  Và một nội dung có thể thuộc nhiều chủ đề khác nhau</p></li>
+<li><p>Tóm gọn, nếu muốn phân loại nội dung theo cấu trúc, thứ tự cây, hãy sử dụng Danh Mục. Còn muốn
+gom nhóm theo nhiều Chủ Đề, chúng ta sẽ sử dụng Tags. EasyWeb hỗ trợ song song hai kiểu Category và Tags tùy theo nội dung của từng website</p></li>
+</ul>
+<h5>Chi tiết về cách thiết lập Danh Mục và Chủ Đề, tham khảo phần &quot;Category&quot; và &quot;Tags</h5>
+
 		                </div>
 		                <div class="line"></div>
 										<div id="content-field-type" class="docs-content-inner page-section">
 		                  
+		                </div>
+		                <div class="line"></div>
+								</div>
+									<div id="document.category">
+										<div id="category-init-category-tree" class="docs-content-inner page-section">
+		                  
+		                </div>
+		                <div class="line"></div>
+										<div id="docs-category-overview" class="docs-content-inner page-section">
+		                  <p>&lt;h3&gt;Tổng quan về Category (Danh mục) và Tags (tạm gọi là chủ đề)&lt;/h3&gt;</p>
+<p>&lt;blockquote&gt;
+Category (Danh Mục) là phần không thể thiếu để phân loại nội dung. Ngoài các trang đơn, website thường có nhiều trang có cấu trúc dữ liệu và giao diện giống nhau và được gom chung thuộc một Danh Mục cụ thể.
+&lt;br /&gt;
+Danh Mục của Website có thể lồng nhau, Danh Mục con nằm trong Danh Mục lớn hơn, chia thành nhiều cấp theo cấp trúc Cây (Category Tree).Những website Ecommerce là ví dụ rõ ràng nhất cho cấu trúc nhiều cấp Cây Danh Mục.
+&lt;/blockquote&gt;</p>
+<p>&lt;blockquote&gt;
+Khác với việc mỗi trang chỉ thuộc một Danh Mục duy nhất,  nhiều Tags (Chủ Đề) có thể thiết lập cho 1 trang. Chủ đề sẽ giúp cho việc truy cập vào các trang liên quan nhanh chóng chỉ với 1 lần truy cập, thay vì phải đi nhiều cấp như Danh Mục
+&lt;/blockquote&gt;</p>
+<p>&lt;blockquote&gt;Category và Tags của EasyWeb được xây dựng dựa trên các tính năng Category và Tags của các framewok nổi tiếng như Wordpress, và đủ sức đáp ứng nhiều yêu cầu cấu trúc khác nhau của website&lt;/blockquote&gt;</p>
+<p>&lt;blockquote&gt;EasyWeb sử dụng 2 biến mặc định &lt;code&gt;AllCategory, AllTags&lt;/code&gt;
+để quản lý chứa tất cả các Danh Mục và Chủ Đề trong website. &lt;/blockquote&gt;</p>
+
+		                </div>
+		                <div class="line"></div>
+										<div id="docs-category-how-to-use" class="docs-content-inner page-section">
+		                  <h3>Sử dụng Danh Mục</h3>
+
+		                </div>
+		                <div class="line"></div>
+										<div id="docs-category-how-to-create" class="docs-content-inner page-section">
+		                  <p>&lt;h3&gt;Cách Thiết lập Danh Mục&lt;/h3&gt;</p>
+
 		                </div>
 		                <div class="line"></div>
 								</div>
