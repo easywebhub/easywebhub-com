@@ -1,13 +1,13 @@
 ---json
 {
     "slug": "docs-category-how-to-create",
+    "layout": "docs-item.html",
     "category": "document.category",
     "tag": [],
-    "layout": "docs-item.html",
     "title": "How to create Category",
-    "description": "",
-    "date": "2016-08-30 17:07:03",
     "title-vn": "Thiết lập Danh Mục",
-    "description-vn": "<h3>Cách Thiết lập Danh Mục</h3>"
+    "description": "",
+    "description-vn": "### Thiết lập Danh Mục cho nội dung có sẵn\n\n* Trong Content Form, chọn lựa `Category` tương ứng trong danh sách hỗ trợ cho bài viết có sẵn.\n\n\n",
+    "date": "2016-08-30 17:07:03"
 }
 ---
