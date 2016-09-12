@@ -8,6 +8,6 @@
     "title-vn": "Thiết lập Danh Mục",
     "description": "",
     "description-vn": "### Thiết lập Danh Mục cho nội dung có sẵn\n\n* Trong Content Form, chọn lựa `Category` tương ứng trong danh sách hỗ trợ cho bài viết có sẵn.\n\n\n",
-    "date": "2016-08-30 17:07:03"
+    "date": "20-08-2016 17:07:03"
 }
 ---
