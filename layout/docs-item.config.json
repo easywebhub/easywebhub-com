@@ -39,10 +39,9 @@
         "required": false
     },
     {
+        "name": "title-vn",
+        "displayName": "title-vn",
         "type": "Text",
-        "displayType": "MarkDown",
-        "name": "description",
-        "displayName": "description",
         "validations": [],
         "viewOnly": false,
         "required": false
@@ -66,9 +65,10 @@
         "required": false
     },
     {
-        "name": "title-vn",
-        "displayName": "title-vn",
         "type": "Text",
+        "displayType": "MarkDown",
+        "name": "description",
+        "displayName": "description",
         "validations": [],
         "viewOnly": false,
         "required": false
