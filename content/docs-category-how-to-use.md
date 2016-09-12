@@ -1,13 +1,13 @@
 ---json
 {
     "slug": "docs-category-how-to-use",
+    "layout": "docs-item.html",
     "category": "document.category",
     "tag": [],
-    "layout": "docs-item.html",
     "title": "Category how to use",
-    "description": "",
-    "date": "2016-08-30 17:05:19",
     "title-vn": "Sử dụng Danh Mục ",
-    "description-vn": "### Sử dụng Danh Mục "
+    "description": "",
+    "description-vn": "### Sử dụng Danh Mục ",
+    "date": "20-08-2030 17:10:19"
 }
 ---
