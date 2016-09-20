@@ -21,8 +21,7 @@
 **Step 1: Using ```html, css, js``` source from SumoLanding template**
 
  1. Create new website "SumoLanding" with Standard selection
- 2. copy ```/assets/*``` of SumoLanding template into folder
-```/asset/assets/*``` (after deleted all old files)
+ 2. copy ```/assets/*``` of SumoLanding template into folder ```/asset/assets/*``` (after deleted all old files)
  3. replace ```/layout/index.html``` by ```index.html``` of SumoLanding template 
  4. Build Website and Preview "On Browser" to see local website
 ![](https://github.com/easywebhub/sumolanding/blob/gh-pages/img/build-website.png?raw=true)
@@ -54,6 +53,7 @@
    + Create domain (or subdomain) and point to that github repo
  + Init github repo and and account in EasyWebBuilder, and ```Refresh``` ,dropdown of ```Build``` button
  ![](https://github.com/easywebhub/sumolanding/blob/gh-pages/img/deploy-github.png?raw=true)
+ 
  + Synchronize
  + Click ```Set Domain```, dropdown of ```Deploy``` button, and fill domain name, e.g ```sumolanding.easywebhub.com```
  + then Deploy and see website on live domain http://sumolanding.easywebhub.com/

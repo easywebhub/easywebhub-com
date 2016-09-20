@@ -101,7 +101,7 @@
 									<li><a href="#{{displayName}}">{{metadata.name}}</a>
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
 												{{#each this.files}}
-													<li><a href="#" data-href="#{{this.path}}">{{this.title}}</a></li>
+													<li><a href="#" data-href="#{{path}}">{{title}}</a></li>
 												{{/each}}
 										</ul>
 								 </li>
@@ -118,7 +118,7 @@
 							{{#each this.children}}
 									<div id="{{displayName}}">
 									{{#each this.files}}
-										<div id="{{this.path}}" class="docs-content-inner page-section">
+										<div id="{{path}}" class="docs-content-inner page-section">
 		                  {{{markdown this.description}}}
 		                </div>
 		                <div class="line"></div>
