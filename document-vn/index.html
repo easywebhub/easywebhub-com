@@ -116,7 +116,7 @@
 								 </li>
 									<li><a href="#document.layouts">Layouts</a>
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-													<li><a href="#" data-href="#layout-overview"></a></li>
+													<li><a href="#" data-href="#layout-overview">Sơ lược về Layout</a></li>
 													<li><a href="#" data-href="#layouts-and-partials"></a></li>
 													<li><a href="#" data-href="#extend-a-block"></a></li>
 													<li><a href="#" data-href="#reuse-blocks"></a></li>
@@ -211,7 +211,7 @@
 										</div>
 		                				<div class="line"></div>
 										<div id="edit-preview" class="docs-content-inner page-section">
-		                  <h3>Điều chỉnh nội dung và kiểm tra thay đổi ngay lập tức</h3>
+										<h3>Điều chỉnh nội dung và kiểm tra thay đổi ngay lập tức</h3>
 <p>Bạn có thể thay đổi bất kì thông tin hiển thị trên website, từ nội dung tới giao diện hiển thị.</p></p>
 <p>Mọi thay đổi khi được lưu trên EasyBuilder (bấm vào nút <code>Save hoặc Ctrl + S</code>) sẽ được áp dụng
 ngay lập tức trên website</p>
@@ -255,7 +255,60 @@ ngay lập tức trên website</p>
 								</div>
 									<div id="document.layouts">
 										<div id="layout-overview" class="docs-content-inner page-section">
-										
+										<h3>Sơ lược về Layout (giao diện) của trang web</h3>
+<h5><code>Layout</code>được định nghĩa là tập hợp <code>HTML, CSS</code> code dùng để hiển thị giao diện của một trang web. Giao diện hiển thị cho người dùng hoàn toàn được quyết định bởi cách lập trình, xây dựng Layout.</h5>
+<blockquote>
+<p>EasyWeb cho phép bạn tự do phát triển <code>Layout</code> cho website của mình mà không phụ thuộc vào server, <code>PHP, Asp.Net, Java,...</code> như các nền tảng lập trình web hiện tại.</p>
+</blockquote>
+<h5>Dữ liệu định nghĩa trong <code>Content</code> cũng được dễ dàng hiển thị ra <code>Layout</code> bằng cách sử dụng thư viện HandleBarJS. Ví dụ cơ bản</h5>
+<ul>
+<li>Định nghĩa biến trong Content</li>
+</ul>
+<pre><code>&quot;tieu-de&quot; : &quot;Đây là website của bạn&quot;
+</code></pre>
+<ul>
+<li>Lấy dữ liệu của biến này trong phần Layout</li>
+</ul>
+<pre><code>&lt;h1&gt; {{tieu-de}} &lt;/h1&gt;
+</code></pre>
+<ul>
+<li>Trang web sẽ hiển thị</li>
+</ul>
+<pre><code>&lt;h1&gt;Đây là website của bạn&lt;/h1&gt;
+</code></pre>
+<p><code>{{...}}</code> là cú pháp cơ bản nhất của HandlebarJS để hiển thị dữ liệu được định nghĩa trong <code>Content</code> ra <code>Layout</code>.</p>
+<h4>Danh sách các cú pháp thường dùng</h4>
+<ul>
+<li><p>Binding dữ liệu cơ bản</p>
+<ul>
+<li><code>{{...}}</code> lấy dữ liệu cơ bản</li>
+<li><code>{{{...}}}</code> lấy dữ liệu nhưng encode <code>HTML,CSS</code></li>
+</ul></li>
+<li><h2>Binding đối tượng</h2>
+<pre><code>&quot;đối tượng&quot; : {
+  &quot;thuộc-tính-1&quot; : &quot;giá trị&quot;
+}
+</code></pre>
+<ul>
+<li>Sử dụng dấu <code>.</code>,  `{{đối-tượng.thuộc-tính-1}}</li>
+</ul></li>
+<li><p>Binding array:</p></li>
+</ul>
+<pre><code>&quot;đối-tượng&quot; : [
+  {},
+  {}
+]
+</code></pre>
+<ul>
+<li>Sử dụng dấu <code>.[:num]</code></li>
+<li>Lặp giữa các phần tử, sử dụng <code>{{#each}} ... {{/each}}</code></li>
+</ul>
+<pre><code>&lt;h2&gt;{{đối-tượng.[0]}}&lt;/h2&gt;  //cho phần tử đầu tiên
+{{#each đối-tượng}}
+  &lt;li&gt;{{this}}&lt;li&gt;
+{{/each}}
+</code></pre>
+
 										</div>
 		                				<div class="line"></div>
 										<div id="layouts-and-partials" class="docs-content-inner page-section">
@@ -415,28 +468,79 @@ Sau đây là 1 đoạn HTML code của trang Danh Mục</li>
 										</div>
 		                				<div class="line"></div>
 										<div id="docs-category-overview" class="docs-content-inner page-section">
-		                  <p><h3>Tổng quan về Category (Danh mục) và Tags (tạm gọi là chủ đề)</h3></p>
+										<h3>Tổng quan về Category (Danh mục) và Tags (tạm gọi là chủ đề)</h3>
 <blockquote>
-  Category (Danh Mục) là phần không thể thiếu để phân loại nội dung. Ngoài các trang đơn, website thường có nhiều trang có cấu trúc dữ liệu và giao diện giống nhau và được gom chung thuộc một Danh Mục cụ thể. 
-    <br />
-    Danh Mục của Website có thể lồng nhau, Danh Mục con nằm trong Danh Mục lớn hơn, chia thành nhiều cấp theo cấp trúc Cây (Category Tree).Những website Ecommerce là ví dụ rõ ràng nhất cho cấu trúc nhiều cấp Cây Danh Mục.
+<p>Category (Danh Mục) là phần không thể thiếu để phân loại nội dung. Ngoài các trang đơn, website thường có nhiều trang có cấu trúc dữ liệu và giao diện giống nhau và được gom chung thuộc vào một Danh Mục cụ thể.</p>
 </blockquote>
-<blockquote>
-  Khác với việc mỗi trang chỉ thuộc một Danh Mục duy nhất,  nhiều Tags (Chủ Đề) có thể thiết lập cho 1 trang. Chủ đề sẽ giúp cho việc truy cập vào các trang liên quan nhanh chóng chỉ với 1 lần truy cập, thay vì phải đi nhiều cấp như Danh Mục
-</blockquote>
+<ul>
+<li><p>Danh Mục của Website có thể lồng nhau, Danh Mục con nằm trong Danh Mục lớn hơn, chia thành nhiều cấp theo cấp trúc Cây (Category Tree).Những website Ecommerce là ví dụ rõ ràng nhất cho cấu trúc nhiều cấp Cây Danh Mục.</p></li>
+<li><p>Khác với việc mỗi trang chỉ thuộc một Danh Mục duy nhất,  nhiều Tags (Chủ Đề) có thể thiết lập cho 1 trang. Chủ đề sẽ giúp cho việc truy cập vào các trang liên quan nhanh chóng chỉ với 1 lần truy cập, thay vì phải đi nhiều cấp như Danh Mục</p></li>
+</ul>
 <blockquote>Category và Tags của EasyWeb được xây dựng dựa trên các tính năng Category và Tags của các framewok nổi tiếng như Wordpress, và đủ sức đáp ứng nhiều yêu cầu cấu trúc khác nhau của website</blockquote>
-<blockquote>EasyWeb sử dụng 2 biến mặc định <code>AllCategory, AllTags</code>
-để quản lý chứa tất cả các Danh Mục và Chủ Đề trong website. </blockquote>
-
-		                </div>
-		                <div class="line"></div>
-										<div id="docs-category-how-to-use" class="docs-content-inner page-section">
-		                  <h3>Sử dụng Danh Mục</h3>
+<ul>
+<li>EasyWeb sử dụng 2 biến mặc định <code>AllCategory, AllTags</code> để quản lý chứa tất cả các Danh Mục và Chủ Đề trong website.</li>
+</ul>
 
 										</div>
 		                				<div class="line"></div>
 										<div id="docs-category-how-to-create" class="docs-content-inner page-section">
-		                  <p><h3>Cách Thiết lập Danh Mục</h3></p>
+										<h3>Tạo mới Danh Mục</h3>
+<ul>
+<li>Bấm vào <code>Category</code> để tạo mới Danh Mục. Điền tên của Danh Mục vào trường <code>displayName</code>, <code>fileName</code> tương ứng được tạo ra.</li>
+</ul>
+<blockquote>
+<p>EasyWeb sử dụng cú pháp <code>.</code> khi đặt tên <code>fileName</code> để tạo mối quan hệ giữa hai Danh Mục.
+Nếu muốn tạo Danh Mục con, hãy đặt tên sao cho <code>fileName</code> có cấu trúc <code>danh-muc.danh-muc-con.json</code>. Để làm được điều này, <code>displayName</code> nhập vào có thể chưa hợp lý, nhưng chúng ta có thể điều chỉnh sau.</p>
+</blockquote>
+<ul>
+<li>Danh Mục vừa tạo mới sẽ hiển thị trong tab <code>Meta</code>, chứa tất cả danh mục của website</li>
+</ul>
+<h3>Thiết lập Trang Danh Mục</h3>
+<blockquote>
+<p>Ngoài việc gom nhóm bài chi tiết, Danh Mục có thể được hiển thị trên website dưới 1 trang Danh Mục, là trang tổng hợp danh sách bài chi tiết thuộc danh mục đó.
+Trang này cho phép phân trang nếu số lượng bài chi tiết quá nhiều.Và có thể chứa dữ liệu riêng cho chính Danh Mục đó, như banner, hình ảnh, ...</p>
+</blockquote>
+<ul>
+<li>Dữ liệu của Danh Mục gồm các trường thông tin</li>
+</ul>
+<pre><code>{
+    &quot;sortBy&quot;: &quot;date&quot;,
+    &quot;reverse&quot;: false,
+    &quot;metadata&quot;: {
+        &quot;name&quot; : &quot;Configuration&quot;
+    },
+    &quot;displayName&quot;: &quot;document.configuration&quot;,
+    &quot;perPage&quot;: 12,
+    &quot;noPageOne&quot;: true,
+    &quot;layout&quot;: &quot;default.category.html&quot;,
+    &quot;first&quot;: &quot;:categoryPath/index.html&quot;,
+    &quot;path&quot;: &quot;:categoryPath/page/:num/index.html&quot;
+}
+</code></pre>
+<h4>Cấu hình giao diện trang Danh Mục</h4>
+<ul>
+<li><p><code>layout</code> dùng để thiết lập giao diện mà trang Danh Mục sẽ áp dụng, mặc định là <code>default.category.html</code>.</p></li>
+<li><p><code>first</code>, <code>path</code> dùng thiết lập đường dẫn tới Trang Danh Mục này, cũng như cơ chế phân trang tương ứng</p></li>
+<li><p><code>perPage</code>: số lượng bài chi tiết trong 1 page của Trang Danh Mục. Các bài viết này được sắp xếp bởi thiết lập <code>sortBy</code> áp dụng cho thuộc tính của bài viết chi tiết.</p></li>
+</ul>
+<h4>Dữ liệu của trang Danh Mục</h4>
+<blockquote>
+<p>Dữ liệu dành riêng cho trang Danh Mục được thiết lập trong <code>metadata</code> theo cấu trúc json. Bạn tùy ý bổ sung các dữ liệu này</p>
+</blockquote>
+<ul>
+<li>Ví dụ: Nếu muốn Tên hiển thị Danh Mục khác với <code>displayName</code>, có thể tạo ra 1 trường thông tin mới với dữ liệu mong muốn như bên dưới</li>
+</ul>
+<pre><code>&quot;metadata&quot;: 
+{
+    &quot;name&quot; : &quot;Configuration&quot;
+},
+</code></pre>
+<h5>Chi tiết cách sử dụng các thuộc tính này để tạo trang Danh Mục, xem hướng dẫn tiếp theo</h5>
+
+										</div>
+		                				<div class="line"></div>
+										<div id="docs-category-how-to-use" class="docs-content-inner page-section">
+										<h3>Sử dụng Danh Mục</h3>
 
 										</div>
 		                				<div class="line"></div>
