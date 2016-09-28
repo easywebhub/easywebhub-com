@@ -116,7 +116,7 @@
 								 </li>
 									<li><a href="#document.layouts">Layouts</a>
 										<ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-													<li><a href="#" data-href="#layout-overview"></a></li>
+													<li><a href="#" data-href="#layout-overview">Sơ lược về Layout</a></li>
 													<li><a href="#" data-href="#layouts-and-partials"></a></li>
 													<li><a href="#" data-href="#extend-a-block"></a></li>
 													<li><a href="#" data-href="#reuse-blocks"></a></li>
@@ -255,7 +255,60 @@ ngay lập tức trên website</p>
 								</div>
 									<div id="document.layouts">
 										<div id="layout-overview" class="docs-content-inner page-section">
-										
+										<h3>Sơ lược về Layout (giao diện) của trang web</h3>
+<h5><code>Layout</code>được định nghĩa là tập hợp <code>HTML, CSS</code> code dùng để hiển thị giao diện của một trang web. Giao diện hiển thị cho người dùng hoàn toàn được quyết định bởi cách lập trình, xây dựng Layout.</h5>
+<blockquote>
+<p>EasyWeb cho phép bạn tự do phát triển <code>Layout</code> cho website của mình mà không phụ thuộc vào server, <code>PHP, Asp.Net, Java,...</code> như các nền tảng lập trình web hiện tại.</p>
+</blockquote>
+<h5>Dữ liệu định nghĩa trong <code>Content</code> cũng được dễ dàng hiển thị ra <code>Layout</code> bằng cách sử dụng thư viện HandleBarJS. Ví dụ cơ bản</h5>
+<ul>
+<li>Định nghĩa biến trong Content</li>
+</ul>
+<pre><code>&quot;tieu-de&quot; : &quot;Đây là website của bạn&quot;
+</code></pre>
+<ul>
+<li>Lấy dữ liệu của biến này trong phần Layout</li>
+</ul>
+<pre><code>&lt;h1&gt; {{tieu-de}} &lt;/h1&gt;
+</code></pre>
+<ul>
+<li>Trang web sẽ hiển thị</li>
+</ul>
+<pre><code>&lt;h1&gt;Đây là website của bạn&lt;/h1&gt;
+</code></pre>
+<p><code>{{...}}</code> là cú pháp cơ bản nhất của HandlebarJS để hiển thị dữ liệu được định nghĩa trong <code>Content</code> ra <code>Layout</code>.</p>
+<h4>Danh sách các cú pháp thường dùng</h4>
+<ul>
+<li><p>Binding dữ liệu cơ bản</p>
+<ul>
+<li><code>{{...}}</code> lấy dữ liệu cơ bản</li>
+<li><code>{{{...}}}</code> lấy dữ liệu nhưng encode <code>HTML,CSS</code></li>
+</ul></li>
+<li><h2>Binding đối tượng</h2>
+<pre><code>&quot;đối tượng&quot; : {
+  &quot;thuộc-tính-1&quot; : &quot;giá trị&quot;
+}
+</code></pre>
+<ul>
+<li>Sử dụng dấu <code>.</code>,  `{{đối-tượng.thuộc-tính-1}}</li>
+</ul></li>
+<li><p>Binding array:</p></li>
+</ul>
+<pre><code>&quot;đối-tượng&quot; : [
+  {},
+  {}
+]
+</code></pre>
+<ul>
+<li>Sử dụng dấu <code>.[:num]</code></li>
+<li>Lặp giữa các phần tử, sử dụng <code>{{#each}} ... {{/each}}</code></li>
+</ul>
+<pre><code>&lt;h2&gt;{{đối-tượng.[0]}}&lt;/h2&gt;  //cho phần tử đầu tiên
+{{#each đối-tượng}}
+  &lt;li&gt;{{this}}&lt;li&gt;
+{{/each}}
+</code></pre>
+
 										</div>
 		                				<div class="line"></div>
 										<div id="layouts-and-partials" class="docs-content-inner page-section">
