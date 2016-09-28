@@ -1,5 +1,5 @@
 {
-    "version"  : 4,
+    "version"  : 5,
     "templates": [
         {
             "name"    : "category",
@@ -34,7 +34,7 @@
             "branch"  : "master",
             "type"    : "website",
 			"tags"    : ["blog"],
-            "themeUrl": "",
+            "themeUrl": "http://draco.easywebhub.com",
             "price"   : "Free"
         },
 	{
@@ -43,7 +43,7 @@
             "branch"  : "master",
             "type"    : "website",
 			"tags"    : ["Personal Blog"],
-            "themeUrl": "",
+            "themeUrl": "http://globalportfolio.easywebhub.com",
             "price"   : "Free"
         },
 	{
@@ -52,7 +52,7 @@
             "branch"  : "master",
             "type"    : "website",
 			"tags"    : ["Personal Blog"],
-            "themeUrl": "",
+            "themeUrl": "http://newprovidence.easywebhub.com",
             "price"   : "Free"
         },
 	{
@@ -61,7 +61,7 @@
             "branch"  : "master",
             "type"    : "website",
 			"tags"    : ["blog"],
-            "themeUrl": "",
+            "themeUrl": "http://startbootstrapagency.easywebhub.com",
             "price"   : "Free"
         }
 	    
