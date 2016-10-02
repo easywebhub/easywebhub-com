@@ -5,7 +5,7 @@
     "title": "EasyWebHub Home",
     "description": "Index Page",
     "backgroundBottom": {
-        "image": "img/hero7.jpg",
+        "image": "img/hero8.jpg",
         "title": "EasyWeb fosters fast, flexible websites Bảo",
         "name": "An open framework lets you build up websites with only  HTML, CSS, JS skills",
         "btn": {
