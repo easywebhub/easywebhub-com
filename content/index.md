@@ -5,8 +5,8 @@
     "title": "EasyWebHub Home",
     "description": "Index Page",
     "backgroundBottom": {
-        "image": "img/hero8.jpg",
-        "title": "EasyWeb fosters fast, flexible websites Bảo",
+        "image": "img/hero7.jpg",
+        "title": "EasyWeb fosters fast, flexible websites",
         "name": "An open framework lets you build up websites with only  HTML, CSS, JS skills",
         "btn": {
             "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
