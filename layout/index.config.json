@@ -21,17 +21,20 @@
         "required": false
     },
     {
+        "type": "Text",
+        "displayType": "LongText",
         "name": "description",
         "displayName": "description",
-        "type": "Text",
         "validations": [],
         "required": false
     },
     {
-        "name": "backgroundBottom",
-        "displayName": "backgroundBottom",
-        "type": "Object",
+        "name": "date",
+        "displayName": "date",
+        "displayType": "DateTime",
+        "type": "DateTime",
         "validations": [],
+        "viewOnly": false,
         "required": false
     },
     {
@@ -106,18 +109,17 @@
         "required": false
     },
     {
-        "name": "date",
-        "displayName": "date",
-        "displayType": "DateTime",
-        "type": "DateTime",
+        "name": "backgroundBottom",
+        "displayName": "backgroundBottom",
+        "type": "Object",
         "validations": [],
-        "viewOnly": false,
         "required": false
     },
     {
-        "name": "lang",
-        "displayName": "lang",
         "type": "Text",
+        "displayType": "ShortText",
+        "name": "lang",
+        "displayName": "Ngôn ngữ",
         "validations": [],
         "viewOnly": false,
         "required": false
