@@ -33,6 +33,14 @@
         "viewOnly": false
     },
     {
+        "name": "Date",
+        "displayName": "Date",
+        "type": "DateTime",
+        "validations": [],
+        "viewOnly": false,
+        "required": false
+    },
+    {
         "name": "description",
         "displayName": "description",
         "type": "Text",
@@ -45,14 +53,6 @@
         "displayName": "permalink",
         "type": "Boolean",
         "validations": [],
-        "required": false
-    },
-    {
-        "name": "Date",
-        "displayName": "Date",
-        "type": "DateTime",
-        "validations": [],
-        "viewOnly": false,
         "required": false
     }
 ]
