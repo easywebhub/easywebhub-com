@@ -4,106 +4,387 @@
         "displayName": "slug",
         "type": "Text",
         "validations": [],
-        "required": false
+        "required": false,
+        "viewOnly": true
     },
     {
         "name": "layout",
         "displayName": "layout",
         "type": "Text",
         "validations": [],
-        "required": false
-    },
-    {
-        "name": "title",
-        "displayName": "title",
-        "type": "Text",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "description",
-        "displayName": "description",
-        "type": "Text",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "backgroundBottom",
-        "displayName": "backgroundBottom",
-        "type": "Object",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "sectionInfo",
-        "displayName": "sectionInfo",
-        "type": "Array",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "sectionInfoB",
-        "displayName": "sectionInfoB",
-        "type": "Array",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "sectionInfoD",
-        "displayName": "sectionInfoD",
-        "type": "Array",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "sectionInfoE",
-        "displayName": "sectionInfoE",
-        "type": "Object",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "sectionInfoG",
-        "displayName": "sectionInfoG",
-        "type": "Object",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "sectionInfoH",
-        "displayName": "sectionInfoH",
-        "type": "Array",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "sectionInfoA",
-        "displayName": "sectionInfoA",
-        "type": "Object",
-        "validations": [],
-        "required": false
-    },
-    {
-        "name": "sectionAboutDev",
-        "displayName": "sectionAboutDev",
-        "type": "Object",
-        "validations": [],
-        "required": false
+        "required": false,
+        "viewOnly": true
     },
     {
         "name": "category",
         "displayName": "category",
         "type": "Text",
         "validations": [],
-        "viewOnly": false,
-        "required": false
+        "required": false,
+        "viewOnly": false
     },
     {
         "name": "tag",
         "displayName": "tag",
+        "type": "Text",
+        "validations": [],
+        "required": false,
+        "viewOnly": false
+    },
+    {
+        "name": "title",
+        "displayName": "title",
+        "type": "Text",
+        "validations": [],
+        "required": false,
+        "viewOnly": false
+    },
+    {
+        "name": "description",
+        "displayName": "description",
+        "type": "Text",
+        "validations": [],
+        "required": false,
+        "viewOnly": false
+    },
+    {
+        "name": "sectionInfo",
+        "displayName": "sectionInfo",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": [
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "steps",
+                "displayName": "steps",
+                "type": "Array",
+                "validations": [],
+                "required": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "backgroundBottom",
+        "displayName": "backgroundBottom",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": [
+            {
+                "name": "image",
+                "displayName": "image",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "btn",
+                "displayName": "btn",
+                "type": "Object",
+                "validations": [],
+                "required": false,
+                "children": [
+                    {
+                        "name": "url",
+                        "displayName": "url",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
+            },
+            {
+                "name": "modelvideo",
+                "displayName": "modelvideo",
+                "type": "Object",
+                "validations": [],
+                "required": false,
+                "children": [
+                    {
+                        "name": "icon",
+                        "displayName": "icon",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "title",
+                        "displayName": "title",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "sectionInfoB",
+        "displayName": "sectionInfoB",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": [
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            }
+        ]
+    },
+    {
+        "name": "sectionInfoD",
+        "displayName": "sectionInfoD",
         "type": "Array",
         "validations": [],
-        "required": false
+        "required": false,
+        "children": []
+    },
+    {
+        "name": "sectionInfoE",
+        "displayName": "sectionInfoE",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": [
+            {
+                "name": "image",
+                "displayName": "image",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "em",
+                "displayName": "em",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "feature",
+                "displayName": "feature",
+                "type": "Array",
+                "validations": [],
+                "required": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "sectionInfoG",
+        "displayName": "sectionInfoG",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": [
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "url",
+                "displayName": "url",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "btn",
+                "displayName": "btn",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            }
+        ]
+    },
+    {
+        "name": "sectionInfoH",
+        "displayName": "sectionInfoH",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": [
+            {
+                "name": "listImages",
+                "displayName": "listImages",
+                "type": "Array",
+                "validations": [],
+                "required": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "sectionInfoA",
+        "displayName": "sectionInfoA",
+        "type": "Object",
+        "validations": [],
+        "viewOnly": false,
+        "required": false,
+        "children": [
+            {
+                "name": "image",
+                "displayName": "image",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "icon",
+                "displayName": "icon",
+                "type": "Array",
+                "validations": [],
+                "required": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "sectionAboutDev",
+        "displayName": "sectionAboutDev",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": [
+            {
+                "name": "image",
+                "displayName": "image",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            }
+        ]
     },
     {
         "name": "date",
@@ -127,6 +408,7 @@
         "displayName": "sectionInfoF",
         "type": "Array",
         "validations": [],
-        "required": false
+        "required": false,
+        "children": []
     }
 ]
