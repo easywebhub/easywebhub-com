@@ -12,8 +12,8 @@
         "displayName": "layout",
         "type": "Text",
         "validations": [],
-        "viewOnly": true,
-        "required": false
+        "required": false,
+        "viewOnly": true
     },
     {
         "name": "title",
@@ -21,7 +21,8 @@
         "type": "Text",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "displayType": "Date"
     },
     {
         "name": "url",
@@ -37,8 +38,7 @@
         "type": "Text",
         "validations": [],
         "viewOnly": false,
-        "required": false,
-        "displayType": "Date"
+        "required": false
     },
     {
         "name": "permalink",
@@ -48,9 +48,8 @@
         "required": false
     },
     {
-        "name": "date",
-        "displayName": "date",
-        "displayType": "DateTime",
+        "name": "Date",
+        "displayName": "Date",
         "type": "DateTime",
         "validations": [],
         "viewOnly": false,
