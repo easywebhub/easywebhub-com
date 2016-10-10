@@ -48,6 +48,98 @@
         "viewOnly": false
     },
     {
+        "name": "backgroundBottom",
+        "displayName": "backgroundBottom",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": [
+            {
+                "name": "image",
+                "displayName": "image",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "modelvideo",
+                "displayName": "modelvideo",
+                "type": "Object",
+                "validations": [],
+                "required": false,
+                "children": [
+                    {
+                        "name": "icon",
+                        "displayName": "icon",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "title",
+                        "displayName": "title",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
+            },
+            {
+                "name": "btn",
+                "displayName": "btn",
+                "type": "Object",
+                "validations": [],
+                "required": false,
+                "children": [
+                    {
+                        "name": "url",
+                        "displayName": "url",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "validations": [],
+                "required": false,
+                "children": [],
+                "viewOnly": false
+            }
+        ]
+    },
+    {
         "name": "sectionInfo",
         "displayName": "sectionInfo",
         "type": "Object",
@@ -75,41 +167,9 @@
                 "displayName": "steps",
                 "type": "Array",
                 "validations": [],
+                "viewOnly": false,
                 "required": false,
                 "children": []
-            }
-        ]
-    },
-    {
-        "name": "backgroundBottom",
-        "displayName": "backgroundBottom",
-        "type": "Object",
-        "validations": [],
-        "required": false,
-        "children": [
-            {
-                "name": "image",
-                "displayName": "image",
-                "type": "Text",
-                "validations": [],
-                "viewOnly": false,
-                "required": false
-            },
-            {
-                "name": "title",
-                "displayName": "title",
-                "type": "Text",
-                "validations": [],
-                "viewOnly": false,
-                "required": false
-            },
-            {
-                "name": "name",
-                "displayName": "name",
-                "type": "Text",
-                "validations": [],
-                "viewOnly": false,
-                "required": false
             },
             {
                 "name": "btn",
