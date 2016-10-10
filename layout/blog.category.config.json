@@ -28,13 +28,30 @@
         "displayName": "url",
         "type": "Text",
         "validations": [],
-        "viewOnly": false,
-        "required": false
+        "required": false,
+        "viewOnly": false
     },
     {
         "name": "description",
         "displayName": "description",
         "type": "Text",
+        "validations": [],
+        "viewOnly": false,
+        "required": false,
+        "displayType": "Date"
+    },
+    {
+        "name": "permalink",
+        "displayName": "permalink",
+        "type": "Boolean",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "date",
+        "displayName": "date",
+        "displayType": "DateTime",
+        "type": "DateTime",
         "validations": [],
         "viewOnly": false,
         "required": false
