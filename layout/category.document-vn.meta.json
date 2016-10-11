@@ -1,0 +1,77 @@
+[
+    {
+        "name": "layout",
+        "displayName": "layout",
+        "type": "Text",
+        "displayType": "ShortText",
+        "validations": [],
+        "viewOnly": true,
+        "required": false
+    },
+    {
+        "name": "sortBy",
+        "displayName": "sortBy",
+        "type": "Text",
+        "displayType": "ShortText",
+        "validations": [],
+        "viewOnly": false,
+        "required": false
+    },
+    {
+        "name": "reverse",
+        "displayName": "reverse",
+        "type": "Boolean",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "metadata",
+        "displayName": "metadata",
+        "type": "Object",
+        "validations": [],
+        "required": false,
+        "children": []
+    },
+    {
+        "name": "displayName",
+        "displayName": "displayName",
+        "type": "Text",
+        "displayType": "ShortText",
+        "validations": [],
+        "viewOnly": false,
+        "required": false
+    },
+    {
+        "name": "perPage",
+        "displayName": "perPage",
+        "type": "Number",
+        "displayType": "Number",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "noPageOne",
+        "displayName": "noPageOne",
+        "type": "Boolean",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "first",
+        "displayName": "first",
+        "type": "Text",
+        "displayType": "ShortText",
+        "validations": [],
+        "viewOnly": false,
+        "required": false
+    },
+    {
+        "name": "path",
+        "displayName": "path",
+        "type": "Text",
+        "displayType": "ShortText",
+        "validations": [],
+        "viewOnly": false,
+        "required": false
+    }
+]
