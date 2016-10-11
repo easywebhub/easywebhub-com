@@ -27,15 +27,6 @@
         "required": false
     },
     {
-        "name": "description",
-        "displayName": "description",
-        "type": "Text",
-        "displayType": "ShortText",
-        "validations": [],
-        "viewOnly": false,
-        "required": false
-    },
-    {
         "name": "permalink",
         "displayName": "permalink",
         "type": "Boolean",
