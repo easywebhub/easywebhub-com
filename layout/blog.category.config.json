@@ -1,21 +1,5 @@
 [
     {
-        "name": "slug",
-        "displayName": "slug",
-        "type": "Text",
-        "validations": [],
-        "viewOnly": true,
-        "required": false
-    },
-    {
-        "name": "layout",
-        "displayName": "layout",
-        "type": "Text",
-        "validations": [],
-        "required": false,
-        "viewOnly": true
-    },
-    {
         "name": "title",
         "displayName": "title",
         "type": "Text",
@@ -31,14 +15,6 @@
         "validations": [],
         "required": false,
         "viewOnly": false
-    },
-    {
-        "name": "Date",
-        "displayName": "Date",
-        "type": "DateTime",
-        "validations": [],
-        "viewOnly": false,
-        "required": false
     },
     {
         "name": "description",
