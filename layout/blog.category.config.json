@@ -27,18 +27,18 @@
         "required": false
     },
     {
-        "name": "permalink",
-        "displayName": "permalink",
-        "type": "Boolean",
+        "name": "description",
+        "displayName": "description",
+        "type": "Text",
         "displayType": "ShortText",
         "validations": [],
         "viewOnly": false,
         "required": false
     },
     {
-        "name": "description",
-        "displayName": "description",
-        "type": "Text",
+        "name": "permalink",
+        "displayName": "permalink",
+        "type": "Boolean",
         "displayType": "ShortText",
         "validations": [],
         "viewOnly": false,
