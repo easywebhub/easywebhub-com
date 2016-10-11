@@ -39,9 +39,7 @@
         "name": "permalink",
         "displayName": "permalink",
         "type": "Boolean",
-        "displayType": "ShortText",
         "validations": [],
-        "viewOnly": false,
         "required": false
     }
 ]
