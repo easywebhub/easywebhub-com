@@ -3,23 +3,25 @@
         "name": "title",
         "displayName": "title",
         "type": "Text",
+        "displayType": "Date",
         "validations": [],
         "viewOnly": false,
-        "required": false,
-        "displayType": "Date"
+        "required": false
     },
     {
         "name": "url",
         "displayName": "url",
         "type": "Text",
+        "displayType": "ShortText",
         "validations": [],
-        "required": false,
-        "viewOnly": false
+        "viewOnly": false,
+        "required": false
     },
     {
         "name": "description",
         "displayName": "description",
         "type": "Text",
+        "displayType": "ShortText",
         "validations": [],
         "viewOnly": false,
         "required": false
@@ -28,7 +30,18 @@
         "name": "permalink",
         "displayName": "permalink",
         "type": "Boolean",
+        "displayType": "ShortText",
         "validations": [],
+        "viewOnly": false,
+        "required": false
+    },
+    {
+        "name": "description",
+        "displayName": "description",
+        "type": "Text",
+        "displayType": "ShortText",
+        "validations": [],
+        "viewOnly": false,
         "required": false
     }
 ]
