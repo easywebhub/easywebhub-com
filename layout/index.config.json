@@ -40,104 +40,22 @@
         "viewOnly": false
     },
     {
+        "type": "Text",
+        "displayType": "LongText",
         "name": "description",
         "displayName": "description",
-        "type": "Text",
         "validations": [],
         "required": false,
         "viewOnly": false
     },
     {
-        "name": "backgroundBottom",
-        "displayName": "backgroundBottom",
-        "type": "Object",
+        "name": "date",
+        "displayName": "date",
+        "displayType": "Date",
+        "type": "DateTime",
         "validations": [],
-        "required": false,
-        "children": [
-            {
-                "name": "image",
-                "displayName": "image",
-                "type": "Text",
-                "validations": [],
-                "viewOnly": false,
-                "required": false
-            },
-            {
-                "name": "title",
-                "displayName": "title",
-                "type": "Text",
-                "validations": [],
-                "viewOnly": false,
-                "required": false
-            },
-            {
-                "name": "modelvideo",
-                "displayName": "modelvideo",
-                "type": "Object",
-                "validations": [],
-                "required": false,
-                "children": [
-                    {
-                        "name": "icon",
-                        "displayName": "icon",
-                        "type": "Text",
-                        "validations": [],
-                        "viewOnly": false,
-                        "required": false
-                    },
-                    {
-                        "name": "title",
-                        "displayName": "title",
-                        "type": "Text",
-                        "validations": [],
-                        "viewOnly": false,
-                        "required": false
-                    },
-                    {
-                        "name": "name",
-                        "displayName": "name",
-                        "type": "Text",
-                        "validations": [],
-                        "viewOnly": false,
-                        "required": false
-                    }
-                ]
-            },
-            {
-                "name": "btn",
-                "displayName": "btn",
-                "type": "Object",
-                "validations": [],
-                "required": false,
-                "children": [
-                    {
-                        "name": "url",
-                        "displayName": "url",
-                        "type": "Text",
-                        "validations": [],
-                        "viewOnly": false,
-                        "required": false
-                    },
-                    {
-                        "name": "name",
-                        "displayName": "name",
-                        "type": "Text",
-                        "validations": [],
-                        "viewOnly": false,
-                        "required": false
-                    }
-                ]
-            },
-            {
-                "name": "name",
-                "displayName": "name",
-                "type": "Text",
-                "validations": [],
-                "required": false,
-                "children": [],
-                "viewOnly": false
-            }
-        ]
+        "viewOnly": false,
+        "required": false
     },
     {
         "name": "sectionInfo",
@@ -447,18 +365,17 @@
         ]
     },
     {
-        "name": "date",
-        "displayName": "date",
-        "displayType": "DateTime",
-        "type": "DateTime",
+        "name": "backgroundBottom",
+        "displayName": "backgroundBottom",
+        "type": "Object",
         "validations": [],
-        "viewOnly": false,
         "required": false
     },
     {
-        "name": "lang",
-        "displayName": "lang",
         "type": "Text",
+        "displayType": "ShortText",
+        "name": "lang",
+        "displayName": "Ngôn ngữ",
         "validations": [],
         "viewOnly": false,
         "required": false
