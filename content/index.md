@@ -52,7 +52,7 @@
             "description": "Rock-solid flexibility and support. I’d expect no less from this team - EasyWeb has become my new  ‘go-to’ framework for great looking websites."
         },
         {
-            "title": "Developers",
+            "title": "Developers 123",
             "image": "img/avatar-large-3.png",
             "name": "Lucas Greenberg, Developers",
             "description": "I've been using websites built by EasyBuider for a couple of years now - they're always highly polished and backed up by amazing support."
