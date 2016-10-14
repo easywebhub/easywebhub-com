@@ -5,7 +5,7 @@
     "category": "",
     "tag": "",
     "title": "EasyWebHub Home",
-    "description": "Index Page 123",
+    "description": "Index Page",
     "date": "",
     "sectionInfo": {
         "title": "Open framework to build websites easier.",
