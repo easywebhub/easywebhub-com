@@ -20,7 +20,8 @@
         "displayName": "tag",
         "type": "Array",
         "validations": [],
-        "required": false
+        "required": false,
+        "children": []
     },
     {
         "name": "layout",

@@ -3,59 +3,156 @@
         "name": "slug",
         "displayName": "slug",
         "type": "Text",
+        "displayType": "ShortText",
         "validations": [],
-        "required": false,
-        "viewOnly": true
+        "viewOnly": true,
+        "required": false
     },
     {
         "name": "layout",
         "displayName": "layout",
         "type": "Text",
+        "displayType": "ShortText",
         "validations": [],
-        "required": false,
-        "viewOnly": true
+        "viewOnly": true,
+        "required": false
     },
     {
         "name": "category",
         "displayName": "category",
         "type": "Text",
+        "displayType": "ShortText",
         "validations": [],
-        "required": false,
-        "viewOnly": false
+        "viewOnly": false,
+        "required": false
     },
     {
         "name": "tag",
         "displayName": "tag",
         "type": "Text",
+        "displayType": "ShortText",
         "validations": [],
-        "required": false,
-        "viewOnly": false
+        "viewOnly": false,
+        "required": false
     },
     {
         "name": "title",
         "displayName": "title",
         "type": "Text",
+        "displayType": "ShortText",
         "validations": [],
-        "required": false,
-        "viewOnly": false
+        "viewOnly": false,
+        "required": false
     },
     {
-        "type": "Text",
-        "displayType": "LongText",
         "name": "description",
         "displayName": "description",
+        "type": "Text",
+        "displayType": "LongText",
         "validations": [],
-        "required": false,
-        "viewOnly": false
+        "viewOnly": false,
+        "required": false
     },
     {
         "name": "date",
         "displayName": "date",
-        "displayType": "Date",
         "type": "DateTime",
         "validations": [],
-        "viewOnly": false,
-        "required": false
+        "required": false,
+        "children": [
+            {
+                "name": "image",
+                "displayName": "image",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "btn",
+                "displayName": "btn",
+                "type": "Object",
+                "validations": [],
+                "required": false,
+                "children": [
+                    {
+                        "name": "url",
+                        "displayName": "url",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
+            },
+            {
+                "name": "modelvideo",
+                "displayName": "modelvideo",
+                "type": "Object",
+                "validations": [],
+                "required": false,
+                "children": [
+                    {
+                        "name": "icon",
+                        "displayName": "icon",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "title",
+                        "displayName": "title",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
+            }
+        ],
+        "displayType": "Date",
+        "viewOnly": false
     },
     {
         "name": "sectionInfo",
@@ -68,6 +165,7 @@
                 "name": "title",
                 "displayName": "title",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -76,6 +174,7 @@
                 "name": "name",
                 "displayName": "name",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -85,9 +184,46 @@
                 "displayName": "steps",
                 "type": "Array",
                 "validations": [],
-                "viewOnly": false,
                 "required": false,
-                "children": []
+                "children": [
+                    {
+                        "name": "title",
+                        "displayName": "title",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "description",
+                        "displayName": "description",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "data-value",
+                        "displayName": "data-value",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "icon",
+                        "displayName": "icon",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ],
+                "viewOnly": false
             },
             {
                 "name": "btn",
@@ -160,6 +296,7 @@
                 "name": "title",
                 "displayName": "title",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -168,6 +305,7 @@
                 "name": "name",
                 "displayName": "name",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -180,7 +318,44 @@
         "type": "Array",
         "validations": [],
         "required": false,
-        "children": []
+        "children": [
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "image",
+                "displayName": "image",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "description",
+                "displayName": "description",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            }
+        ]
     },
     {
         "name": "sectionInfoE",
@@ -193,6 +368,7 @@
                 "name": "image",
                 "displayName": "image",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -201,6 +377,7 @@
                 "name": "title",
                 "displayName": "title",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -209,6 +386,7 @@
                 "name": "em",
                 "displayName": "em",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -217,6 +395,7 @@
                 "name": "name",
                 "displayName": "name",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -227,7 +406,26 @@
                 "type": "Array",
                 "validations": [],
                 "required": false,
-                "children": []
+                "children": [
+                    {
+                        "name": "title",
+                        "displayName": "title",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
             }
         ]
     },
@@ -242,6 +440,7 @@
                 "name": "title",
                 "displayName": "title",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -250,6 +449,7 @@
                 "name": "name",
                 "displayName": "name",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -258,6 +458,7 @@
                 "name": "url",
                 "displayName": "url",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -266,6 +467,7 @@
                 "name": "btn",
                 "displayName": "btn",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -294,13 +496,13 @@
         "displayName": "sectionInfoA",
         "type": "Object",
         "validations": [],
-        "viewOnly": false,
         "required": false,
         "children": [
             {
                 "name": "image",
                 "displayName": "image",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -309,6 +511,7 @@
                 "name": "title",
                 "displayName": "title",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -317,6 +520,7 @@
                 "name": "name",
                 "displayName": "name",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -327,9 +531,38 @@
                 "type": "Array",
                 "validations": [],
                 "required": false,
-                "children": []
+                "children": [
+                    {
+                        "name": "class",
+                        "displayName": "class",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "title",
+                        "displayName": "title",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
             }
-        ]
+        ],
+        "viewOnly": false
     },
     {
         "name": "sectionAboutDev",
@@ -342,6 +575,7 @@
                 "name": "image",
                 "displayName": "image",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -350,6 +584,7 @@
                 "name": "title",
                 "displayName": "title",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -358,6 +593,7 @@
                 "name": "name",
                 "displayName": "name",
                 "type": "Text",
+                "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
                 "required": false
@@ -367,15 +603,109 @@
     {
         "name": "backgroundBottom",
         "displayName": "backgroundBottom",
+        "displayType": "DateTime",
         "type": "Object",
         "validations": [],
-        "required": false
+        "viewOnly": false,
+        "required": false,
+        "children": [
+            {
+                "name": "image",
+                "displayName": "image",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "title",
+                "displayName": "title",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "btn",
+                "displayName": "btn",
+                "type": "Object",
+                "validations": [],
+                "required": false,
+                "children": [
+                    {
+                        "name": "url",
+                        "displayName": "url",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
+            },
+            {
+                "name": "modelvideo",
+                "displayName": "modelvideo",
+                "type": "Object",
+                "validations": [],
+                "required": false,
+                "children": [
+                    {
+                        "name": "icon",
+                        "displayName": "icon",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "title",
+                        "displayName": "title",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    },
+                    {
+                        "name": "name",
+                        "displayName": "name",
+                        "type": "Text",
+                        "displayType": "ShortText",
+                        "validations": [],
+                        "viewOnly": false,
+                        "required": false
+                    }
+                ]
+            }
+        ]
     },
     {
-        "type": "Text",
-        "displayType": "ShortText",
         "name": "lang",
         "displayName": "Ngôn ngữ",
+        "type": "Text",
+        "displayType": "ShortText",
         "validations": [],
         "viewOnly": false,
         "required": false
@@ -386,6 +716,61 @@
         "type": "Array",
         "validations": [],
         "required": false,
-        "children": []
+        "children": [
+            {
+                "name": "dollar",
+                "displayName": "dollar",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "price",
+                "displayName": "price",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "employ",
+                "displayName": "employ",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "name",
+                "displayName": "name",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "url",
+                "displayName": "url",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            },
+            {
+                "name": "btn",
+                "displayName": "btn",
+                "type": "Text",
+                "displayType": "ShortText",
+                "validations": [],
+                "viewOnly": false,
+                "required": false
+            }
+        ]
     }
 ]

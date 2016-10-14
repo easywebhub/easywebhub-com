@@ -2,22 +2,11 @@
 {
     "slug": "",
     "layout": "index.html",
+    "category": "",
+    "tag": "",
     "title": "EasyWebHub Home",
-    "description": "Index Page",
-    "backgroundBottom": {
-        "image": "img/hero7.jpg",
-        "title": "EasyWeb fosters fast, flexible websites",
-        "name": "An open framework lets you build up websites with only  HTML, CSS, JS skills",
-        "btn": {
-            "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
-            "name": "Purchase Now"
-        },
-        "modelvideo": {
-            "icon": "video-play-icon video-play-icon--sm modal-trigger",
-            "title": "Watch Over View",
-            "name": "https://www.youtube.com/embed/4QUVRm4UZA4?autoplay=1"
-        }
-    },
+    "description": "Index Page 123",
+    "date": "",
     "sectionInfo": {
         "title": "Open framework to build websites easier.",
         "name": "EasyWeb combines Metalsmith, modern static website engine, with all the features you’ll need to launch websites of almost any kind.",
@@ -40,7 +29,16 @@
                 "data-value": "100",
                 "icon": "icon-Trophy"
             }
-        ]
+        ],
+        "btn": {
+            "url": "",
+            "name": ""
+        },
+        "modelvideo": {
+            "icon": "",
+            "title": "",
+            "name": ""
+        }
     },
     "sectionInfoB": {
         "title": "Why do people love EasyWeb?",
@@ -87,15 +85,7 @@
         "btn": "give your words"
     },
     "sectionInfoH": {
-        "listImages": [
-            "/img/partner1.png",
-            "/img/partner2.png",
-            "/img/partner3.png",
-            "/img/partner4.png",
-            "/img/partner5.png",
-            "/img/partner6.png",
-            "/img/partner7.png"
-        ]
+        "listImages": []
     },
     "sectionInfoA": {
         "image": "/img/hero8.jpg",
@@ -129,9 +119,20 @@
         "title": "Development Process",
         "name": "Our rigorous process ensures your project is managed strategically and efficiently from initial conception through to final delivery and after-sales support."
     },
-    "category": "",
-    "tag": "",
-    "date": "",
+    "backgroundBottom": {
+        "image": "img/hero7.jpg",
+        "title": "EasyWeb fosters fast, flexible websites",
+        "name": "An open framework lets you build up websites with only  HTML, CSS, JS skills",
+        "btn": {
+            "url": "http://themeforest.net/item/pillar-multipurpose-html-with-page-builder/16164427?ref=medium_rare",
+            "name": "Purchase Now"
+        },
+        "modelvideo": {
+            "icon": "video-play-icon video-play-icon--sm modal-trigger",
+            "title": "Watch Over View",
+            "name": "https://www.youtube.com/embed/4QUVRm4UZA4?autoplay=1"
+        }
+    },
     "lang": "vn",
     "sectionInfoF": [
         {
