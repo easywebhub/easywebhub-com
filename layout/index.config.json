@@ -6,7 +6,8 @@
         "displayType": "ShortText",
         "validations": [],
         "viewOnly": true,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     },
     {
         "name": "layout",
@@ -15,7 +16,8 @@
         "displayType": "ShortText",
         "validations": [],
         "viewOnly": true,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     },
     {
         "name": "category",
@@ -24,7 +26,8 @@
         "displayType": "ShortText",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     },
     {
         "name": "tag",
@@ -33,7 +36,8 @@
         "displayType": "ShortText",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     },
     {
         "name": "title",
@@ -42,7 +46,8 @@
         "displayType": "ShortText",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     },
     {
         "name": "description",
@@ -51,7 +56,8 @@
         "displayType": "LongText",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     },
     {
         "name": "date",
@@ -152,7 +158,8 @@
             }
         ],
         "displayType": "Date",
-        "viewOnly": false
+        "viewOnly": false,
+        "defaultValue": ""
     },
     {
         "name": "sectionInfo",
@@ -168,7 +175,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -177,7 +185,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "steps",
@@ -193,7 +202,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": "Nội dung tiêu đề"
                     },
                     {
                         "name": "description",
@@ -202,7 +212,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     },
                     {
                         "name": "data-value",
@@ -211,7 +222,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     },
                     {
                         "name": "icon",
@@ -220,7 +232,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     }
                 ],
                 "viewOnly": false
@@ -238,7 +251,9 @@
                         "type": "Text",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "displayType": "ShortText",
+                        "defaultValue": ""
                     },
                     {
                         "name": "name",
@@ -246,7 +261,9 @@
                         "type": "Text",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "displayType": "ShortText",
+                        "defaultValue": ""
                     }
                 ]
             },
@@ -263,7 +280,9 @@
                         "type": "Text",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "displayType": "ShortText",
+                        "defaultValue": ""
                     },
                     {
                         "name": "title",
@@ -271,7 +290,9 @@
                         "type": "Text",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "displayType": "ShortText",
+                        "defaultValue": ""
                     },
                     {
                         "name": "name",
@@ -279,7 +300,9 @@
                         "type": "Text",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "displayType": "ShortText",
+                        "defaultValue": ""
                     }
                 ]
             }
@@ -299,7 +322,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -308,7 +332,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             }
         ]
     },
@@ -326,7 +351,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "image",
@@ -335,7 +361,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -344,7 +371,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "description",
@@ -353,7 +381,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             }
         ]
     },
@@ -371,7 +400,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "title",
@@ -380,7 +410,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "em",
@@ -389,7 +420,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -398,7 +430,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "feature",
@@ -414,7 +447,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     },
                     {
                         "name": "name",
@@ -423,7 +457,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     }
                 ]
             }
@@ -443,7 +478,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -452,7 +488,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "url",
@@ -461,7 +498,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "btn",
@@ -470,7 +508,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             }
         ]
     },
@@ -505,7 +544,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "title",
@@ -514,7 +554,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -523,7 +564,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "icon",
@@ -539,7 +581,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     },
                     {
                         "name": "title",
@@ -548,7 +591,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     },
                     {
                         "name": "name",
@@ -557,7 +601,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     }
                 ]
             }
@@ -578,7 +623,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "title",
@@ -587,7 +633,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -596,7 +643,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             }
         ]
     },
@@ -616,7 +664,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "title",
@@ -625,7 +674,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -634,7 +684,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "btn",
@@ -650,7 +701,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     },
                     {
                         "name": "name",
@@ -659,7 +711,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     }
                 ]
             },
@@ -677,7 +730,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     },
                     {
                         "name": "title",
@@ -686,7 +740,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     },
                     {
                         "name": "name",
@@ -695,7 +750,8 @@
                         "displayType": "ShortText",
                         "validations": [],
                         "viewOnly": false,
-                        "required": false
+                        "required": false,
+                        "defaultValue": ""
                     }
                 ]
             }
@@ -708,7 +764,8 @@
         "displayType": "ShortText",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     },
     {
         "name": "sectionInfoF",
@@ -724,7 +781,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "price",
@@ -733,7 +791,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "employ",
@@ -742,7 +801,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "name",
@@ -751,7 +811,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "url",
@@ -760,7 +821,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             },
             {
                 "name": "btn",
@@ -769,7 +831,8 @@
                 "displayType": "ShortText",
                 "validations": [],
                 "viewOnly": false,
-                "required": false
+                "required": false,
+                "defaultValue": ""
             }
         ]
     }

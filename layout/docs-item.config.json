@@ -5,7 +5,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": true,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "layout",
@@ -13,7 +15,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": true,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "category",
@@ -21,7 +25,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "tag",
@@ -37,7 +43,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "title-vn",
@@ -45,7 +53,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "type": "Text",
@@ -54,7 +64,8 @@
         "displayName": "description",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": "Mô tả bằng tiếng anh"
     },
     {
         "type": "Text",
@@ -63,7 +74,8 @@
         "displayName": "description-vn",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     },
     {
         "name": "date",
@@ -72,6 +84,7 @@
         "type": "DateTime",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     }
 ]
