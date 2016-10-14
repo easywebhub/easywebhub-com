@@ -4,7 +4,7 @@
     "layout": "index.html",
     "category": "",
     "tag": "",
-    "title": "EasyWebHub Home",
+    "title": "Website EasyWeb",
     "description": "Index Page",
     "date": "",
     "sectionInfo": {
