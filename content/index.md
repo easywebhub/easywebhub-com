@@ -26,7 +26,7 @@
             {
                 "title": "3. One-click Deployment",
                 "description": "Nothing easier to make your websites <br class=\"hidden-sm hidden-xs\" /> available for everyone",
-                "data-value": "99",
+                "data-value": "100",
                 "icon": "icon-Trophy"
             }
         ],
