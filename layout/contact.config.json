@@ -5,7 +5,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": true,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "category",
@@ -13,14 +15,17 @@
         "type": "Text",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "tag",
         "displayName": "tag",
         "type": "Array",
         "validations": [],
-        "required": false
+        "required": false,
+        "children": []
     },
     {
         "name": "layout",
@@ -28,7 +33,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": true,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "title",
@@ -36,7 +43,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "description",
@@ -44,7 +53,9 @@
         "type": "Text",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "displayType": "ShortText",
+        "defaultValue": ""
     },
     {
         "name": "date",
@@ -53,6 +64,7 @@
         "type": "DateTime",
         "validations": [],
         "viewOnly": false,
-        "required": false
+        "required": false,
+        "defaultValue": ""
     }
 ]
