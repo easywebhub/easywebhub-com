@@ -12,7 +12,7 @@
         },
         {
             "name"    : "pillar",
-            "url"     : "https://github.com/easywebhub/thinh.pillar.git",
+            "url"     : "https://github.com/easywebhub/pillar.git",
             "branch"  : "master",
             "type"    : "website",
 			"tags"    : ["Bootstrap 3.x", "multi-purpose"],
