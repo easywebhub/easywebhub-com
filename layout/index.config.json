@@ -835,5 +835,16 @@
                 "defaultValue": ""
             }
         ]
+    },
+    {
+        "name": "__content__",
+        "displayName": "[Content]",
+        "type": "Text",
+        "displayType": "MarkDown",
+        "defaultValue": "",
+        "validations": [],
+        "hidden": false,
+        "viewOnly": false,
+        "required": false
     }
 ]
