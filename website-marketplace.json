@@ -2,7 +2,7 @@
     "version"  : 10,
     "templates": [
         {
-            "name"    : "Skeleton",
+            "name"    : "Easy Skeleton",
             "url"     : "https://github.com/easywebhub/easymarket.git",
             "branch"  : "master",
 			"type"    : "code base",
@@ -19,7 +19,7 @@
             "themeUrl": "https://blackrockdigital.github.io/startbootstrap-creative/",
             "price"   : "Free"
         },
-	 {
+	    {
             "name"    : "category",
             "url"     : "https://github.com/easywebhub/easy-websites.git",
             "branch"  : "easywebhub-category",
