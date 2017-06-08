@@ -1,25 +1,7 @@
 {
-    "version"  : 10,
+    "version"  : 5,
     "templates": [
         {
-            "name"    : "Easy Skeleton",
-            "url"     : "https://github.com/easywebhub/easymarket.git",
-            "branch"  : "master",
-			"type"    : "code base",
-			"tags"    : ["skeleton", "website"],
-            "themeUrl": "",
-            "price"   : "Free"
-        },
-        {
-            "name"    : "Creative",
-            "url"     : "https://github.com/easywebhub/easymarket.git",
-            "branch"  : "create-startbootstrap",
-			"type"    : "code base",
-			"tags"    : ["skeleton", "startbootstrap", "website"],
-            "themeUrl": "https://blackrockdigital.github.io/startbootstrap-creative/",
-            "price"   : "Free"
-        },
-	    {
             "name"    : "category",
             "url"     : "https://github.com/easywebhub/easy-websites.git",
             "branch"  : "easywebhub-category",
