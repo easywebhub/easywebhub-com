@@ -20,10 +20,7 @@ const site = {
     //global.json chứa thông tin chung về website
     //menu.json chứa thông tin về menu của website
     //footer.json chứa thông tin về footer của website
-    metadataRoot : './content/metadata'
-
-
-
+    metadataRoot: './content/metadata'
 };
 
 site.script = {
@@ -55,20 +52,20 @@ site.style = {
         ]
     },
     autoprefixer: {
-        browsers: ['last 2 version', '> 1%' ,'ios 7']
+        browsers: ['last 2 version', '> 1%', 'ios 7']
     }
 };
 
 // define và config các plugin của metalsmith
 site.metalsmith = {
     'metalsmith-metadata-directory': {
-      'directory': `${site.metadataRoot}/**/*.json`
+        'directory': `${site.metadataRoot}/*.json`
     },
 
-    'metalsmith-drafts':        {
+    'metalsmith-drafts':  {
         '_enable': false
     },
-    'metalsmith-matters':       {
+    'metalsmith-matters': {
         '_enable': true,
         'delims':  ['---json', '---'],
         'options': {
@@ -76,7 +73,7 @@ site.metalsmith = {
         }
     },
 
-    'metalsmith-markdown':      {
+    'metalsmith-markdown': {
         '_enable':     true,
         'smartypants': true,
         'smartLists':  true,
@@ -85,24 +82,24 @@ site.metalsmith = {
     },
 
     'metalsmith-category': {
-		'_enable': true,
-		'directory': `${site.metadataRoot}/category`
+        '_enable':   true,
+        'directory': `${site.metadataRoot}/category`
     },
 
     'metalsmith-tag': {
-		'_enable': true,
-		'directory': `${site.metadataRoot}/tag`
+        '_enable':   true,
+        'directory': `${site.metadataRoot}/tag`
     },
 
-    'metalsmith-collections':   {
+    'metalsmith-collections': {
         '_enable': true,
-         // collection theo file pattern + test limit
+        // collection theo file pattern + test limit
         'blog':    {
             'pattern': 'blog/**/*.html',
             'sortBy':  'date',
             'reverse': true,
         },
-         // collection theo key trong metadata `"collection": "baiviet"`
+        // collection theo key trong metadata `"collection": "baiviet"`
         'baiviet': {
             'sortBy':  'date',
             'reverse': true
@@ -123,7 +120,7 @@ site.metalsmith = {
     //    },
     //},
 
-    'metalsmith-permalinks':    {
+    'metalsmith-permalinks': {
         '_enable':  true,
         // default config
         'pattern':  ':slug',
@@ -135,7 +132,7 @@ site.metalsmith = {
         }]
     },
 
-    'metalsmith-layouts':       {
+    'metalsmith-layouts': {
         '_enable':   true,
         'engine':    'handlebars',
         'directory': `${site.layoutRoot}`,
@@ -143,9 +140,9 @@ site.metalsmith = {
     },
 
     'metalsmith-html-minifier': {
-        '_enable':               true,
-        'removeAttributeQuotes': false,
-        'keepClosingSlash':      true,
+        '_enable':                   true,
+        'removeAttributeQuotes':     false,
+        'keepClosingSlash':          true,
         'removeRedundantAttributes': false
     }
 };

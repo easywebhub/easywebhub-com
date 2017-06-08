@@ -1,78 +1,47 @@
-### Hướng dẫn sử dụng source EasyWeb
 
-**Cài đặt**
-1. clone project (mặc định là branch master)
-* click ```EWH-install.bat``` or run ```npm install```
-* run ```bower install``` (nếu project sử dụng bower để quản lý frontend library như sass, less,...)
+## Folder structure
 
-**PreView Local**: Sử dụng một trong các câu lệnh dưới để chạy và kiểm tra website trên máy cá nhân
-
-  - click ```EWH-rundemo.bat``` or run ```npm run watch```      
-  - Có thể tham khảo thêm các  lệnh dưới
-     - ```npm run watch-prod``` // chạy và kiểm tra website trước khi upload lên server
-     - ```npm run build```      // build để chạy máy cá nhân
-     - ```npm run build-prod``` // build để chạy trên server
-
-#### Cấu hình mặc định của EasyWebHub framework
-```js
-const site = {
-    port:        8080,        // cổng server local sẻ sử dụng
-    contentRoot: './content', // thư mục chứa content file cho metalsmith
-    buildRoot:   './build',   // thư mục chứa output của metalsmith
-    layoutRoot:  './layout',  // thư mục layout của handlebars
-
-    // thư mục chứa style của site, sẽ build vào ${buildRoot}/css/
-    styleRoot: './style',
-
-    // thư mục chứa style của site, sẽ build vào ${buildRoot}/js/
-    scriptRoot: './script',
-
-    // thư mục chứa các script, css, fonts, image của vendor
-    // tât cả sẽ được copy (giữ nguyên câu trúc) qua ${buildRoot}
-    // ở chế độ production cũng sẽ không minify
-    assetRoot: './asset',
-
-    //thư mục chứa tất các các file json chứa dữ liệu dùng chung, không định nghĩa được trong file .md
-    //gồm 3 file json chính
-    //global.json chứa thông tin chung về website
-    //menu.json chứa thông tin về menu của website
-    //footer.json chứa thông tin về footer của website
-    metadataRoot : './content/metadata'
-};
-```
-#### Cấu hình nâng cao dành cho front-end devs
-  - **build javascript**
-
-```js
-site.script = {
-    concat: true, // concat == true sẽ nhập các file script lại thành 1 file duy nhất
-    concatName: 'app.js',
-    files:  [
-        // // jquery
-        // 'bower_components/jquery/dist/jquery.js',
-
-        // // core foundation
-        // 'bower_components/foundation-sites/js/foundation.core.js',
-        // 'bower_components/foundation-sites/js/foundation.util.*.js',
-
-        // thêm các file script của site ở đây
-        // muốn concat đúng thứ tự thì phải define path
-        `${site.scriptRoot}/!(app).js` // các file có tên khác 'app.js'
-    ]
-};
+```json
+/
+|__asset/             // asset files of this website
+|  |__css
+|  |__js
+|  |__img             // uploaded images from local will be saved here
+|
+|__content/           //data of website, view and edit by Admin 
+|  |__metadata/
+|  |  |__ global.json   
+|  |__index.md
+|  |__404.md         //be hidden
+|
+|__layout/            //the layout of websites, view and edit by Devs
+|  |__partial/
+|  |__404.html
+|  |__default.category.html
+|
+|__README.md
+|__site.js
 ```
 
-- **Build style css, sass**
-```js
-site.style = {
-    sass:         {
-        // đường dẫn tơi các thư viện sass, có thể load bằng @import
-        includePaths: [
-            'bower_components/foundation-sites/scss'
-        ]
-    },
-    autoprefixer: {
-        browsers: ['last 2 versions', 'IE >= 9']
-    }
-};
-```
+### License
+#### The MIT License (MIT)
+
+Copyright (c) 2015-2017 EasyWeb Ltd,.Co
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

@@ -6,10 +6,10 @@ var moment = require('moment');
 
 module.exports = function (Handlebars) {
     Handlebars.registerHelper(HandlebarsLayouts(Handlebars));
-    //  Helpers({handlebars: Handlebars});
-    ['array', 'code', 'collection', 'comparison', 'date', 'fs', 'html', 'i18n', 'inflection', 'logging', 'markdown', 'match', 'math', 'misc', 'number', 'path', 'string', 'url'].forEach(function (name) {
+  //  Helpers({handlebars: Handlebars});
+    ['array', 'code', 'collection', 'comparison', 'date', 'fs', 'html', 'i18n', 'inflection', 'logging', 'markdown', 'match', 'math', 'misc', 'number', 'path', 'string', 'url'].forEach(function(name) {
         Helpers[name]({
-            handlebars: Handlebars
+        handlebars: Handlebars
         });
     });
 
@@ -22,20 +22,37 @@ module.exports = function (Handlebars) {
         else
             return '{}';
     });
+    Handlebars.registerHelper('ifCond', function(v1, v2, options) {
+        if(v1 === v2) {
+          return options.fn(this);
+        }
+        return options.inverse(this);
+      });
 
     Handlebars.registerHelper('json', function (obj) {
         return JSON.stringify(obj);
     });
-
-    Handlebars.registerHelper('toString', function (obj) {
+    
+     Handlebars.registerHelper('toString', function (obj) {
         return obj.toString();
     });
-
     Handlebars.registerHelper('removeIndex', function (url) {
         return url.replace('index.html', '');
     });
-
-    Handlebars.registerHelper('lookupCategory', function (obj, childPath) {
+    
+    var lookupEx = function (obj, propertyPath) {
+		if(!propertyPath.split) propertyPath = String(propertyPath);
+        var props = propertyPath.split('.');
+        var current = obj;
+        while(props.length) {
+            if(typeof current !== 'object') return undefined;
+            current = current[props.shift()];
+        }
+        return current;
+    };
+    
+    Handlebars.registerHelper('lookupCategory', function (obj, childPath, propertyPath) {
+		if(!childPath.split) childPath = String(childPath);
         var chunks = childPath.split('.');
         var count = 0;
         var node = obj;
@@ -56,27 +73,23 @@ module.exports = function (Handlebars) {
             }
             return false;
         });
-
+		
+		if (typeof(propertyPath) === 'string' && node != undefined) {
+			return lookupEx(node, propertyPath);
+		}
         return node;
     });
 
     /**
      * Lookup nested object
      */
-    Handlebars.registerHelper('lookupEx', function (obj, propertyPath) {
-        var props = propertyPath.split('.');
-        var current = obj;
-        while(props.length) {
-            if(typeof current !== 'object') return undefined;
-            current = current[props.shift()];
-        }
-        return current;
-    });
+    Handlebars.registerHelper('lookupEx', lookupEx);
 
     /**
      * return array of category from root to leaf of @param {string} childPath
      */
     Handlebars.registerHelper('genBreadcrumb', function (obj, childPath) {
+		if(!childPath.split) childPath = String(childPath);
         var chunks = childPath.split('.');
         var count = 0;
         var node = obj;
@@ -101,15 +114,5 @@ module.exports = function (Handlebars) {
         });
 
         return ret;
-    });
-
-    Handlebars.registerHelper('formatDate', function (context, options) {
-        var format = options.hash.format || "YYYY-MM-DD";
-
-        if (context === "now") {
-            context = new Date();
-        }
-
-        return moment(context).format(format);
     });
 };
